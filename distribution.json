@@ -1,0 +1,103 @@
+{
+    "version": "1.0.0",
+    "servers": [
+        {
+            "id": "dorlback_1204",
+            "name": "dorlback",
+            "description": "dorlback Modpack (Fabric 1.20.4)",
+            "icon": "https://raw.githubusercontent.com/dorlback/dorlback-distribution-/main/icon.png",
+            "version": "1.0.0",
+            "address": "localhost:25565",
+            "minecraftVersion": "1.20.4",
+            "mainServer": true,
+            "autoconnect": false,
+            "javaOptions": {
+                "supported": ">=21",
+                "suggestedMajor": 21,
+                "ram": {
+                    "recommended": 4096,
+                    "minimum": 2048
+                }
+            },
+            "modules": [
+                {
+                    "id": "net.fabricmc:fabric-loader:0.19.2",
+                    "name": "Fabric Loader 0.19.2",
+                    "type": "Fabric",
+                    "artifact": {
+                        "size": 1968930,
+                        "MD5": "d692407a67129e913b4210218edebb20",
+                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.19.2/fabric-loader-0.19.2.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "1.20.4-fabric-0.19.2",
+                            "name": "Fabric Version Manifest",
+                            "type": "VersionManifest",
+                            "artifact": {
+                                "size": 2847,
+                                "MD5": "fbf649eece3e5682eb1255b218867fd9",
+                                "url": "https://raw.githubusercontent.com/dorlback/dorlback-distribution-/main/versions/1.20.4-fabric-0.19.2/1.20.4-fabric-0.19.2.json"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "net.fabricmc:fabric-api:0.97.3",
+                    "name": "Fabric API",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2187523,
+                        "MD5": "03ed4ae378e68f42ccf05dbe97007793",
+                        "path": "fabric-api-0.97.3+1.20.4.jar",
+                        "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/BPX6fK06/fabric-api-0.97.3%2B1.20.4.jar"
+                    }
+                },
+                {
+                    "id": "squeek502:appleskin:2.5.1",
+                    "name": "AppleSkin",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1077002,
+                        "MD5": "60e559dd89ef9104af41449158634162",
+                        "path": "appleskin-fabric-mc1.20.3-2.5.1.jar",
+                        "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/pmFyu3Sz/appleskin-fabric-mc1.20.3-2.5.1.jar"
+                    }
+                },
+                {
+                    "id": "net.irisshaders:iris:1.7.2",
+                    "name": "Iris Shaders",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2703697,
+                        "MD5": "fa3647d1891a719b268c636236d989c2",
+                        "path": "iris-1.7.2+mc1.20.4.jar",
+                        "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/hq98tuSS/iris-1.7.2%2Bmc1.20.4.jar"
+                    }
+                },
+                {
+                    "id": "com.jellysquid3:sodium:0.5.8",
+                    "name": "Sodium",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 949085,
+                        "MD5": "d7753a50ca37f50abb10465a9a425dac",
+                        "path": "sodium-fabric-0.5.8+mc1.20.4.jar",
+                        "url": "https://cdn.modrinth.com/data/AANobbMI/versions/4GyXKCLd/sodium-fabric-0.5.8%2Bmc1.20.4.jar"
+                    }
+                },
+                {
+                    "id": "shaderpack:complementary-reimagined:r5.8.1",
+                    "name": "Complementary Reimagined",
+                    "type": "File",
+                    "artifact": {
+                        "size": 546925,
+                        "MD5": "8dbb914ed233d6e8183ce34eb26beaab",
+                        "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip",
+                        "url": "https://cdn.modrinth.com/data/HVnmMxH1/versions/yCCduG44/ComplementaryReimagined_r5.8.1.zip"
+                    }
+                }
+            ]
+        }
+    ]
+}
