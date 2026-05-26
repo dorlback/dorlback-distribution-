@@ -168,6 +168,17 @@
                     }
                 },
                 {
+                    "id": "com.terraformersmc:modmenu:9.2.0",
+                    "name": "Mod Menu",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 963019,
+                        "MD5": "f8008ee81dd401a441bd20f41e43fca2",
+                        "path": "modmenu-9.2.0.jar",
+                        "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/FawTQg29/modmenu-9.2.0.jar"
+                    }
+                },
+                {
                     "id": "shaderpack:complementary-reimagined:r5.8.1",
                     "name": "Complementary Reimagined",
                     "type": "File",
