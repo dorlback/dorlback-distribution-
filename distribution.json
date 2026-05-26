@@ -157,6 +157,17 @@
                     }
                 },
                 {
+                    "id": "iris:config:1.0.0",
+                    "name": "Iris Config (shader auto-enable)",
+                    "type": "File",
+                    "artifact": {
+                        "size": 65,
+                        "MD5": "ebbf3b7957095480c2e703183642be13",
+                        "path": "config/iris.properties",
+                        "url": "https://raw.githubusercontent.com/dorlback/dorlback-distribution-/main/iris.properties"
+                    }
+                },
+                {
                     "id": "shaderpack:complementary-reimagined:r5.8.1",
                     "name": "Complementary Reimagined",
                     "type": "File",
