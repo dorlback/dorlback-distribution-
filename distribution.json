@@ -29,6 +29,1503 @@
                 ],
                 "extractTo": "instance"
             },
+            "serverHosting": {
+                "loader": {
+                    "url": "https://meta.fabricmc.net/v2/versions/loader/1.20.1/0.18.4/1.1.1/server/jar",
+                    "jarName": "fabric-server-launch.jar",
+                    "version": "1.20.1-fabric-0.18.4-1.1.1"
+                },
+                "bundledMods": [
+                    "Clumps-fabric-1.20.1-12.0.0.4.jar",
+                    "Configurable-mc1.20.1-v1.3.1.jar",
+                    "Decorative Lamps-1.20.1-1.7.4.jar",
+                    "JustEnoughProfessions-fabric-1.20.1-3.0.1.jar",
+                    "Modrinth Logo Mod 1.3.4.jar",
+                    "SimpleRPC-4.1.0+hotfix.1.jar",
+                    "SmartBrainLib-fabric-1.20.1-1.15.jar",
+                    "StorageDrawers-fabric-1.20.1-12.14.3.jar",
+                    "TerraBlender-fabric-1.20.1-3.0.1.10.jar",
+                    "common-networking-fabric-1.0.5-1.20.1.jar",
+                    "expandeddelight-0.3.2.jar",
+                    "harvestableflowers-1.1.0+1.20.1.jar",
+                    "keybind_fix-1.0.0.jar",
+                    "mastercutter-1.1.jar",
+                    "memoryleakfix-fabric-1.17+-1.1.5.jar",
+                    "mob_explosion_griefing-1.1.0_1.20.x.jar",
+                    "pneumonocore-1.2.1+1.20+A.jar",
+                    "preferred-gamerules-1.1.1+1.19.4.jar",
+                    "pumpkinsAccelerated-1.20.1.jar",
+                    "spuds-shops-1.20.1-1.9.0.jar",
+                    "swingthrough-1.0.6+1.20.jar",
+                    "tameableribbits-1.0.0.jar",
+                    "too-cheap-1.4.0+mc1.20.jar",
+                    "trinketlantern-1.0.1.jar",
+                    "umbrellas-1.4.2+1.20+A.jar",
+                    "vr_typewriter_daycounter_v1.jar"
+                ],
+                "mods": [
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4601/231/libraryferret-fabric-1.20.1-4.0.0.jar",
+                        "filename": "libraryferret-fabric-1.20.1-4.0.0.jar",
+                        "size": 172458
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5175/782/wirelessredstone-fabric-1.20.1-1.1.2.jar",
+                        "filename": "wirelessredstone-fabric-1.20.1-1.1.2.jar",
+                        "size": 138832
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8037/665/voicechat-fabric-1.20.1-2.6.17.jar",
+                        "filename": "voicechat-fabric-1.20.1-2.6.17.jar",
+                        "size": 5262944
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7147/929/sophisticatedbackpacks-1.20.1-3.23.4.5.110.jar",
+                        "filename": "sophisticatedbackpacks-1.20.1-3.23.4.5.110.jar",
+                        "size": 986101
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7884/612/supplementaries-1.20-3.1.43-fabric.jar",
+                        "filename": "supplementaries-1.20-3.1.43-fabric.jar",
+                        "size": 13493444
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8019/425/trashslot-fabric-1.20.1-15.1.5.jar",
+                        "filename": "trashslot-fabric-1.20.1-15.1.5.jar",
+                        "size": 118660
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7349/610/gliders-fabric-1.2.0.jar",
+                        "filename": "gliders-fabric-1.2.0.jar",
+                        "size": 839830
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5137/936/architectury-9.2.14-fabric.jar",
+                        "filename": "architectury-9.2.14-fabric.jar",
+                        "size": 585207
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8032/765/sophisticatedstorage-1.20.1-1.3.5.11.142.jar",
+                        "filename": "sophisticatedstorage-1.20.1-1.3.5.11.142.jar",
+                        "size": 1676141
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5353/373/lavender-0.1.9%2B1.20.jar",
+                        "filename": "lavender-0.1.9+1.20.jar",
+                        "size": 523368
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6984/568/deimos-1.20.1-fabric-2.4.jar",
+                        "filename": "deimos-1.20.1-fabric-2.4.jar",
+                        "size": 47538
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7092/593/sophisticatedcore-1.20.1-1.2.7.14.163.jar",
+                        "filename": "sophisticatedcore-1.20.1-1.2.7.14.163.jar",
+                        "size": 2858810
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6972/468/defaultoptions-fabric-1.20.1-18.0.4.jar",
+                        "filename": "defaultoptions-fabric-1.20.1-18.0.4.jar",
+                        "size": 92486
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7420/614/balm-fabric-1.20.1-7.3.38.jar",
+                        "filename": "balm-fabric-1.20.1-7.3.38.jar",
+                        "size": 609150
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5110/802/coroutil-fabric-1.20.1-1.3.7.jar",
+                        "filename": "coroutil-fabric-1.20.1-1.3.7.jar",
+                        "size": 2392617
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7772/872/CraftTweaker-fabric-1.20.1-14.0.60.jar",
+                        "filename": "CraftTweaker-fabric-1.20.1-14.0.60.jar",
+                        "size": 3994103
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8008/316/SubtleEffects-fabric-1.20.1-1.14.3.jar",
+                        "filename": "SubtleEffects-fabric-1.20.1-1.14.3.jar",
+                        "size": 3340781
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5336/735/NethersDelight-Refabricated-1.20.1-4.1.1.jar",
+                        "filename": "NethersDelight-Refabricated-1.20.1-4.1.1.jar",
+                        "size": 342154
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5558/172/RegionsUnexploredFabric-0.5.6%2B1.20.1.jar",
+                        "filename": "RegionsUnexploredFabric-0.5.6+1.20.1.jar",
+                        "size": 5689530
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4861/834/cristellib-1.1.5-fabric.jar",
+                        "filename": "cristellib-1.1.5-fabric.jar",
+                        "size": 431581
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5385/602/radiantgear-fabric-2.1.6%2B1.20.1.jar",
+                        "filename": "radiantgear-fabric-2.1.6+1.20.1.jar",
+                        "size": 33078
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7766/757/jamlib-fabric-1.3.6%2B1.20.1.jar",
+                        "filename": "jamlib-fabric-1.3.6+1.20.1.jar",
+                        "size": 239867
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5944/710/tidal-towns-1.3.4.jar",
+                        "filename": "tidal-towns-1.3.4.jar",
+                        "size": 110098
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8074/28/Geophilic%20v3.5.mod.jar",
+                        "filename": "Geophilic v3.5.mod.jar",
+                        "size": 2616562
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8021/348/collective-1.20.1-8.22.jar",
+                        "filename": "collective-1.20.1-8.22.jar",
+                        "size": 662615
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7987/206/open-parties-and-claims-fabric-1.20.1-0.26.2.jar",
+                        "filename": "open-parties-and-claims-fabric-1.20.1-0.26.2.jar",
+                        "size": 1648013
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7963/207/dummmmmmy-1.20-2.0.12-fabric.jar",
+                        "filename": "dummmmmmy-1.20-2.0.12-fabric.jar",
+                        "size": 832956
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5838/145/Iceberg-1.20.1-fabric-1.1.25.jar",
+                        "filename": "Iceberg-1.20.1-fabric-1.1.25.jar",
+                        "size": 119018
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5118/730/handcrafted-fabric-1.20.1-3.0.6.jar",
+                        "filename": "handcrafted-fabric-1.20.1-3.0.6.jar",
+                        "size": 7106384
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7634/683/copycats-3.0.7%2Bmc.1.20.1-fabric.jar",
+                        "filename": "copycats-3.0.7+mc.1.20.1-fabric.jar",
+                        "size": 1996934
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7306/748/modernfix-fabric-5.25.2%2Bmc1.20.1.jar",
+                        "filename": "modernfix-fabric-5.25.2+mc1.20.1.jar",
+                        "size": 545175
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5706/124/graves-3.0.3%2B1.20.1.jar",
+                        "filename": "graves-3.0.3+1.20.1.jar",
+                        "size": 1872216
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6850/363/letsdo-candlelight-fabric-2.0.5.jar",
+                        "filename": "letsdo-candlelight-fabric-2.0.5.jar",
+                        "size": 2494711
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6020/868/omnilib-0.1.4%2B1.20.1.jar",
+                        "filename": "omnilib-0.1.4+1.20.1.jar",
+                        "size": 253784
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6336/639/yet_another_config_lib_v3-3.6.6%2B1.20.1-fabric.jar",
+                        "filename": "yet_another_config_lib_v3-3.6.6+1.20.1-fabric.jar",
+                        "size": 1294234
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7025/126/geckolib-fabric-1.20.1-4.8.2.jar",
+                        "filename": "geckolib-fabric-1.20.1-4.8.2.jar",
+                        "size": 1069282
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7759/423/Oh-The-Biomes-Weve-Gone-Fabric-1.7.5.jar",
+                        "filename": "Oh-The-Biomes-Weve-Gone-Fabric-1.7.5.jar",
+                        "size": 18653246
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7283/480/copperagebackport-fabric-1.20.1-0.1.4.jar",
+                        "filename": "copperagebackport-fabric-1.20.1-0.1.4.jar",
+                        "size": 2808741
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5240/476/mavapi-1.1.4-mc1.20.1.jar",
+                        "filename": "mavapi-1.1.4-mc1.20.1.jar",
+                        "size": 592470
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4769/515/YungsExtras-1.20-Fabric-4.0.3.jar",
+                        "filename": "YungsExtras-1.20-Fabric-4.0.3.jar",
+                        "size": 342639
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4610/472/NoChatReports-FABRIC-1.20.1-v2.2.2.jar",
+                        "filename": "NoChatReports-FABRIC-1.20.1-v2.2.2.jar",
+                        "size": 619812
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4589/736/better_climbing-fabric-3.jar",
+                        "filename": "better_climbing-fabric-3.jar",
+                        "size": 12179
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4606/911/trashcans-1.0.18-fabric-mc1.20.jar",
+                        "filename": "trashcans-1.0.18-fabric-mc1.20.jar",
+                        "size": 184006
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7599/506/coolrain-1.4.0-1.20.1.jar",
+                        "filename": "coolrain-1.4.0-1.20.1.jar",
+                        "size": 4133938
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8076/689/moonlight-1.20-2.16.32-fabric.jar",
+                        "filename": "moonlight-1.20-2.16.32-fabric.jar",
+                        "size": 1364815
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6533/721/txnilib-fabric-1.0.24-1.20.1.jar",
+                        "filename": "txnilib-fabric-1.0.24-1.20.1.jar",
+                        "size": 1057614
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4632/294/crops_love_rain-1.4.0.jar",
+                        "filename": "crops_love_rain-1.4.0.jar",
+                        "size": 590365
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5393/114/Pehkui-3.8.2%2B1.14.4-1.20.6.jar",
+                        "filename": "Pehkui-3.8.2+1.14.4-1.20.6.jar",
+                        "size": 537524
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6555/286/ftb-essentials-fabric-2001.2.3.jar",
+                        "filename": "ftb-essentials-fabric-2001.2.3.jar",
+                        "size": 155533
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5918/172/DiagonalWalls-v8.0.4-1.20.1-Fabric.jar",
+                        "filename": "DiagonalWalls-v8.0.4-1.20.1-Fabric.jar",
+                        "size": 158486
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7758/638/Steam_Rails-1.7.2%2Bfabric-mc1.20.1.jar",
+                        "filename": "Steam_Rails-1.7.2+fabric-mc1.20.1.jar",
+                        "size": 16863902
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4769/520/YungsBridges-1.20-Fabric-4.0.3.jar",
+                        "filename": "YungsBridges-1.20-Fabric-4.0.3.jar",
+                        "size": 266481
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7248/423/drippyloadingscreen_fabric_3.1.0_MC_1.20.1.jar",
+                        "filename": "drippyloadingscreen_fabric_3.1.0_MC_1.20.1.jar",
+                        "size": 280441
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7671/378/sootychimneys-fabric-1.20.1-1.3.4.jar",
+                        "filename": "sootychimneys-fabric-1.20.1-1.3.4.jar",
+                        "size": 177131
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6390/675/realisticbees-1.20.1-4.2.jar",
+                        "filename": "realisticbees-1.20.1-4.2.jar",
+                        "size": 45529
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4603/805/twigs-3.1.0-fabric.jar",
+                        "filename": "twigs-3.1.0-fabric.jar",
+                        "size": 2958651
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6185/190/shulkerdropstwo-1.20.1-3.5.jar",
+                        "filename": "shulkerdropstwo-1.20.1-3.5.jar",
+                        "size": 31927
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6186/969/rhino-fabric-2001.2.3-build.10.jar",
+                        "filename": "rhino-fabric-2001.2.3-build.10.jar",
+                        "size": 1743587
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5271/361/YungsBetterDungeons-1.20-Fabric-4.0.4.jar",
+                        "filename": "YungsBetterDungeons-1.20-Fabric-4.0.4.jar",
+                        "size": 944170
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6916/590/tameableminisheep-1.0.jar",
+                        "filename": "tameableminisheep-1.0.jar",
+                        "size": 16239
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4738/953/spark-1.10.53-fabric.jar",
+                        "filename": "spark-1.10.53-fabric.jar",
+                        "size": 3082974
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4672/307/Emojiful-Fabric-1.20.1-4.2.0.jar",
+                        "filename": "Emojiful-Fabric-1.20.1-4.2.0.jar",
+                        "size": 297767
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4607/750/FauxCustomEntityData-fabric-1.20.1-6.0.1.jar",
+                        "filename": "FauxCustomEntityData-fabric-1.20.1-6.0.1.jar",
+                        "size": 16177
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/3213/798/betterthanmending-1.3.0.jar",
+                        "filename": "betterthanmending-1.3.0.jar",
+                        "size": 4152
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5876/592/SimpleCopperPipes-mc1.20.1-2.0.3.jar",
+                        "filename": "SimpleCopperPipes-mc1.20.1-2.0.3.jar",
+                        "size": 1685617
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7088/23/letsdo-farm_and_charm-fabric-1.0.14.jar",
+                        "filename": "letsdo-farm_and_charm-fabric-1.0.14.jar",
+                        "size": 3331230
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8086/96/VanillaBackport-fabric-1.20.1-1.1.7.4.jar",
+                        "filename": "VanillaBackport-fabric-1.20.1-1.1.7.4.jar",
+                        "size": 55362530
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6274/626/OctoLib-FABRIC-0.5.0.1%2B1.20.1.jar",
+                        "filename": "OctoLib-FABRIC-0.5.0.1+1.20.1.jar",
+                        "size": 424020
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7568/944/fzzy_config-0.7.6%2B1.20.1.jar",
+                        "filename": "fzzy_config-0.7.6+1.20.1.jar",
+                        "size": 2372585
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5424/643/Item_Obliterator-MC1.20.1-Fabric_Quilt-2.3.0.jar",
+                        "filename": "Item_Obliterator-MC1.20.1-Fabric_Quilt-2.3.0.jar",
+                        "size": 28620
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7929/919/fabric-api-0.92.8%2B1.20.1.jar",
+                        "filename": "fabric-api-0.92.8+1.20.1.jar",
+                        "size": 2110694
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7872/374/packetfixer-3.3.2-1.18-1.20.4-merged.jar",
+                        "filename": "packetfixer-3.3.2-1.18-1.20.4-merged.jar",
+                        "size": 188661
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7598/406/simplehats-fabric-1.20.1-0.4.0a.jar",
+                        "filename": "simplehats-fabric-1.20.1-0.4.0a.jar",
+                        "size": 1400092
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7363/336/friendsforlife-1.2.0.jar",
+                        "filename": "friendsforlife-1.2.0.jar",
+                        "size": 265988
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5139/711/melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar",
+                        "filename": "melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar",
+                        "size": 39696
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7354/935/Ribbits-1.20.1-Fabric-3.0.5.jar",
+                        "filename": "Ribbits-1.20.1-Fabric-3.0.5.jar",
+                        "size": 2331082
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/3995/206/logcleaner-1.0.0.jar",
+                        "filename": "logcleaner-1.0.0.jar",
+                        "size": 5008
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7108/486/peaceful_hunger-fabric-1.20.1-2.2.0.jar",
+                        "filename": "peaceful_hunger-fabric-1.20.1-2.2.0.jar",
+                        "size": 31171
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6289/992/carrasconlib-fabric-1.20.1-0.1.jar",
+                        "filename": "carrasconlib-fabric-1.20.1-0.1.jar",
+                        "size": 88876
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7864/93/Oh-The-Trees-Youll-Grow-fabric-1.20.1-1.6.0.jar",
+                        "filename": "Oh-The-Trees-Youll-Grow-fabric-1.20.1-1.6.0.jar",
+                        "size": 165847
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4631/405/ShowMeWhatYouGot-1.20-1.1.1.jar",
+                        "filename": "ShowMeWhatYouGot-1.20-1.1.1.jar",
+                        "size": 27596
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6291/330/Jade-1.20-Fabric-11.13.1.jar",
+                        "filename": "Jade-1.20-Fabric-11.13.1.jar",
+                        "size": 572882
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7612/391/Bookshelf-Fabric-1.20.1-20.2.15.jar",
+                        "filename": "Bookshelf-Fabric-1.20.1-20.2.15.jar",
+                        "size": 315041
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5047/386/create_oxidized-0.1.1%2B1.20.1.jar",
+                        "filename": "create_oxidized-0.1.1+1.20.1.jar",
+                        "size": 282035
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6450/979/polymorph-fabric-0.49.10%2B1.20.1.jar",
+                        "filename": "polymorph-fabric-0.49.10+1.20.1.jar",
+                        "size": 680833
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6292/692/modernworldcreation_fabric_2.0.1_MC_1.20.1.jar",
+                        "filename": "modernworldcreation_fabric_2.0.1_MC_1.20.1.jar",
+                        "size": 679401
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5933/315/villagesandpillages-fabric-mc1.20.1-1.0.2.jar",
+                        "filename": "villagesandpillages-fabric-mc1.20.1-1.0.2.jar",
+                        "size": 241108
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7933/628/obsidianequipmentrework-fabric-0.4%2Bmc1.20.1.jar",
+                        "filename": "obsidianequipmentrework-fabric-0.4+mc1.20.1.jar",
+                        "size": 199282
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7470/400/amendments-1.20-2.2.5-fabric.jar",
+                        "filename": "amendments-1.20-2.2.5-fabric.jar",
+                        "size": 1266546
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8042/297/xaerominimap-fabric-1.20.1-25.3.12.jar",
+                        "filename": "xaerominimap-fabric-1.20.1-25.3.12.jar",
+                        "size": 2171370
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7534/85/screenshottoclipboard-1.0.0-1.18.2.1.20.4-release.jar",
+                        "filename": "screenshottoclipboard-1.0.0-1.18.2.1.20.4-release.jar",
+                        "size": 37435
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5796/107/BridgingMod-2.5.1%2B1.20.1.fabric-release.jar",
+                        "filename": "BridgingMod-2.5.1+1.20.1.fabric-release.jar",
+                        "size": 3577394
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7266/482/lootr-fabric-1.20-0.7.35.86.jar",
+                        "filename": "lootr-fabric-1.20-0.7.35.86.jar",
+                        "size": 575601
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6533/556/letsdo-addon-structures-1.7.2.jar",
+                        "filename": "letsdo-addon-structures-1.7.2.jar",
+                        "size": 330446
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5572/189/noanimaltemptdelay-1.20.1-1.2.jar",
+                        "filename": "noanimaltemptdelay-1.20.1-1.2.jar",
+                        "size": 17020
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7721/695/createdeco-2.1.1-1.20.1-fabric.jar",
+                        "filename": "createdeco-2.1.1-1.20.1-fabric.jar",
+                        "size": 3492044
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6130/783/ftb-teams-fabric-2001.3.1.jar",
+                        "filename": "ftb-teams-fabric-2001.3.1.jar",
+                        "size": 244872
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4769/84/YungsBetterStrongholds-1.20-Fabric-4.0.3.jar",
+                        "filename": "YungsBetterStrongholds-1.20-Fabric-4.0.3.jar",
+                        "size": 611598
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7892/950/NaturesCompass-1.20.1-2.6.0-fabric.jar",
+                        "filename": "NaturesCompass-1.20.1-2.6.0-fabric.jar",
+                        "size": 238575
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4991/432/go-fish-1.6.3%2B1.20.1.jar",
+                        "filename": "go-fish-1.6.3+1.20.1.jar",
+                        "size": 323058
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5915/857/Configurable-2.2.3-fabric-yarn%2B1.20.1.jar",
+                        "filename": "Configurable-2.2.3-fabric-yarn+1.20.1.jar",
+                        "size": 643570
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7514/252/Kiwi-1.20.1-Fabric-11.10.2.jar",
+                        "filename": "Kiwi-1.20.1-Fabric-11.10.2.jar",
+                        "size": 1548893
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5281/259/farmersknives-3.2.jar",
+                        "filename": "farmersknives-3.2.jar",
+                        "size": 103203
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7068/951/cicada-lib-0.14.3%2B1.20.1.jar",
+                        "filename": "cicada-lib-0.14.3+1.20.1.jar",
+                        "size": 381708
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7909/505/fairylights-1.1.4_fabric.jar",
+                        "filename": "fairylights-1.1.4_fabric.jar",
+                        "size": 762660
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4915/384/jumpoverfences-fabric-1.20.1-1.3.1.jar",
+                        "filename": "jumpoverfences-fabric-1.20.1-1.3.1.jar",
+                        "size": 29556
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4756/831/Cluttered-2.1.0-1.20.1%5BFabric%5D.jar",
+                        "filename": "Cluttered-2.1.0-1.20.1[Fabric].jar",
+                        "size": 5363792
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4777/256/convenientnametags-1.1.0.jar",
+                        "filename": "convenientnametags-1.1.0.jar",
+                        "size": 96289
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6158/675/welcomescreen-fabric-1.0.0-1.20.1.jar",
+                        "filename": "welcomescreen-fabric-1.0.0-1.20.1.jar",
+                        "size": 15893
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6916/540/TameableMossbloom-1.0.jar",
+                        "filename": "TameableMossbloom-1.0.jar",
+                        "size": 12327
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5769/972/YungsApi-1.20-Fabric-4.0.6.jar",
+                        "filename": "YungsApi-1.20-Fabric-4.0.6.jar",
+                        "size": 1396331
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5305/53/animal_feeding_trough-1.1.0%2B1.20.1.jar",
+                        "filename": "animal_feeding_trough-1.1.0+1.20.1.jar",
+                        "size": 237378
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6245/107/pandalib-fabric-mc1.20-0.5.2-SNAPSHOT.jar",
+                        "filename": "pandalib-fabric-mc1.20-0.5.2-SNAPSHOT.jar",
+                        "size": 859440
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8021/907/constructionwand-2.1.2%2B1.20.1.jar",
+                        "filename": "constructionwand-2.1.2+1.20.1.jar",
+                        "size": 309417
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5729/104/cloth-config-11.1.136-fabric.jar",
+                        "filename": "cloth-config-11.1.136-fabric.jar",
+                        "size": 1172214
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6580/471/respectmytrims-1.0.0%2Bmc1.20.jar",
+                        "filename": "respectmytrims-1.0.0+mc1.20.jar",
+                        "size": 24473
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4923/828/Towns-and-Towers-1.12-Fabric%2BForge.jar",
+                        "filename": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+                        "size": 2864275
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4638/50/ironchests-5.0.2-fabric.jar",
+                        "filename": "ironchests-5.0.2-fabric.jar",
+                        "size": 485230
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5276/58/show-me-your-skin-1.9.0%2B1.20.jar",
+                        "filename": "show-me-your-skin-1.9.0+1.20.jar",
+                        "size": 262295
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6563/192/Eldritch_End-FABRIC-MC1.20.1-0.3.4.jar",
+                        "filename": "Eldritch_End-FABRIC-MC1.20.1-0.3.4.jar",
+                        "size": 5293865
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8044/355/cozystudioscore-1.4-1.20.1.jar",
+                        "filename": "cozystudioscore-1.4-1.20.1.jar",
+                        "size": 19423702
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5892/154/DustyDecoRefabricated-1.1-1.20.1%2B1.20.2.jar",
+                        "filename": "DustyDecoRefabricated-1.1-1.20.1+1.20.2.jar",
+                        "size": 450672
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4581/910/yosbr-0.1.2.jar",
+                        "filename": "yosbr-0.1.2.jar",
+                        "size": 17373
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7783/826/sliceanddice-fabric-3.5.2.jar",
+                        "filename": "sliceanddice-fabric-3.5.2.jar",
+                        "size": 395717
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5891/365/ends_delight-refabricated-1.20.1-2.5.jar",
+                        "filename": "ends_delight-refabricated-1.20.1-2.5.jar",
+                        "size": 272974
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5803/513/almanac-1.20.x-fabric-1.0.2.jar",
+                        "filename": "almanac-1.20.x-fabric-1.0.2.jar",
+                        "size": 16082
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5299/563/flower-tweaks-1.jar",
+                        "filename": "flower-tweaks-1.jar",
+                        "size": 13471
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6331/319/smarterfarmers-1.20-2.1.2-fabric.jar",
+                        "filename": "smarterfarmers-1.20-2.1.2-fabric.jar",
+                        "size": 218266
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8017/465/justenoughbreeding-fabric-1.20.1-3.0.0.jar",
+                        "filename": "justenoughbreeding-fabric-1.20.1-3.0.0.jar",
+                        "size": 261540
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5876/579/FrozenLib-1.9.3-mc1.20.1.jar",
+                        "filename": "FrozenLib-1.9.3-mc1.20.1.jar",
+                        "size": 1465505
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7262/718/froglightsreimagined-0.3-1.20.1.jar",
+                        "filename": "froglightsreimagined-0.3-1.20.1.jar",
+                        "size": 691015
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5351/562/Incendium_1.20.x_v5.3.5.jar",
+                        "filename": "Incendium_1.20.x_v5.3.5.jar",
+                        "size": 4638945
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7672/582/tooltipoverhaul-fabric-1.20.1-1.4.3.jar",
+                        "filename": "tooltipoverhaul-fabric-1.20.1-1.4.3.jar",
+                        "size": 693342
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4662/635/lmft-1.0.2%2B1.20-fabric.jar",
+                        "filename": "lmft-1.0.2+1.20-fabric.jar",
+                        "size": 179899
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7857/554/skinlayers3d-fabric-1.11.1-mc1.20.1.jar",
+                        "filename": "skinlayers3d-fabric-1.11.1-mc1.20.1.jar",
+                        "size": 1973785
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8082/329/hexalia-1.3.2-1.20.1%2Bfabric.jar",
+                        "filename": "hexalia-1.3.2-1.20.1+fabric.jar",
+                        "size": 1925402
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5176/880/athena-fabric-1.20.1-3.1.2.jar",
+                        "filename": "athena-fabric-1.20.1-3.1.2.jar",
+                        "size": 74370
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7646/746/serene_shrubbery-fabric-1.0.0%2Bmc1.20.1.jar",
+                        "filename": "serene_shrubbery-fabric-1.0.0+mc1.20.1.jar",
+                        "size": 418972
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7152/625/createcontraptionterminals-fabric-1.20-1.2.0.jar",
+                        "filename": "createcontraptionterminals-fabric-1.20-1.2.0.jar",
+                        "size": 88760
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5504/402/Celestial%20Configuration-fabric-1.20.1-1.1.1.jar",
+                        "filename": "Celestial Configuration-fabric-1.20.1-1.1.1.jar",
+                        "size": 137613
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7197/833/tectonic-3.0.17-fabric-1.20.1.jar",
+                        "filename": "tectonic-3.0.17-fabric-1.20.1.jar",
+                        "size": 319868
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7613/220/OpenLoader-Fabric-1.20.1-19.0.5.jar",
+                        "filename": "OpenLoader-Fabric-1.20.1-19.0.5.jar",
+                        "size": 21443
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4632/961/Debugify-1.20.1%2B2.0.jar",
+                        "filename": "Debugify-1.20.1+2.0.jar",
+                        "size": 337545
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8020/270/neruina-3.3.1%2B1.20.1-fabric.jar",
+                        "filename": "neruina-3.3.1+1.20.1-fabric.jar",
+                        "size": 855759
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4605/332/CraftingPad-fabric-1.20.1-1.0.12.jar",
+                        "filename": "CraftingPad-fabric-1.20.1-1.0.12.jar",
+                        "size": 13133
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7613/278/ToolStats-Fabric-1.20.1-16.0.10.jar",
+                        "filename": "ToolStats-Fabric-1.20.1-16.0.10.jar",
+                        "size": 16303
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5503/514/comforts-fabric-6.4.0%2B1.20.1.jar",
+                        "filename": "comforts-fabric-6.4.0+1.20.1.jar",
+                        "size": 693624
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7361/352/clutter-1.20-0.6.2.jar",
+                        "filename": "clutter-1.20-0.6.2.jar",
+                        "size": 5315683
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6948/520/sawmill-1.20-1.4.10-fabric.jar",
+                        "filename": "sawmill-1.20-1.4.10-fabric.jar",
+                        "size": 640144
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5310/270/hearth_and_home-fabric-1.20.1-2.0.3.jar",
+                        "filename": "hearth_and_home-fabric-1.20.1-2.0.3.jar",
+                        "size": 1174045
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7612/431/DarkPaintings-Fabric-1.20.1-17.0.6.jar",
+                        "filename": "DarkPaintings-Fabric-1.20.1-17.0.6.jar",
+                        "size": 45465
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6598/272/notenoughcrashes-4.4.9%2B1.20.1-fabric.jar",
+                        "filename": "notenoughcrashes-4.4.9+1.20.1-fabric.jar",
+                        "size": 138548
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7976/431/CreativeCore_FABRIC_v2.12.36_mc1.20.1.jar",
+                        "filename": "CreativeCore_FABRIC_v2.12.36_mc1.20.1.jar",
+                        "size": 1197162
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6453/963/sparsestructures-fabric-1.20.1-3.0.jar",
+                        "filename": "sparsestructures-fabric-1.20.1-3.0.jar",
+                        "size": 123939
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6402/485/ftb-xmod-compat-fabric-2.1.3.jar",
+                        "filename": "ftb-xmod-compat-fabric-2.1.3.jar",
+                        "size": 131086
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5193/464/YungsBetterNetherFortresses-1.20-Fabric-2.0.6.jar",
+                        "filename": "YungsBetterNetherFortresses-1.20-Fabric-2.0.6.jar",
+                        "size": 760974
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6849/933/letsdo-beachparty-fabric-2.0.3.jar",
+                        "filename": "letsdo-beachparty-fabric-2.0.3.jar",
+                        "size": 7420462
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5468/180/letsdo-API-fabric-1.2.15-fabric.jar",
+                        "filename": "letsdo-API-fabric-1.2.15-fabric.jar",
+                        "size": 1702813
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5918/169/DiagonalWindows-v8.1.5-1.20.1-Fabric.jar",
+                        "filename": "DiagonalWindows-v8.1.5-1.20.1-Fabric.jar",
+                        "size": 167797
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6201/652/labels-1.20-2.0.0-fabric.jar",
+                        "filename": "labels-1.20-2.0.0-fabric.jar",
+                        "size": 261950
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6467/345/letsdo-meadow-fabric-1.3.25.jar",
+                        "filename": "letsdo-meadow-fabric-1.3.25.jar",
+                        "size": 2658744
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7256/553/Data_Anchor-fabric-1.20.1-1.0.0.20.jar",
+                        "filename": "Data_Anchor-fabric-1.20.1-1.0.0.20.jar",
+                        "size": 116968
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5142/502/konkrete_fabric_1.8.1_MC_1.20.1.jar",
+                        "filename": "konkrete_fabric_1.8.1_MC_1.20.1.jar",
+                        "size": 892067
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5778/732/elytraslot-fabric-6.4.4%2B1.20.1.jar",
+                        "filename": "elytraslot-fabric-6.4.4+1.20.1.jar",
+                        "size": 85106
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8085/924/tokimistoolshed-fabric-1.3%2Bmc1.20.1.jar",
+                        "filename": "tokimistoolshed-fabric-1.3+mc1.20.1.jar",
+                        "size": 629767
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7357/109/stutterfix-mc1.20.1-0.2.0.jar",
+                        "filename": "stutterfix-mc1.20.1-0.2.0.jar",
+                        "size": 26413
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6918/566/PuzzlesLib-v8.1.33-1.20.1-Fabric.jar",
+                        "filename": "PuzzlesLib-v8.1.33-1.20.1-Fabric.jar",
+                        "size": 1084397
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6181/291/c2me-fabric-mc1.20.1-0.2.0%2Balpha.11.16.jar",
+                        "filename": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.16.jar",
+                        "size": 1426500
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5256/598/duckling-fabric-1.20.4-4.0.0.jar",
+                        "filename": "duckling-fabric-1.20.4-4.0.0.jar",
+                        "size": 519418
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5700/925/mythicupgrades-4.2.0%2Bmc1.20.1.jar",
+                        "filename": "mythicupgrades-4.2.0+mc1.20.1.jar",
+                        "size": 1380130
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7971/673/repurposed_structures-7.1.23%2B1.20.1-fabric.jar",
+                        "filename": "repurposed_structures-7.1.23+1.20.1-fabric.jar",
+                        "size": 8174011
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6164/52/ftb-library-fabric-2001.2.9.jar",
+                        "filename": "ftb-library-fabric-2001.2.9.jar",
+                        "size": 781160
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5230/28/oceansdelight-fdrf-fabric-1.0.2-1.20.jar",
+                        "filename": "oceansdelight-fdrf-fabric-1.0.2-1.20.jar",
+                        "size": 97109
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6675/234/perfectplushies-fabric-1.20.1-1.13.3.jar",
+                        "filename": "perfectplushies-fabric-1.20.1-1.13.3.jar",
+                        "size": 1271342
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7370/997/squish-0.3-1.20.1.jar",
+                        "filename": "squish-0.3-1.20.1.jar",
+                        "size": 554822
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/3831/43/mixintrace-1.1.1%2B1.17.jar",
+                        "filename": "mixintrace-1.1.1+1.17.jar",
+                        "size": 36039
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6616/780/Corgilib-Fabric-1.20.1-4.0.3.4.jar",
+                        "filename": "Corgilib-Fabric-1.20.1-4.0.3.4.jar",
+                        "size": 741175
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6115/805/more-enchantment-info-0.2.0.jar",
+                        "filename": "more-enchantment-info-0.2.0.jar",
+                        "size": 90000
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7508/763/rightclickharvest-fabric-4.6.1%2B1.20.1.jar",
+                        "filename": "rightclickharvest-fabric-4.6.1+1.20.1.jar",
+                        "size": 287561
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8053/756/entityculling-fabric-1.10.2-mc1.20.1.jar",
+                        "filename": "entityculling-fabric-1.10.2-mc1.20.1.jar",
+                        "size": 1589955
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6701/799/invisibleframes-1.1.0%2B1.20.jar",
+                        "filename": "invisibleframes-1.1.0+1.20.jar",
+                        "size": 39377
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5108/234/Icterine-fabric-1.20.0-1-1.3.0.jar",
+                        "filename": "Icterine-fabric-1.20.0-1-1.3.0.jar",
+                        "size": 39604
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/3942/300/MixinConflictHelper-1.2.0.jar",
+                        "filename": "MixinConflictHelper-1.2.0.jar",
+                        "size": 171690
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6431/736/ftb-quests-fabric-2001.4.13.jar",
+                        "filename": "ftb-quests-fabric-2001.4.13.jar",
+                        "size": 1223024
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6965/753/letsdo-vinery-fabric-1.4.41.jar",
+                        "filename": "letsdo-vinery-fabric-1.4.41.jar",
+                        "size": 3043160
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6713/333/stackrefill-1.20.1-4.9.jar",
+                        "filename": "stackrefill-1.20.1-4.9.jar",
+                        "size": 35073
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7286/603/create-fabric-6.0.8.1%2Bbuild.1744-mc1.20.1.jar",
+                        "filename": "create-fabric-6.0.8.1+build.1744-mc1.20.1.jar",
+                        "size": 32189889
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4699/172/UniversalBoneMeal-v8.0.1-1.20.1-Fabric.jar",
+                        "filename": "UniversalBoneMeal-v8.0.1-1.20.1-Fabric.jar",
+                        "size": 80819
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8042/196/xaeroworldmap-fabric-1.20.1-1.40.16.jar",
+                        "filename": "xaeroworldmap-fabric-1.20.1-1.40.16.jar",
+                        "size": 1410559
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5242/620/mavm-1.2.6-mc1.20.1.jar",
+                        "filename": "mavm-1.2.6-mc1.20.1.jar",
+                        "size": 792700
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5173/501/trinkets-3.7.2.jar",
+                        "filename": "trinkets-3.7.2.jar",
+                        "size": 238532
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7268/114/lithium-fabric-mc1.20.1-0.11.4.jar",
+                        "filename": "lithium-fabric-mc1.20.1-0.11.4.jar",
+                        "size": 691483
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5157/21/BlockRunner-v8.0.4-1.20.1-Fabric.jar",
+                        "filename": "BlockRunner-v8.0.4-1.20.1-Fabric.jar",
+                        "size": 69675
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4658/749/EasyMagic-v8.0.1-1.20.1-Fabric.jar",
+                        "filename": "EasyMagic-v8.0.1-1.20.1-Fabric.jar",
+                        "size": 104693
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7143/840/doubledoors-1.20.1-7.2.jar",
+                        "filename": "doubledoors-1.20.1-7.2.jar",
+                        "size": 54300
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6223/996/resourcefulconfig-fabric-1.20.1-2.1.3.jar",
+                        "filename": "resourcefulconfig-fabric-1.20.1-2.1.3.jar",
+                        "size": 135078
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6497/872/trade-cycling-fabric-1.20.1-1.0.18.jar",
+                        "filename": "trade-cycling-fabric-1.20.1-1.0.18.jar",
+                        "size": 430650
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7024/411/cratedelight-25.09.22-1.20-fabric.jar",
+                        "filename": "cratedelight-25.09.22-1.20-fabric.jar",
+                        "size": 176367
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4939/709/farmers-delight-fabric-1.4.3.jar",
+                        "filename": "farmers-delight-fabric-1.4.3.jar",
+                        "size": 2718948
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7007/608/alcocraftplus-1.20-2.1.0-fabric.jar",
+                        "filename": "alcocraftplus-1.20-2.1.0-fabric.jar",
+                        "size": 277122
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7269/284/JadeAddons-1.20.1-Fabric-5.5.1.jar",
+                        "filename": "JadeAddons-1.20.1-Fabric-5.5.1.jar",
+                        "size": 93694
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7979/747/Ksyxis-1.4.3.jar",
+                        "filename": "Ksyxis-1.4.3.jar",
+                        "size": 26968
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7032/237/sound-physics-remastered-fabric-1.20.1-1.5.1.jar",
+                        "filename": "sound-physics-remastered-fabric-1.20.1-1.5.1.jar",
+                        "size": 205569
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4769/64/YungsBetterMineshafts-1.20-Fabric-4.0.4.jar",
+                        "filename": "YungsBetterMineshafts-1.20-Fabric-4.0.4.jar",
+                        "size": 621495
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7469/698/ExtremeSoundMuffler-3.51-fabric-1.20.1.jar",
+                        "filename": "ExtremeSoundMuffler-3.51-fabric-1.20.1.jar",
+                        "size": 473671
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7029/498/mcw-mcwpaths-1.1.1-mc1.20.1fabric.jar",
+                        "filename": "mcw-mcwpaths-1.1.1-mc1.20.1fabric.jar",
+                        "size": 769476
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6692/757/phomesteadplushies-fabric-1.20.1-1.1.0.jar",
+                        "filename": "phomesteadplushies-fabric-1.20.1-1.1.0.jar",
+                        "size": 1263173
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6466/152/ftb-filter-system-fabric-20.0.1.jar",
+                        "filename": "ftb-filter-system-fabric-20.0.1.jar",
+                        "size": 194184
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6185/928/grassseeds-1.20.1-3.4.jar",
+                        "filename": "grassseeds-1.20.1-3.4.jar",
+                        "size": 28350
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7148/381/connectiblechains-2.5.5%2B1.20.1.jar",
+                        "filename": "connectiblechains-2.5.5+1.20.1.jar",
+                        "size": 498760
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4882/498/carryon-fabric-1.20.1-2.1.2.7.jar",
+                        "filename": "carryon-fabric-1.20.1-2.1.2.7.jar",
+                        "size": 443033
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7560/835/fetzisasiandeco-fabric-1.7.3-1.20.1.jar",
+                        "filename": "fetzisasiandeco-fabric-1.7.3-1.20.1.jar",
+                        "size": 17585314
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6610/716/no-resource-pack-warnings-1.3.1.jar",
+                        "filename": "no-resource-pack-warnings-1.3.1.jar",
+                        "size": 5002
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4954/413/Mo-Glass-1.7-MC1.20.1.jar",
+                        "filename": "Mo-Glass-1.7-MC1.20.1.jar",
+                        "size": 536659
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5041/738/darksmelting-fabric-1.20.1-1.0.6.jar",
+                        "filename": "darksmelting-fabric-1.20.1-1.0.6.jar",
+                        "size": 4773
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8028/804/midnightlib-fabric-1.9.3%2B1.20.1.jar",
+                        "filename": "midnightlib-fabric-1.9.3+1.20.1.jar",
+                        "size": 59401
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7844/984/mcw-paintings-1.1.0-mc1.20.1fabric.jar",
+                        "filename": "mcw-paintings-1.1.0-mc1.20.1fabric.jar",
+                        "size": 155072
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7920/913/jei-1.20.1-fabric-15.20.0.130.jar",
+                        "filename": "jei-1.20.1-fabric-15.20.0.130.jar",
+                        "size": 1422556
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6231/29/fallingtrees-fabric-mc1.20-0.13.2-SNAPSHOT.jar",
+                        "filename": "fallingtrees-fabric-mc1.20-0.13.2-SNAPSHOT.jar",
+                        "size": 4023370
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4810/977/ferritecore-6.0.1-fabric.jar",
+                        "filename": "ferritecore-6.0.1-fabric.jar",
+                        "size": 125197
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6458/888/letsdo-herbalbrews-fabric-1.0.12.jar",
+                        "filename": "letsdo-herbalbrews-fabric-1.0.12.jar",
+                        "size": 729071
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5759/900/Not%20Enough%20Recipe%20Book-FABRIC-0.4.1%2B1.20.1.jar",
+                        "filename": "Not Enough Recipe Book-FABRIC-0.4.1+1.20.1.jar",
+                        "size": 21366
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5401/36/advancednetherite-fabric-2.1.3-1.20.1.jar",
+                        "filename": "advancednetherite-fabric-2.1.3-1.20.1.jar",
+                        "size": 502658
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7580/362/immersive_furniture-fabric-0.1.3%2B1.20.1.jar",
+                        "filename": "immersive_furniture-fabric-0.1.3+1.20.1.jar",
+                        "size": 903534
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4580/836/blahaj-fabric-1.20.0-0.3.2.jar",
+                        "filename": "blahaj-fabric-1.20.0-0.3.2.jar",
+                        "size": 36285
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8020/899/starterkit-1.20.1-8.0.jar",
+                        "filename": "starterkit-1.20.1-8.0.jar",
+                        "size": 186044
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5511/110/StackDeobfuscatorFabric-1.4.3%2B08e71cc.jar",
+                        "filename": "StackDeobfuscatorFabric-1.4.3+08e71cc.jar",
+                        "size": 321213
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5698/979/questsadditions-fabric-1.20.1-1.4.6.jar",
+                        "filename": "questsadditions-fabric-1.20.1-1.4.6.jar",
+                        "size": 129275
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7199/661/FarmersDelight-1.20.1-2.4.1%2Brefabricated.jar",
+                        "filename": "FarmersDelight-1.20.1-2.4.1+refabricated.jar",
+                        "size": 8056758
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5320/21/Chunky-1.3.146.jar",
+                        "filename": "Chunky-1.3.146.jar",
+                        "size": 344004
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6680/595/deltaboxlib-fabric-2.2.0%2B1.20.1.jar",
+                        "filename": "deltaboxlib-fabric-2.2.0+1.20.1.jar",
+                        "size": 852126
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7650/353/notenoughanimations-fabric-1.11.3-mc1.20.1.jar",
+                        "filename": "notenoughanimations-fabric-1.11.3-mc1.20.1.jar",
+                        "size": 1921654
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6122/70/spelunkery-1.20.1-0.3.16-fabric.jar",
+                        "filename": "spelunkery-1.20.1-0.3.16-fabric.jar",
+                        "size": 2726891
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7335/194/chefs-delight-1.0.4-fabric-1.20.1.jar",
+                        "filename": "chefs-delight-1.0.4-fabric-1.20.1.jar",
+                        "size": 118215
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8075/940/Platform-fabric-1.20.1-1.3.3.jar",
+                        "filename": "Platform-fabric-1.20.1-1.3.3.jar",
+                        "size": 939640
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7256/727/fancymenu_fabric_3.8.1_MC_1.20.1.jar",
+                        "filename": "fancymenu_fabric_3.8.1_MC_1.20.1.jar",
+                        "size": 4472279
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6354/623/friendsandfoes-fabric-mc1.20.1-3.0.9.jar",
+                        "filename": "friendsandfoes-fabric-mc1.20.1-3.0.9.jar",
+                        "size": 3615166
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4749/199/owo-lib-0.11.2%2B1.20.jar",
+                        "filename": "owo-lib-0.11.2+1.20.jar",
+                        "size": 905421
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7519/88/Camerapture-1.10.12%2Bmc1.20.1-fabric.jar",
+                        "filename": "Camerapture-1.10.12+mc1.20.1-fabric.jar",
+                        "size": 1974800
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4582/965/Log-Begone-Fabric-1.20.1-1.0.8.jar",
+                        "filename": "Log-Begone-Fabric-1.20.1-1.0.8.jar",
+                        "size": 126944
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4032/19/extra_thicc_packets-1.0.jar",
+                        "filename": "extra_thicc_packets-1.0.jar",
+                        "size": 7188
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7517/366/appleskin-fabric-mc1.20.1-2.5.2.jar",
+                        "filename": "appleskin-fabric-mc1.20.1-2.5.2.jar",
+                        "size": 1097240
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6847/828/letsdo-brewery-fabric-2.0.6.jar",
+                        "filename": "letsdo-brewery-fabric-2.0.6.jar",
+                        "size": 2030105
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4861/638/spawn-1.0.3-fabric.jar",
+                        "filename": "spawn-1.0.3-fabric.jar",
+                        "size": 7070089
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5193/816/YungsBetterEndIsland-1.20-Fabric-2.0.6.jar",
+                        "filename": "YungsBetterEndIsland-1.20-Fabric-2.0.6.jar",
+                        "size": 517369
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6854/818/letsdo-wildernature-fabric-1.0.6.jar",
+                        "filename": "letsdo-wildernature-fabric-1.0.6.jar",
+                        "size": 3081155
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6125/414/structure_layout_optimizer-fabric-1.0.10.jar",
+                        "filename": "structure_layout_optimizer-fabric-1.0.10.jar",
+                        "size": 61013
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8030/639/mcpitanlib-3.6.8-1.20.1-fabric.jar",
+                        "filename": "mcpitanlib-3.6.8-1.20.1-fabric.jar",
+                        "size": 2700309
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6294/278/securecrops-2.0.0%2B1.20.x.jar",
+                        "filename": "securecrops-2.0.0+1.20.x.jar",
+                        "size": 141159
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5242/481/ArmorStatues-v8.0.6-1.20.1-Fabric.jar",
+                        "filename": "ArmorStatues-v8.0.6-1.20.1-Fabric.jar",
+                        "size": 574046
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6076/732/supermartijn642corelib-1.1.18a-fabric-mc1.20.1.jar",
+                        "filename": "supermartijn642corelib-1.1.18a-fabric-mc1.20.1.jar",
+                        "size": 562776
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7949/711/CraterLib-Fabric-1.20-3.1.1.jar",
+                        "filename": "CraterLib-Fabric-1.20-3.1.1.jar",
+                        "size": 1357593
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4693/387/JustOutdoorStuffs-1.20.1-fabric-v1.0.2.jar",
+                        "filename": "JustOutdoorStuffs-1.20.1-fabric-v1.0.2.jar",
+                        "size": 512078
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7117/528/naturesdelight-1.12-1.20.1.jar",
+                        "filename": "naturesdelight-1.12-1.20.1.jar",
+                        "size": 257950
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5956/95/grind-enchantments-3.1.4%2B1.20.1.jar",
+                        "filename": "grind-enchantments-3.1.4+1.20.1.jar",
+                        "size": 150818
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6185/645/inventorytotem-1.20.1-3.4.jar",
+                        "filename": "inventorytotem-1.20.1-3.4.jar",
+                        "size": 18442
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7440/332/suppsquared-1.20-1.1.29.jar",
+                        "filename": "suppsquared-1.20-1.1.29.jar",
+                        "size": 761615
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7796/915/deeperdarker-fabric-1.20-1.3.3-plus-b.jar",
+                        "filename": "deeperdarker-fabric-1.20-1.3.3-plus-b.jar",
+                        "size": 17962329
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/3821/870/lazydfu-0.1.3.jar",
+                        "filename": "lazydfu-0.1.3.jar",
+                        "size": 14531
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7004/134/niftycarts-20.1.5.jar",
+                        "filename": "niftycarts-20.1.5.jar",
+                        "size": 575758
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7304/403/mcw-holidays-1.1.2-mc1.20.1fabric.jar",
+                        "filename": "mcw-holidays-1.1.2-mc1.20.1fabric.jar",
+                        "size": 1006067
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5659/872/resourcefullib-fabric-1.20.1-2.1.29.jar",
+                        "filename": "resourcefullib-fabric-1.20.1-2.1.29.jar",
+                        "size": 431646
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7560/419/enchanter_fix-1.8%2Bmc1.20-1.21.11.jar",
+                        "filename": "enchanter_fix-1.8+mc1.20-1.21.11.jar",
+                        "size": 28514
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/8020/594/kubejs-fabric-2001.6.5-build.26.jar",
+                        "filename": "kubejs-fabric-2001.6.5-build.26.jar",
+                        "size": 1608326
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7892/929/ExplorersCompass-1.20.1-2.6.0-fabric.jar",
+                        "filename": "ExplorersCompass-1.20.1-2.6.0-fabric.jar",
+                        "size": 179781
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7451/285/mouse-wheelie-1.15.1%2Bmc1.20.1.jar",
+                        "filename": "mouse-wheelie-1.15.1+mc1.20.1.jar",
+                        "size": 1086131
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5559/269/fasterrandom-5.1.0.jar",
+                        "filename": "fasterrandom-5.1.0.jar",
+                        "size": 20697
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4863/305/accelerated-decay-fabric-3.0.1%2Bmc1.20.1.jar",
+                        "filename": "accelerated-decay-fabric-3.0.1+mc1.20.1.jar",
+                        "size": 9969
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7554/172/beautify-2.0.0%2B1.20.1.jar",
+                        "filename": "beautify-2.0.0+1.20.1.jar",
+                        "size": 836227
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6315/235/watut-fabric-1.20.1-1.2.3.jar",
+                        "filename": "watut-fabric-1.20.1-1.2.3.jar",
+                        "size": 789018
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7976/268/fabric-language-kotlin-1.13.11%2Bkotlin.2.3.21.jar",
+                        "filename": "fabric-language-kotlin-1.13.11+kotlin.2.3.21.jar",
+                        "size": 7813444
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5481/490/veinmining-fabric-1.5.0%2B1.20.1.jar",
+                        "filename": "veinmining-fabric-1.5.0+1.20.1.jar",
+                        "size": 460079
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5180/902/configured-fabric-1.20.1-2.2.3.jar",
+                        "filename": "configured-fabric-1.20.1-2.2.3.jar",
+                        "size": 591886
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7084/469/azurelib-fabric-1.20.1-3.0.27.jar",
+                        "filename": "azurelib-fabric-1.20.1-3.0.27.jar",
+                        "size": 1367955
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6862/653/polymorphic-tom-1.0.4.jar",
+                        "filename": "polymorphic-tom-1.0.4.jar",
+                        "size": 17730
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5378/501/sit-1.20.1-27.jar",
+                        "filename": "sit-1.20.1-27.jar",
+                        "size": 64238
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6311/225/letmedespawn-1.20.x-fabric-1.5.0.jar",
+                        "filename": "letmedespawn-1.20.x-fabric-1.5.0.jar",
+                        "size": 14607
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7731/16/Patchouli-1.20.1-85-FABRIC.jar",
+                        "filename": "Patchouli-1.20.1-85-FABRIC.jar",
+                        "size": 857123
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7260/491/ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.jar",
+                        "filename": "ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.jar",
+                        "size": 396628
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5820/957/YouShallNotSpawn-fabric-1.20.x-2.0.2.jar",
+                        "filename": "YouShallNotSpawn-fabric-1.20.x-2.0.2.jar",
+                        "size": 218617
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6418/134/toms_storage_fabric-1.20-1.7.1.jar",
+                        "filename": "toms_storage_fabric-1.20-1.7.1.jar",
+                        "size": 1537265
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4996/993/VillagersPlus_3.1_%28FABRIC%29_for_1.20.1.jar",
+                        "filename": "VillagersPlus_3.1_(FABRIC)_for_1.20.1.jar",
+                        "size": 356336
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6962/787/naturespirit-2.2.5-1.20.1.jar",
+                        "filename": "naturespirit-2.2.5-1.20.1.jar",
+                        "size": 20517897
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6742/616/lithostitched-fabric-1.20.1-1.4.11.jar",
+                        "filename": "lithostitched-fabric-1.20.1-1.4.11.jar",
+                        "size": 487655
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7427/569/via_romana-2.2.2%2B1.20.1-fabric.jar",
+                        "filename": "via_romana-2.2.2+1.20.1-fabric.jar",
+                        "size": 1243811
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5813/139/chipped-fabric-1.20.1-3.0.7.jar",
+                        "filename": "chipped-fabric-1.20.1-3.0.7.jar",
+                        "size": 15057458
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/4921/204/things-0.3.3%2B1.20.jar",
+                        "filename": "things-0.3.3+1.20.jar",
+                        "size": 930355
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/6358/768/justhammers-fabric-20.1.5%2Bmc1.20.1.jar",
+                        "filename": "justhammers-fabric-20.1.5+mc1.20.1.jar",
+                        "size": 90255
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7164/886/accessories-fabric-1.0.0-beta.48%2B1.20.1.jar",
+                        "filename": "accessories-fabric-1.0.0-beta.48+1.20.1.jar",
+                        "size": 769376
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5772/682/Necronomicon-Fabric-1.6.0%2B1.20.1.jar",
+                        "filename": "Necronomicon-Fabric-1.6.0+1.20.1.jar",
+                        "size": 37533
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/5986/39/fastboot-1.20.x-1.2fabric.jar",
+                        "filename": "fastboot-1.20.x-1.2fabric.jar",
+                        "size": 30721
+                    },
+                    {
+                        "url": "https://mediafilez.forgecdn.net/files/7041/984/letsdocompat-fabric-2.2.4.jar",
+                        "filename": "letsdocompat-fabric-2.2.4.jar",
+                        "size": 27547
+                    }
+                ]
+            },
             "modules": [
                 {
                     "id": "net.fabricmc:fabric-loader:0.18.4",
