@@ -2,47 +2,57 @@
     "version": "1.0.0",
     "servers": [
         {
-            "id": "dorlback_1204",
+            "id": "dorlback_homestead",
             "name": "dorlback",
-            "description": "dorlback Modpack (Fabric 1.20.4)",
+            "description": "Homestead Modpack (Fabric 1.20.1)",
             "icon": "https://raw.githubusercontent.com/dorlback/dorlback-distribution-/main/icon.png",
-            "version": "1.0.0",
+            "version": "1.3.7",
             "address": "localhost:25565",
-            "minecraftVersion": "1.20.4",
+            "minecraftVersion": "1.20.1",
             "mainServer": true,
             "autoconnect": false,
             "javaOptions": {
-                "supported": ">=21",
-                "suggestedMajor": 21,
+                "supported": ">=17",
+                "suggestedMajor": 17,
                 "ram": {
-                    "recommended": 4096,
-                    "minimum": 2048
+                    "recommended": 6144,
+                    "minimum": 4096
                 }
+            },
+            "overrides": {
+                "version": "1.3.7",
+                "size": 114829742,
+                "MD5": "dd25be6a8b5949d0ed9c2b1b3d89be13",
+                "parts": [
+                    "https://raw.githubusercontent.com/dorlback/dorlback-distribution-/main/overrides/overrides_payload.zip.part00",
+                    "https://raw.githubusercontent.com/dorlback/dorlback-distribution-/main/overrides/overrides_payload.zip.part01"
+                ],
+                "extractTo": "instance"
             },
             "modules": [
                 {
-                    "id": "net.fabricmc:fabric-loader:0.19.2",
-                    "name": "Fabric Loader 0.19.2",
+                    "id": "net.fabricmc:fabric-loader:0.18.4",
+                    "name": "Fabric Loader 0.18.4",
                     "type": "Fabric",
                     "artifact": {
-                        "size": 1968930,
-                        "MD5": "d692407a67129e913b4210218edebb20",
-                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.19.2/fabric-loader-0.19.2.jar"
+                        "size": 1944518,
+                        "MD5": "56c00fa22e0452e8567be1feae73c3b9",
+                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
                     },
                     "subModules": [
                         {
-                            "id": "1.20.4-fabric-0.19.2",
+                            "id": "1.20.1-fabric-0.18.4",
                             "name": "Fabric Version Manifest",
                             "type": "VersionManifest",
                             "artifact": {
                                 "size": 2847,
-                                "MD5": "fbf649eece3e5682eb1255b218867fd9",
-                                "url": "https://raw.githubusercontent.com/dorlback/dorlback-distribution-/main/versions/1.20.4-fabric-0.19.2/1.20.4-fabric-0.19.2.json"
+                                "MD5": "4d524c9c6e4e87a0d1aa0d88f8d871e2",
+                                "url": "https://raw.githubusercontent.com/dorlback/dorlback-distribution-/main/versions/1.20.1-fabric-0.18.4/1.20.1-fabric-0.18.4.json"
                             }
                         },
                         {
                             "id": "org.ow2.asm:asm:9.9",
-                            "name": "ASM",
+                            "name": "asm 9.9",
                             "type": "Library",
                             "artifact": {
                                 "size": 126122,
@@ -52,7 +62,7 @@
                         },
                         {
                             "id": "org.ow2.asm:asm-analysis:9.9",
-                            "name": "ASM Analysis",
+                            "name": "asm-analysis 9.9",
                             "type": "Library",
                             "artifact": {
                                 "size": 35149,
@@ -62,7 +72,7 @@
                         },
                         {
                             "id": "org.ow2.asm:asm-commons:9.9",
-                            "name": "ASM Commons",
+                            "name": "asm-commons 9.9",
                             "type": "Library",
                             "artifact": {
                                 "size": 74348,
@@ -72,7 +82,7 @@
                         },
                         {
                             "id": "org.ow2.asm:asm-tree:9.9",
-                            "name": "ASM Tree",
+                            "name": "asm-tree 9.9",
                             "type": "Library",
                             "artifact": {
                                 "size": 51947,
@@ -82,7 +92,7 @@
                         },
                         {
                             "id": "org.ow2.asm:asm-util:9.9",
-                            "name": "ASM Util",
+                            "name": "asm-util 9.9",
                             "type": "Library",
                             "artifact": {
                                 "size": 94565,
@@ -91,102 +101,3485 @@
                             }
                         },
                         {
-                            "id": "net.fabricmc:sponge-mixin:0.17.2+mixin.0.8.7",
-                            "name": "Sponge Mixin",
+                            "id": "net.fabricmc:sponge-mixin:0.17.0+mixin.0.8.7",
+                            "name": "sponge-mixin 0.17.0+mixin.0.8.7",
                             "type": "Library",
                             "artifact": {
-                                "size": 1540039,
-                                "MD5": "4b6b96074976cc7aa096b9e569ca623e",
-                                "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.17.2+mixin.0.8.7/sponge-mixin-0.17.2+mixin.0.8.7.jar"
+                                "size": 1505269,
+                                "MD5": "d27dcb910788a0bd4bea72942a714093",
+                                "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar"
                             }
                         },
                         {
-                            "id": "net.fabricmc:intermediary:1.20.4",
-                            "name": "Fabric Intermediary",
+                            "id": "net.fabricmc:intermediary:1.20.1",
+                            "name": "intermediary 1.20.1",
                             "type": "Library",
                             "artifact": {
-                                "size": 608319,
-                                "MD5": "3a1cade1634c518db6147c9771686ea9",
-                                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
+                                "size": 573365,
+                                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
                             }
                         }
                     ]
                 },
                 {
-                    "id": "net.fabricmc:fabric-api:0.97.3",
-                    "name": "Fabric API",
+                    "id": "curseforge.532730:mod:4601231",
+                    "name": "libraryferret-fabric-1.20.1-4.0.0",
                     "type": "FabricMod",
                     "artifact": {
-                        "size": 2187523,
-                        "MD5": "03ed4ae378e68f42ccf05dbe97007793",
-                        "path": "fabric-api-0.97.3+1.20.4.jar",
-                        "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/BPX6fK06/fabric-api-0.97.3%2B1.20.4.jar"
+                        "size": 172458,
+                        "path": "libraryferret-fabric-1.20.1-4.0.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4601/231/libraryferret-fabric-1.20.1-4.0.0.jar"
                     }
                 },
                 {
-                    "id": "squeek502:appleskin:2.5.1",
-                    "name": "AppleSkin",
+                    "id": "curseforge.409660:mod:5175782",
+                    "name": "wirelessredstone-fabric-1.20.1-1.1.2",
                     "type": "FabricMod",
                     "artifact": {
-                        "size": 1077002,
-                        "MD5": "60e559dd89ef9104af41449158634162",
-                        "path": "appleskin-fabric-mc1.20.3-2.5.1.jar",
-                        "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/pmFyu3Sz/appleskin-fabric-mc1.20.3-2.5.1.jar"
+                        "size": 138832,
+                        "path": "wirelessredstone-fabric-1.20.1-1.1.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5175/782/wirelessredstone-fabric-1.20.1-1.1.2.jar"
                     }
                 },
                 {
-                    "id": "net.irisshaders:iris:1.7.2",
-                    "name": "Iris Shaders",
+                    "id": "curseforge.416089:mod:8037665",
+                    "name": "voicechat-fabric-1.20.1-2.6.17",
                     "type": "FabricMod",
                     "artifact": {
-                        "size": 2703697,
-                        "MD5": "fa3647d1891a719b268c636236d989c2",
-                        "path": "iris-1.7.2+mc1.20.4.jar",
-                        "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/hq98tuSS/iris-1.7.2%2Bmc1.20.4.jar"
+                        "size": 5262944,
+                        "path": "voicechat-fabric-1.20.1-2.6.17.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8037/665/voicechat-fabric-1.20.1-2.6.17.jar"
                     }
                 },
                 {
-                    "id": "com.jellysquid3:sodium:0.5.8",
-                    "name": "Sodium",
+                    "id": "curseforge.408209:mod:4761944",
+                    "name": "fabricskyboxes-0.7.3+mc1.20.1",
                     "type": "FabricMod",
                     "artifact": {
-                        "size": 949085,
-                        "MD5": "d7753a50ca37f50abb10465a9a425dac",
-                        "path": "sodium-fabric-0.5.8+mc1.20.4.jar",
-                        "url": "https://cdn.modrinth.com/data/AANobbMI/versions/4GyXKCLd/sodium-fabric-0.5.8%2Bmc1.20.4.jar"
+                        "size": 207272,
+                        "path": "fabricskyboxes-0.7.3+mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4761/944/fabricskyboxes-0.7.3%2Bmc1.20.1.jar"
                     }
                 },
                 {
-                    "id": "iris:config:1.0.0",
-                    "name": "Iris Config (shader auto-enable)",
+                    "id": "curseforge.979322:mod:7147929",
+                    "name": "sophisticatedbackpacks-1.20.1-3.23.4.5.110",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 986101,
+                        "path": "sophisticatedbackpacks-1.20.1-3.23.4.5.110.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7147/929/sophisticatedbackpacks-1.20.1-3.23.4.5.110.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.412082:mod:7884612",
+                    "name": "supplementaries-1.20-3.1.43-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 13493444,
+                        "path": "supplementaries-1.20-3.1.43-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7884/612/supplementaries-1.20-3.1.43-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.235577:mod:8019425",
+                    "name": "trashslot-fabric-1.20.1-15.1.5",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 118660,
+                        "path": "trashslot-fabric-1.20.1-15.1.5.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8019/425/trashslot-fabric-1.20.1-15.1.5.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.828331:mod:7349610",
+                    "name": "gliders-fabric-1.2.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 839830,
+                        "path": "gliders-fabric-1.2.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7349/610/gliders-fabric-1.2.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.419699:mod:5137936",
+                    "name": "architectury-9.2.14-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 585207,
+                        "path": "architectury-9.2.14-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5137/936/architectury-9.2.14-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.979326:mod:8032765",
+                    "name": "sophisticatedstorage-1.20.1-1.3.5.11.142",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1676141,
+                        "path": "sophisticatedstorage-1.20.1-1.3.5.11.142.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8032/765/sophisticatedstorage-1.20.1-1.3.5.11.142.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.962916:mod:5353373",
+                    "name": "lavender-0.1.9+1.20",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 523368,
+                        "path": "lavender-0.1.9+1.20.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5353/373/lavender-0.1.9%2B1.20.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1158094:mod:6984568",
+                    "name": "deimos-1.20.1-fabric-2.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 47538,
+                        "path": "deimos-1.20.1-fabric-2.4.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6984/568/deimos-1.20.1-fabric-2.4.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.979317:mod:7092593",
+                    "name": "sophisticatedcore-1.20.1-1.2.7.14.163",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2858810,
+                        "path": "sophisticatedcore-1.20.1-1.2.7.14.163.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7092/593/sophisticatedcore-1.20.1-1.2.7.14.163.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.232131:mod:6972468",
+                    "name": "defaultoptions-fabric-1.20.1-18.0.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 92486,
+                        "path": "defaultoptions-fabric-1.20.1-18.0.4.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6972/468/defaultoptions-fabric-1.20.1-18.0.4.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.500525:mod:7420614",
+                    "name": "balm-fabric-1.20.1-7.3.38",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 609150,
+                        "path": "balm-fabric-1.20.1-7.3.38.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7420/614/balm-fabric-1.20.1-7.3.38.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.237749:mod:5110802",
+                    "name": "coroutil-fabric-1.20.1-1.3.7",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2392617,
+                        "path": "coroutil-fabric-1.20.1-1.3.7.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5110/802/coroutil-fabric-1.20.1-1.3.7.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.239197:mod:7772872",
+                    "name": "CraftTweaker-fabric-1.20.1-14.0.60",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 3994103,
+                        "path": "CraftTweaker-fabric-1.20.1-14.0.60.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7772/872/CraftTweaker-fabric-1.20.1-14.0.60.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1023913:mod:8008316",
+                    "name": "SubtleEffects-fabric-1.20.1-1.14.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 3340781,
+                        "path": "SubtleEffects-fabric-1.20.1-1.14.3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8008/316/SubtleEffects-fabric-1.20.1-1.14.3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.998782:mod:5336735",
+                    "name": "NethersDelight-Refabricated-1.20.1-4.1.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 342154,
+                        "path": "NethersDelight-Refabricated-1.20.1-4.1.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5336/735/NethersDelight-Refabricated-1.20.1-4.1.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.659110:mod:5558172",
+                    "name": "RegionsUnexploredFabric-0.5.6+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 5689530,
+                        "path": "RegionsUnexploredFabric-0.5.6+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5558/172/RegionsUnexploredFabric-0.5.6%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.856996:mod:4861834",
+                    "name": "cristellib-1.1.5-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 431581,
+                        "path": "cristellib-1.1.5-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4861/834/cristellib-1.1.5-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.602199:mod:5385602",
+                    "name": "radiantgear-fabric-2.1.6+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 33078,
+                        "path": "radiantgear-fabric-2.1.6+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5385/602/radiantgear-fabric-2.1.6%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.623764:mod:7766757",
+                    "name": "jamlib-fabric-1.3.6+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 239867,
+                        "path": "jamlib-fabric-1.3.6+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7766/757/jamlib-fabric-1.3.6%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.308702:mod:5162837",
+                    "name": "modmenu-7.2.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 721366,
+                        "path": "modmenu-7.2.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5162/837/modmenu-7.2.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.891880:mod:5944710",
+                    "name": "tidal-towns-1.3.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 110098,
+                        "path": "tidal-towns-1.3.4.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5944/710/tidal-towns-1.3.4.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.711216:mod:8074028",
+                    "name": "Geophilic v3.5.mod",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2616562,
+                        "path": "Geophilic v3.5.mod.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8074/28/Geophilic%20v3.5.mod.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.342584:mod:8021348",
+                    "name": "collective-1.20.1-8.22",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 662615,
+                        "path": "collective-1.20.1-8.22.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8021/348/collective-1.20.1-8.22.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.636608:mod:7987206",
+                    "name": "open-parties-and-claims-fabric-1.20.1-0.26.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1648013,
+                        "path": "open-parties-and-claims-fabric-1.20.1-0.26.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7987/206/open-parties-and-claims-fabric-1.20.1-0.26.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.225738:mod:7963207",
+                    "name": "dummmmmmy-1.20-2.0.12-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 832956,
+                        "path": "dummmmmmy-1.20-2.0.12-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7963/207/dummmmmmy-1.20-2.0.12-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.539382:mod:5838145",
+                    "name": "Iceberg-1.20.1-fabric-1.1.25",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 119018,
+                        "path": "Iceberg-1.20.1-fabric-1.1.25.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5838/145/Iceberg-1.20.1-fabric-1.1.25.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.538214:mod:5118730",
+                    "name": "handcrafted-fabric-1.20.1-3.0.6",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 7106384,
+                        "path": "handcrafted-fabric-1.20.1-3.0.6.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5118/730/handcrafted-fabric-1.20.1-3.0.6.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.514882:mod:5762252",
+                    "name": "AdvancementPlaques-1.20.1-fabric-1.6.7",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 194905,
+                        "path": "AdvancementPlaques-1.20.1-fabric-1.6.7.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5762/252/AdvancementPlaques-1.20.1-fabric-1.6.7.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.968398:mod:7634683",
+                    "name": "copycats-3.0.7+mc.1.20.1-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1996934,
+                        "path": "copycats-3.0.7+mc.1.20.1-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7634/683/copycats-3.0.7%2Bmc.1.20.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.790626:mod:7306748",
+                    "name": "modernfix-fabric-5.25.2+mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 545175,
+                        "path": "modernfix-fabric-5.25.2+mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7306/748/modernfix-fabric-5.25.2%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.497175:mod:5706124",
+                    "name": "graves-3.0.3+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1872216,
+                        "path": "graves-3.0.3+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5706/124/graves-3.0.3%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1038117:mod:6850363",
+                    "name": "letsdo-candlelight-fabric-2.0.5",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2494711,
+                        "path": "letsdo-candlelight-fabric-2.0.5.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6850/363/letsdo-candlelight-fabric-2.0.5.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1155302:mod:6020868",
+                    "name": "omnilib-0.1.4+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 253784,
+                        "path": "omnilib-0.1.4+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6020/868/omnilib-0.1.4%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.296996:mod:7134454",
+                    "name": "rebind_narrator-1.20.1-fabric-2025.10.21",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 186429,
+                        "path": "rebind_narrator-1.20.1-fabric-2025.10.21.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7134/454/rebind_narrator-1.20.1-fabric-2025.10.21.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.667299:mod:6336639",
+                    "name": "yet_another_config_lib_v3-3.6.6+1.20.1-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1294234,
+                        "path": "yet_another_config_lib_v3-3.6.6+1.20.1-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6336/639/yet_another_config_lib_v3-3.6.6%2B1.20.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.388172:mod:7025126",
+                    "name": "geckolib-fabric-1.20.1-4.8.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1069282,
+                        "path": "geckolib-fabric-1.20.1-4.8.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7025/126/geckolib-fabric-1.20.1-4.8.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1070751:mod:7759423",
+                    "name": "Oh-The-Biomes-Weve-Gone-Fabric-1.7.5",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 18653246,
+                        "path": "Oh-The-Biomes-Weve-Gone-Fabric-1.7.5.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7759/423/Oh-The-Biomes-Weve-Gone-Fabric-1.7.5.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.861310:mod:4535395",
+                    "name": "fadeless-1.0.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 7876,
+                        "path": "fadeless-1.0.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4535/395/fadeless-1.0.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1386823:mod:7283480",
+                    "name": "copperagebackport-fabric-1.20.1-0.1.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2808741,
+                        "path": "copperagebackport-fabric-1.20.1-0.1.4.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7283/480/copperagebackport-fabric-1.20.1-0.1.4.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.334259:mod:5956100",
+                    "name": "PresenceFootsteps-1.10.1+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 5664952,
+                        "path": "PresenceFootsteps-1.10.1+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5956/100/PresenceFootsteps-1.10.1%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.709964:mod:5240476",
+                    "name": "mavapi-1.1.4-mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 592470,
+                        "path": "mavapi-1.1.4-mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5240/476/mavapi-1.1.4-mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.590993:mod:4769515",
+                    "name": "YungsExtras-1.20-Fabric-4.0.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 342639,
+                        "path": "YungsExtras-1.20-Fabric-4.0.3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4769/515/YungsExtras-1.20-Fabric-4.0.3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.634062:mod:4610472",
+                    "name": "NoChatReports-FABRIC-1.20.1-v2.2.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 619812,
+                        "path": "NoChatReports-FABRIC-1.20.1-v2.2.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4610/472/NoChatReports-FABRIC-1.20.1-v2.2.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.655619:mod:4589736",
+                    "name": "better_climbing-fabric-3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 12179,
+                        "path": "better_climbing-fabric-3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4589/736/better_climbing-fabric-3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.394535:mod:4606911",
+                    "name": "trashcans-1.0.18-fabric-mc1.20",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 184006,
+                        "path": "trashcans-1.0.18-fabric-mc1.20.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4606/911/trashcans-1.0.18-fabric-mc1.20.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.518319:mod:5065345",
+                    "name": "morechathistory-1.3.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 3546,
+                        "path": "morechathistory-1.3.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5065/345/morechathistory-1.3.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1196599:mod:7599506",
+                    "name": "coolrain-1.4.0-1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 4133938,
+                        "path": "coolrain-1.4.0-1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7599/506/coolrain-1.4.0-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.499980:mod:8076689",
+                    "name": "moonlight-1.20-2.16.32-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1364815,
+                        "path": "moonlight-1.20-2.16.32-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8076/689/moonlight-1.20-2.16.32-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1104882:mod:6533721",
+                    "name": "txnilib-fabric-1.0.24-1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1057614,
+                        "path": "txnilib-fabric-1.0.24-1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6533/721/txnilib-fabric-1.0.24-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.580294:mod:4632294",
+                    "name": "crops_love_rain-1.4.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 590365,
+                        "path": "crops_love_rain-1.4.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4632/294/crops_love_rain-1.4.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.319596:mod:5393114",
+                    "name": "Pehkui-3.8.2+1.14.4-1.20.6",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 537524,
+                        "path": "Pehkui-3.8.2+1.14.4-1.20.6.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5393/114/Pehkui-3.8.2%2B1.14.4-1.20.6.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.410811:mod:6555286",
+                    "name": "ftb-essentials-fabric-2001.2.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 155533,
+                        "path": "ftb-essentials-fabric-2001.2.3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6555/286/ftb-essentials-fabric-2001.2.3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.969422:mod:5918172",
+                    "name": "DiagonalWalls-v8.0.4-1.20.1-Fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 158486,
+                        "path": "DiagonalWalls-v8.0.4-1.20.1-Fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5918/172/DiagonalWalls-v8.0.4-1.20.1-Fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.688231:mod:7758638",
+                    "name": "Steam_Rails-1.7.2+fabric-mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 16863902,
+                        "path": "Steam_Rails-1.7.2+fabric-mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7758/638/Steam_Rails-1.7.2%2Bfabric-mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.914586:mod:4758379",
+                    "name": "modmenu-badges-lib-2023.6.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 5221,
+                        "path": "modmenu-badges-lib-2023.6.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4758/379/modmenu-badges-lib-2023.6.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.590988:mod:4769520",
+                    "name": "YungsBridges-1.20-Fabric-4.0.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 266481,
+                        "path": "YungsBridges-1.20-Fabric-4.0.3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4769/520/YungsBridges-1.20-Fabric-4.0.3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.511770:mod:7248423",
+                    "name": "drippyloadingscreen_fabric_3.1.0_MC_1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 280441,
+                        "path": "drippyloadingscreen_fabric_3.1.0_MC_1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7248/423/drippyloadingscreen_fabric_3.1.0_MC_1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.634005:mod:7671378",
+                    "name": "sootychimneys-fabric-1.20.1-1.3.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 177131,
+                        "path": "sootychimneys-fabric-1.20.1-1.3.4.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7671/378/sootychimneys-fabric-1.20.1-1.3.4.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.410743:mod:6390675",
+                    "name": "realisticbees-1.20.1-4.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 45529,
+                        "path": "realisticbees-1.20.1-4.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6390/675/realisticbees-1.20.1-4.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.353554:pack:4624707",
+                    "name": "Stay_True_1.20.zip",
                     "type": "File",
                     "artifact": {
-                        "size": 65,
-                        "MD5": "ebbf3b7957095480c2e703183642be13",
-                        "path": "config/iris.properties",
-                        "url": "https://raw.githubusercontent.com/dorlback/dorlback-distribution-/main/iris.properties"
+                        "size": 2139266,
+                        "path": "resourcepacks/Stay_True_1.20.zip",
+                        "url": "https://mediafilez.forgecdn.net/files/4624/707/Stay_True_1.20.zip"
                     }
                 },
                 {
-                    "id": "com.terraformersmc:modmenu:9.2.0",
-                    "name": "Mod Menu",
+                    "id": "curseforge.1254143:mod:8086319",
+                    "name": "colorwheel-fabric-1.2.6+mc1.20.1",
                     "type": "FabricMod",
                     "artifact": {
-                        "size": 963019,
-                        "MD5": "f8008ee81dd401a441bd20f41e43fca2",
-                        "path": "modmenu-9.2.0.jar",
-                        "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/FawTQg29/modmenu-9.2.0.jar"
+                        "size": 387010,
+                        "path": "colorwheel-fabric-1.2.6+mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8086/319/colorwheel-fabric-1.2.6%2Bmc1.20.1.jar"
                     }
                 },
                 {
-                    "id": "shaderpack:complementary-reimagined:r5.8.1",
-                    "name": "Complementary Reimagined",
+                    "id": "curseforge.496913:mod:4603805",
+                    "name": "twigs-3.1.0-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2958651,
+                        "path": "twigs-3.1.0-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4603/805/twigs-3.1.0-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.574741:mod:7463100",
+                    "name": "zoomify-2.15.1+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 872547,
+                        "path": "zoomify-2.15.1+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7463/100/zoomify-2.15.1%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.302548:mod:6185190",
+                    "name": "shulkerdropstwo-1.20.1-3.5",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 31927,
+                        "path": "shulkerdropstwo-1.20.1-3.5.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6185/190/shulkerdropstwo-1.20.1-3.5.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.475358:mod:4574355",
+                    "name": "bettermounthud-1.2.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 21587,
+                        "path": "bettermounthud-1.2.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4574/355/bettermounthud-1.2.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.585548:mod:7205249",
+                    "name": "BHMenu-Fabric-1.20.1-2.4.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 200712,
+                        "path": "BHMenu-Fabric-1.20.1-2.4.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7205/249/BHMenu-Fabric-1.20.1-2.4.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.416294:mod:6186969",
+                    "name": "rhino-fabric-2001.2.3-build.10",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1743587,
+                        "path": "rhino-fabric-2001.2.3-build.10.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6186/969/rhino-fabric-2001.2.3-build.10.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.525586:mod:5271361",
+                    "name": "YungsBetterDungeons-1.20-Fabric-4.0.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 944170,
+                        "path": "YungsBetterDungeons-1.20-Fabric-4.0.4.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5271/361/YungsBetterDungeons-1.20-Fabric-4.0.4.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1332726:mod:6916590",
+                    "name": "tameableminisheep-1.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 16239,
+                        "path": "tameableminisheep-1.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6916/590/tameableminisheep-1.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.361579:mod:4738953",
+                    "name": "spark-1.10.53-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 3082974,
+                        "path": "spark-1.10.53-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4738/953/spark-1.10.53-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.284324:mod:4672307",
+                    "name": "Emojiful-Fabric-1.20.1-4.2.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 297767,
+                        "path": "Emojiful-Fabric-1.20.1-4.2.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4672/307/Emojiful-Fabric-1.20.1-4.2.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.575305:mod:4607750",
+                    "name": "FauxCustomEntityData-fabric-1.20.1-6.0.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 16177,
+                        "path": "FauxCustomEntityData-fabric-1.20.1-6.0.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4607/750/FauxCustomEntityData-fabric-1.20.1-6.0.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.264738:mod:3213798",
+                    "name": "betterthanmending-1.3.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 4152,
+                        "path": "betterthanmending-1.3.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/3213/798/betterthanmending-1.3.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.571336:mod:5876592",
+                    "name": "SimpleCopperPipes-mc1.20.1-2.0.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1685617,
+                        "path": "SimpleCopperPipes-mc1.20.1-2.0.3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5876/592/SimpleCopperPipes-mc1.20.1-2.0.3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1038103:mod:7088023",
+                    "name": "letsdo-farm_and_charm-fabric-1.0.14",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 3331230,
+                        "path": "letsdo-farm_and_charm-fabric-1.0.14.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7088/23/letsdo-farm_and_charm-fabric-1.0.14.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1285475:mod:7924939",
+                    "name": "colorwheel_patcher-fabric-1.0.5+mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 210711,
+                        "path": "colorwheel_patcher-fabric-1.0.5+mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7924/939/colorwheel_patcher-fabric-1.0.5%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.417430:mod:8086096",
+                    "name": "VanillaBackport-fabric-1.20.1-1.1.7.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 55362530,
+                        "path": "VanillaBackport-fabric-1.20.1-1.1.7.4.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8086/96/VanillaBackport-fabric-1.20.1-1.1.7.4.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.916747:mod:6274626",
+                    "name": "OctoLib-FABRIC-0.5.0.1+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 424020,
+                        "path": "OctoLib-FABRIC-0.5.0.1+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6274/626/OctoLib-FABRIC-0.5.0.1%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.303119:mod:4780782",
+                    "name": "malilib-fabric-1.20.1-0.16.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 545403,
+                        "path": "malilib-fabric-1.20.1-0.16.3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4780/782/malilib-fabric-1.20.1-0.16.3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1005914:mod:7568944",
+                    "name": "fzzy_config-0.7.6+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2372585,
+                        "path": "fzzy_config-0.7.6+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7568/944/fzzy_config-0.7.6%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.835861:mod:5424643",
+                    "name": "Item_Obliterator-MC1.20.1-Fabric_Quilt-2.3.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 28620,
+                        "path": "Item_Obliterator-MC1.20.1-Fabric_Quilt-2.3.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5424/643/Item_Obliterator-MC1.20.1-Fabric_Quilt-2.3.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.306612:mod:7929919",
+                    "name": "fabric-api-0.92.8+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2110694,
+                        "path": "fabric-api-0.92.8+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7929/919/fabric-api-0.92.8%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.697845:mod:4797428",
+                    "name": "fsb-interop-1.3.6+mc1.20.1-build.50",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 49495,
+                        "path": "fsb-interop-1.3.6+mc1.20.1-build.50.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4797/428/fsb-interop-1.3.6%2Bmc1.20.1-build.50.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.689467:mod:7872374",
+                    "name": "packetfixer-3.3.2-1.18-1.20.4-merged",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 188661,
+                        "path": "packetfixer-3.3.2-1.18-1.20.4-merged.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7872/374/packetfixer-3.3.2-1.18-1.20.4-merged.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.631990:mod:7598406",
+                    "name": "simplehats-fabric-1.20.1-0.4.0a",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1400092,
+                        "path": "simplehats-fabric-1.20.1-0.4.0a.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7598/406/simplehats-fabric-1.20.1-0.4.0a.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1388097:mod:7363336",
+                    "name": "friendsforlife-1.2.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 265988,
+                        "path": "friendsforlife-1.2.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7363/336/friendsforlife-1.2.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.915902:mod:7624105",
+                    "name": "EuphoriaPatcher-1.8.6-r5.7.1-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2827550,
+                        "path": "EuphoriaPatcher-1.8.6-r5.7.1-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7624/105/EuphoriaPatcher-1.8.6-r5.7.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.938643:mod:5139711",
+                    "name": "melody_fabric_1.0.4_MC_1.20.1-1.20.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 39696,
+                        "path": "melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5139/711/melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.622967:mod:7354935",
+                    "name": "Ribbits-1.20.1-Fabric-3.0.5",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2331082,
+                        "path": "Ribbits-1.20.1-Fabric-3.0.5.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7354/935/Ribbits-1.20.1-Fabric-3.0.5.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.667884:mod:3995206",
+                    "name": "logcleaner-1.0.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 5008,
+                        "path": "logcleaner-1.0.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/3995/206/logcleaner-1.0.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1034453:mod:7108486",
+                    "name": "peaceful_hunger-fabric-1.20.1-2.2.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 31171,
+                        "path": "peaceful_hunger-fabric-1.20.1-2.2.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7108/486/peaceful_hunger-fabric-1.20.1-2.2.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.482160:mod:4590983",
+                    "name": "Boat-Item-View-Fabric-1.20.1-0.0.5",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1031662,
+                        "path": "Boat-Item-View-Fabric-1.20.1-0.0.5.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4590/983/Boat-Item-View-Fabric-1.20.1-0.0.5.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1215789:mod:6289992",
+                    "name": "carrasconlib-fabric-1.20.1-0.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 88876,
+                        "path": "carrasconlib-fabric-1.20.1-0.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6289/992/carrasconlib-fabric-1.20.1-0.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.962544:mod:7864093",
+                    "name": "Oh-The-Trees-Youll-Grow-fabric-1.20.1-1.6.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 165847,
+                        "path": "Oh-The-Trees-Youll-Grow-fabric-1.20.1-1.6.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7864/93/Oh-The-Trees-Youll-Grow-fabric-1.20.1-1.6.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.564941:mod:4631405",
+                    "name": "ShowMeWhatYouGot-1.20-1.1.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 27596,
+                        "path": "ShowMeWhatYouGot-1.20-1.1.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4631/405/ShowMeWhatYouGot-1.20-1.1.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.324717:mod:6291330",
+                    "name": "Jade-1.20-Fabric-11.13.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 572882,
+                        "path": "Jade-1.20-Fabric-11.13.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6291/330/Jade-1.20-Fabric-11.13.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.228525:mod:7612391",
+                    "name": "Bookshelf-Fabric-1.20.1-20.2.15",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 315041,
+                        "path": "Bookshelf-Fabric-1.20.1-20.2.15.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7612/391/Bookshelf-Fabric-1.20.1-20.2.15.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.953729:mod:5047386",
+                    "name": "create_oxidized-0.1.1+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 282035,
+                        "path": "create_oxidized-0.1.1+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5047/386/create_oxidized-0.1.1%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.388800:mod:6450979",
+                    "name": "polymorph-fabric-0.49.10+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 680833,
+                        "path": "polymorph-fabric-0.49.10+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6450/979/polymorph-fabric-0.49.10%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.485245:mod:6292692",
+                    "name": "modernworldcreation_fabric_2.0.1_MC_1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 679401,
+                        "path": "modernworldcreation_fabric_2.0.1_MC_1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6292/692/modernworldcreation_fabric_2.0.1_MC_1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.915531:mod:5933315",
+                    "name": "villagesandpillages-fabric-mc1.20.1-1.0.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 241108,
+                        "path": "villagesandpillages-fabric-mc1.20.1-1.0.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5933/315/villagesandpillages-fabric-mc1.20.1-1.0.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1468750:mod:7933628",
+                    "name": "obsidianequipmentrework-fabric-0.4+mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 199282,
+                        "path": "obsidianequipmentrework-fabric-0.4+mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7933/628/obsidianequipmentrework-fabric-0.4%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.896746:mod:7470400",
+                    "name": "amendments-1.20-2.2.5-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1266546,
+                        "path": "amendments-1.20-2.2.5-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7470/400/amendments-1.20-2.2.5-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.263420:mod:8042297",
+                    "name": "xaerominimap-fabric-1.20.1-25.3.12",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2171370,
+                        "path": "xaerominimap-fabric-1.20.1-25.3.12.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8042/297/xaerominimap-fabric-1.20.1-25.3.12.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1445937:mod:7534085",
+                    "name": "screenshottoclipboard-1.0.0-1.18.2.1.20.4-release",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 37435,
+                        "path": "screenshottoclipboard-1.0.0-1.18.2.1.20.4-release.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7534/85/screenshottoclipboard-1.0.0-1.18.2.1.20.4-release.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.533942:mod:5796107",
+                    "name": "BridgingMod-2.5.1+1.20.1.fabric-release",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 3577394,
+                        "path": "BridgingMod-2.5.1+1.20.1.fabric-release.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5796/107/BridgingMod-2.5.1%2B1.20.1.fabric-release.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.615106:mod:7266482",
+                    "name": "lootr-fabric-1.20-0.7.35.86",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 575601,
+                        "path": "lootr-fabric-1.20-0.7.35.86.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7266/482/lootr-fabric-1.20-0.7.35.86.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.967867:mod:6533556",
+                    "name": "letsdo-addon-structures-1.7.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 330446,
+                        "path": "letsdo-addon-structures-1.7.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6533/556/letsdo-addon-structures-1.7.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.952356:mod:5572189",
+                    "name": "noanimaltemptdelay-1.20.1-1.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 17020,
+                        "path": "noanimaltemptdelay-1.20.1-1.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5572/189/noanimaltemptdelay-1.20.1-1.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.739872:mod:7721695",
+                    "name": "createdeco-2.1.1-1.20.1-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 3492044,
+                        "path": "createdeco-2.1.1-1.20.1-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7721/695/createdeco-2.1.1-1.20.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.326302:pack:6247535",
+                    "name": "Nostalgia_v5.1.zip",
                     "type": "File",
                     "artifact": {
-                        "size": 546925,
-                        "MD5": "8dbb914ed233d6e8183ce34eb26beaab",
-                        "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip",
-                        "url": "https://cdn.modrinth.com/data/HVnmMxH1/versions/yCCduG44/ComplementaryReimagined_r5.8.1.zip"
+                        "size": 1842205,
+                        "path": "shaderpacks/Nostalgia_v5.1.zip",
+                        "url": "https://mediafilez.forgecdn.net/files/6247/535/Nostalgia_v5.1.zip"
+                    }
+                },
+                {
+                    "id": "curseforge.438497:mod:6130783",
+                    "name": "ftb-teams-fabric-2001.3.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 244872,
+                        "path": "ftb-teams-fabric-2001.3.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6130/783/ftb-teams-fabric-2001.3.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.480684:mod:4769084",
+                    "name": "YungsBetterStrongholds-1.20-Fabric-4.0.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 611598,
+                        "path": "YungsBetterStrongholds-1.20-Fabric-4.0.3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4769/84/YungsBetterStrongholds-1.20-Fabric-4.0.3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.357540:mod:5639959",
+                    "name": "inventoryhud.fabric.1.20.1-3.4.26",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 237573,
+                        "path": "inventoryhud.fabric.1.20.1-3.4.26.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5639/959/inventoryhud.fabric.1.20.1-3.4.26.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.252848:mod:7892950",
+                    "name": "NaturesCompass-1.20.1-2.6.0-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 238575,
+                        "path": "NaturesCompass-1.20.1-2.6.0-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7892/950/NaturesCompass-1.20.1-2.6.0-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.431135:mod:4991432",
+                    "name": "go-fish-1.6.3+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 323058,
+                        "path": "go-fish-1.6.3+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4991/432/go-fish-1.6.3%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1092048:mod:5915857",
+                    "name": "Configurable-2.2.3-fabric-yarn+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 643570,
+                        "path": "Configurable-2.2.3-fabric-yarn+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5915/857/Configurable-2.2.3-fabric-yarn%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.549404:mod:7514252",
+                    "name": "Kiwi-1.20.1-Fabric-11.10.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1548893,
+                        "path": "Kiwi-1.20.1-Fabric-11.10.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7514/252/Kiwi-1.20.1-Fabric-11.10.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.628972:mod:5281259",
+                    "name": "farmersknives-3.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 103203,
+                        "path": "farmersknives-3.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5281/259/farmersknives-3.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.708967:mod:4739523",
+                    "name": "fastquit-3.0.0+1.20+",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 79306,
+                        "path": "fastquit-3.0.0+1.20+.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4739/523/fastquit-3.0.0%2B1.20%2B.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.989574:mod:7068951",
+                    "name": "cicada-lib-0.14.3+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 381708,
+                        "path": "cicada-lib-0.14.3+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7068/951/cicada-lib-0.14.3%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1510773:mod:7909505",
+                    "name": "fairylights-1.1.4_fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 762660,
+                        "path": "fairylights-1.1.4_fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7909/505/fairylights-1.1.4_fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.423421:mod:4915384",
+                    "name": "jumpoverfences-fabric-1.20.1-1.3.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 29556,
+                        "path": "jumpoverfences-fabric-1.20.1-1.3.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4915/384/jumpoverfences-fabric-1.20.1-1.3.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.826308:mod:4756831",
+                    "name": "Cluttered-2.1.0-1.20.1[Fabric]",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 5363792,
+                        "path": "Cluttered-2.1.0-1.20.1[Fabric].jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4756/831/Cluttered-2.1.0-1.20.1%5BFabric%5D.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.662763:mod:4777256",
+                    "name": "convenientnametags-1.1.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 96289,
+                        "path": "convenientnametags-1.1.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4777/256/convenientnametags-1.1.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1193211:mod:6158675",
+                    "name": "welcomescreen-fabric-1.0.0-1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 15893,
+                        "path": "welcomescreen-fabric-1.0.0-1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6158/675/welcomescreen-fabric-1.0.0-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1332717:mod:6916540",
+                    "name": "TameableMossbloom-1.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 12327,
+                        "path": "TameableMossbloom-1.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6916/540/TameableMossbloom-1.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.421649:mod:5769972",
+                    "name": "YungsApi-1.20-Fabric-4.0.6",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1396331,
+                        "path": "YungsApi-1.20-Fabric-4.0.6.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5769/972/YungsApi-1.20-Fabric-4.0.6.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.445838:mod:5305053",
+                    "name": "animal_feeding_trough-1.1.0+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 237378,
+                        "path": "animal_feeding_trough-1.1.0+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5305/53/animal_feeding_trough-1.1.0%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.975460:mod:6245107",
+                    "name": "pandalib-fabric-mc1.20-0.5.2-SNAPSHOT",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 859440,
+                        "path": "pandalib-fabric-mc1.20-0.5.2-SNAPSHOT.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6245/107/pandalib-fabric-mc1.20-0.5.2-SNAPSHOT.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1035665:mod:8021907",
+                    "name": "constructionwand-2.1.2+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 309417,
+                        "path": "constructionwand-2.1.2+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8021/907/constructionwand-2.1.2%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.511319:mod:5075462",
+                    "name": "reeses_sodium_options-1.7.2+mc1.20.1-build.101",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 77304,
+                        "path": "reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5075/462/reeses_sodium_options-1.7.2%2Bmc1.20.1-build.101.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.348521:mod:5729104",
+                    "name": "cloth-config-11.1.136-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1172214,
+                        "path": "cloth-config-11.1.136-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5729/104/cloth-config-11.1.136-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.394468:mod:6260639",
+                    "name": "sodium-fabric-0.5.13+mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 971552,
+                        "path": "sodium-fabric-0.5.13+mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6260/639/sodium-fabric-0.5.13%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1264714:mod:6580471",
+                    "name": "respectmytrims-1.0.0+mc1.20",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 24473,
+                        "path": "respectmytrims-1.0.0+mc1.20.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6580/471/respectmytrims-1.0.0%2Bmc1.20.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.693961:mod:5324551",
+                    "name": "screenshot_viewer-1.3.1-fabric-mc1.20",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 270052,
+                        "path": "screenshot_viewer-1.3.1-fabric-mc1.20.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5324/551/screenshot_viewer-1.3.1-fabric-mc1.20.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.467280:pack:4584380",
+                    "name": "PotatoShaders_v1.0d.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 393109,
+                        "path": "shaderpacks/PotatoShaders_v1.0d.zip",
+                        "url": "https://mediafilez.forgecdn.net/files/4584/380/PotatoShaders_v1.0d.zip"
+                    }
+                },
+                {
+                    "id": "curseforge.626761:mod:4923828",
+                    "name": "Towns-and-Towers-1.12-Fabric+Forge",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2864275,
+                        "path": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4923/828/Towns-and-Towers-1.12-Fabric%2BForge.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.498794:mod:4638050",
+                    "name": "ironchests-5.0.2-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 485230,
+                        "path": "ironchests-5.0.2-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4638/50/ironchests-5.0.2-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.622010:mod:5276058",
+                    "name": "show-me-your-skin-1.9.0+1.20",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 262295,
+                        "path": "show-me-your-skin-1.9.0+1.20.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5276/58/show-me-your-skin-1.9.0%2B1.20.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.877553:mod:6563192",
+                    "name": "Eldritch_End-FABRIC-MC1.20.1-0.3.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 5293865,
+                        "path": "Eldritch_End-FABRIC-MC1.20.1-0.3.4.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6563/192/Eldritch_End-FABRIC-MC1.20.1-0.3.4.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1371145:mod:8044355",
+                    "name": "cozystudioscore-1.4-1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 19423702,
+                        "path": "cozystudioscore-1.4-1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8044/355/cozystudioscore-1.4-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.563977:mod:7253376",
+                    "name": "puzzle-fabric-2.2.0+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 138689,
+                        "path": "puzzle-fabric-2.2.0+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7253/376/puzzle-fabric-2.2.0%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.843344:mod:5892154",
+                    "name": "DustyDecoRefabricated-1.1-1.20.1+1.20.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 450672,
+                        "path": "DustyDecoRefabricated-1.1-1.20.1+1.20.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5892/154/DustyDecoRefabricated-1.1-1.20.1%2B1.20.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.374274:mod:4581910",
+                    "name": "yosbr-0.1.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 17373,
+                        "path": "yosbr-0.1.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4581/910/yosbr-0.1.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.659674:mod:7783826",
+                    "name": "sliceanddice-fabric-3.5.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 395717,
+                        "path": "sliceanddice-fabric-3.5.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7783/826/sliceanddice-fabric-3.5.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.531351:mod:5962874",
+                    "name": "continuity-3.0.0+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1016063,
+                        "path": "continuity-3.0.0+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5962/874/continuity-3.0.0%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.452046:mod:4610052",
+                    "name": "enhancedblockentities-0.9+1.20",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 490690,
+                        "path": "enhancedblockentities-0.9+1.20.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4610/52/enhancedblockentities-0.9%2B1.20.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.662675:mod:5891365",
+                    "name": "ends_delight-refabricated-1.20.1-2.5",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 272974,
+                        "path": "ends_delight-refabricated-1.20.1-2.5.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5891/365/ends_delight-refabricated-1.20.1-2.5.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1115285:mod:5803513",
+                    "name": "almanac-1.20.x-fabric-1.0.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 16082,
+                        "path": "almanac-1.20.x-fabric-1.0.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5803/513/almanac-1.20.x-fabric-1.0.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1010566:mod:5299563",
+                    "name": "flower-tweaks-1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 13471,
+                        "path": "flower-tweaks-1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5299/563/flower-tweaks-1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.491290:mod:6331319",
+                    "name": "smarterfarmers-1.20-2.1.2-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 218266,
+                        "path": "smarterfarmers-1.20-2.1.2-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6331/319/smarterfarmers-1.20-2.1.2-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.899386:mod:8017465",
+                    "name": "justenoughbreeding-fabric-1.20.1-3.0.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 261540,
+                        "path": "justenoughbreeding-fabric-1.20.1-3.0.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8017/465/justenoughbreeding-fabric-1.20.1-3.0.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.709773:mod:5876579",
+                    "name": "FrozenLib-1.9.3-mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1465505,
+                        "path": "FrozenLib-1.9.3-mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5876/579/FrozenLib-1.9.3-mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.421897:mod:8055420",
+                    "name": "particlerain-4.0.0-beta.10+1.20.1-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 608338,
+                        "path": "particlerain-4.0.0-beta.10+1.20.1-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8055/420/particlerain-4.0.0-beta.10%2B1.20.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1361021:mod:7262718",
+                    "name": "froglightsreimagined-0.3-1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 691015,
+                        "path": "froglightsreimagined-0.3-1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7262/718/froglightsreimagined-0.3-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.591388:mod:5351562",
+                    "name": "Incendium_1.20.x_v5.3.5",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 4638945,
+                        "path": "Incendium_1.20.x_v5.3.5.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5351/562/Incendium_1.20.x_v5.3.5.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1327508:mod:7672582",
+                    "name": "tooltipoverhaul-fabric-1.20.1-1.4.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 693342,
+                        "path": "tooltipoverhaul-fabric-1.20.1-1.4.3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7672/582/tooltipoverhaul-fabric-1.20.1-1.4.3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.656346:mod:4662635",
+                    "name": "lmft-1.0.2+1.20-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 179899,
+                        "path": "lmft-1.0.2+1.20-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4662/635/lmft-1.0.2%2B1.20-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.521480:mod:7857554",
+                    "name": "skinlayers3d-fabric-1.11.1-mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1973785,
+                        "path": "skinlayers3d-fabric-1.11.1-mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7857/554/skinlayers3d-fabric-1.11.1-mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.962878:mod:8082329",
+                    "name": "hexalia-1.3.2-1.20.1+fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1925402,
+                        "path": "hexalia-1.3.2-1.20.1+fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8082/329/hexalia-1.3.2-1.20.1%2Bfabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.841890:mod:5176880",
+                    "name": "athena-fabric-1.20.1-3.1.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 74370,
+                        "path": "athena-fabric-1.20.1-3.1.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5176/880/athena-fabric-1.20.1-3.1.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1446593:mod:7646746",
+                    "name": "serene_shrubbery-fabric-1.0.0+mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 418972,
+                        "path": "serene_shrubbery-fabric-1.0.0+mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7646/746/serene_shrubbery-fabric-1.0.0%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1059879:mod:7152625",
+                    "name": "createcontraptionterminals-fabric-1.20-1.2.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 88760,
+                        "path": "createcontraptionterminals-fabric-1.20-1.2.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7152/625/createcontraptionterminals-fabric-1.20-1.2.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.656398:mod:5504402",
+                    "name": "Celestial Configuration-fabric-1.20.1-1.1.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 137613,
+                        "path": "Celestial Configuration-fabric-1.20.1-1.1.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5504/402/Celestial%20Configuration-fabric-1.20.1-1.1.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.534748:pack:6745820",
+                    "name": "superDuperVanilla.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2851664,
+                        "path": "shaderpacks/superDuperVanilla.zip",
+                        "url": "https://mediafilez.forgecdn.net/files/6745/820/superDuperVanilla.zip"
+                    }
+                },
+                {
+                    "id": "curseforge.686836:mod:7197833",
+                    "name": "tectonic-3.0.17-fabric-1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 319868,
+                        "path": "tectonic-3.0.17-fabric-1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7197/833/tectonic-3.0.17-fabric-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.354339:mod:7613220",
+                    "name": "OpenLoader-Fabric-1.20.1-19.0.5",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 21443,
+                        "path": "OpenLoader-Fabric-1.20.1-19.0.5.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7613/220/OpenLoader-Fabric-1.20.1-19.0.5.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.833233:mod:5423271",
+                    "name": "rrls-4.0.6.1+mc1.20.1-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 160946,
+                        "path": "rrls-4.0.6.1+mc1.20.1-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5423/271/rrls-4.0.6.1%2Bmc1.20.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.596224:mod:4632961",
+                    "name": "Debugify-1.20.1+2.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 337545,
+                        "path": "Debugify-1.20.1+2.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4632/961/Debugify-1.20.1%2B2.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.851046:mod:8020270",
+                    "name": "neruina-3.3.1+1.20.1-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 855759,
+                        "path": "neruina-3.3.1+1.20.1-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8020/270/neruina-3.3.1%2B1.20.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.308976:mod:4605332",
+                    "name": "CraftingPad-fabric-1.20.1-1.0.12",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 13133,
+                        "path": "CraftingPad-fabric-1.20.1-1.0.12.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4605/332/CraftingPad-fabric-1.20.1-1.0.12.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.377109:mod:7613278",
+                    "name": "ToolStats-Fabric-1.20.1-16.0.10",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 16303,
+                        "path": "ToolStats-Fabric-1.20.1-16.0.10.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7613/278/ToolStats-Fabric-1.20.1-16.0.10.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.276951:mod:5503514",
+                    "name": "comforts-fabric-6.4.0+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 693624,
+                        "path": "comforts-fabric-6.4.0+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5503/514/comforts-fabric-6.4.0%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.826060:mod:7361352",
+                    "name": "clutter-1.20-0.6.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 5315683,
+                        "path": "clutter-1.20-0.6.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7361/352/clutter-1.20-0.6.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.964817:mod:6948520",
+                    "name": "sawmill-1.20-1.4.10-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 640144,
+                        "path": "sawmill-1.20-1.4.10-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6948/520/sawmill-1.20-1.4.10-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.665526:mod:4650327",
+                    "name": "Prism-1.20.1-fabric-1.0.5",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 57257,
+                        "path": "Prism-1.20.1-fabric-1.0.5.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4650/327/Prism-1.20.1-fabric-1.0.5.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.849364:mod:5310270",
+                    "name": "hearth_and_home-fabric-1.20.1-2.0.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1174045,
+                        "path": "hearth_and_home-fabric-1.20.1-2.0.3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5310/270/hearth_and_home-fabric-1.20.1-2.0.3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.455508:mod:6258195",
+                    "name": "iris-1.7.6+mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2726899,
+                        "path": "iris-1.7.6+mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6258/195/iris-1.7.6%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.377281:mod:7612431",
+                    "name": "DarkPaintings-Fabric-1.20.1-17.0.6",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 45465,
+                        "path": "DarkPaintings-Fabric-1.20.1-17.0.6.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7612/431/DarkPaintings-Fabric-1.20.1-17.0.6.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.353890:mod:6598272",
+                    "name": "notenoughcrashes-4.4.9+1.20.1-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 138548,
+                        "path": "notenoughcrashes-4.4.9+1.20.1-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6598/272/notenoughcrashes-4.4.9%2B1.20.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.257814:mod:7976431",
+                    "name": "CreativeCore_FABRIC_v2.12.36_mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1197162,
+                        "path": "CreativeCore_FABRIC_v2.12.36_mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7976/431/CreativeCore_FABRIC_v2.12.36_mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.911437:mod:6453963",
+                    "name": "sparsestructures-fabric-1.20.1-3.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 123939,
+                        "path": "sparsestructures-fabric-1.20.1-3.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6453/963/sparsestructures-fabric-1.20.1-3.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.889915:mod:6402485",
+                    "name": "ftb-xmod-compat-fabric-2.1.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 131086,
+                        "path": "ftb-xmod-compat-fabric-2.1.3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6402/485/ftb-xmod-compat-fabric-2.1.3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.817666:mod:5193464",
+                    "name": "YungsBetterNetherFortresses-1.20-Fabric-2.0.6",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 760974,
+                        "path": "YungsBetterNetherFortresses-1.20-Fabric-2.0.6.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5193/464/YungsBetterNetherFortresses-1.20-Fabric-2.0.6.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.858691:mod:6849933",
+                    "name": "letsdo-beachparty-fabric-2.0.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 7420462,
+                        "path": "letsdo-beachparty-fabric-2.0.3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6849/933/letsdo-beachparty-fabric-2.0.3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.864599:mod:5468180",
+                    "name": "letsdo-API-fabric-1.2.15-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1702813,
+                        "path": "letsdo-API-fabric-1.2.15-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5468/180/letsdo-API-fabric-1.2.15-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.891328:mod:5918169",
+                    "name": "DiagonalWindows-v8.1.5-1.20.1-Fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 167797,
+                        "path": "DiagonalWindows-v8.1.5-1.20.1-Fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5918/169/DiagonalWindows-v8.1.5-1.20.1-Fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.688223:mod:6201652",
+                    "name": "labels-1.20-2.0.0-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 261950,
+                        "path": "labels-1.20-2.0.0-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6201/652/labels-1.20-2.0.0-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.821483:mod:6467345",
+                    "name": "letsdo-meadow-fabric-1.3.25",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2658744,
+                        "path": "letsdo-meadow-fabric-1.3.25.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6467/345/letsdo-meadow-fabric-1.3.25.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1203668:mod:7256553",
+                    "name": "Data_Anchor-fabric-1.20.1-1.0.0.20",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 116968,
+                        "path": "Data_Anchor-fabric-1.20.1-1.0.0.20.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7256/553/Data_Anchor-fabric-1.20.1-1.0.0.20.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.416797:mod:5142502",
+                    "name": "konkrete_fabric_1.8.1_MC_1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 892067,
+                        "path": "konkrete_fabric_1.8.1_MC_1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5142/502/konkrete_fabric_1.8.1_MC_1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.317716:mod:5778732",
+                    "name": "elytraslot-fabric-6.4.4+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 85106,
+                        "path": "elytraslot-fabric-6.4.4+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5778/732/elytraslot-fabric-6.4.4%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1366151:mod:8085924",
+                    "name": "tokimistoolshed-fabric-1.3+mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 629767,
+                        "path": "tokimistoolshed-fabric-1.3+mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8085/924/tokimistoolshed-fabric-1.3%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1409618:mod:7357109",
+                    "name": "stutterfix-mc1.20.1-0.2.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 26413,
+                        "path": "stutterfix-mc1.20.1-0.2.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7357/109/stutterfix-mc1.20.1-0.2.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.495476:mod:6918566",
+                    "name": "PuzzlesLib-v8.1.33-1.20.1-Fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1084397,
+                        "path": "PuzzlesLib-v8.1.33-1.20.1-Fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6918/566/PuzzlesLib-v8.1.33-1.20.1-Fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.533097:mod:6181291",
+                    "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.16",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1426500,
+                        "path": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.16.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6181/291/c2me-fabric-mc1.20.1-0.2.0%2Balpha.11.16.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.597248:mod:5256598",
+                    "name": "duckling-fabric-1.20.4-4.0.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 519418,
+                        "path": "duckling-fabric-1.20.4-4.0.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5256/598/duckling-fabric-1.20.4-4.0.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.558905:mod:6041696",
+                    "name": "sodiumextras-fabric-1.0.7-1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 630468,
+                        "path": "sodiumextras-fabric-1.0.7-1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6041/696/sodiumextras-fabric-1.0.7-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.663567:mod:5700925",
+                    "name": "mythicupgrades-4.2.0+mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1380130,
+                        "path": "mythicupgrades-4.2.0+mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5700/925/mythicupgrades-4.2.0%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.431203:pack:7520157",
+                    "name": "MakeUp-UltraFast-9.4b.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 402605,
+                        "path": "shaderpacks/MakeUp-UltraFast-9.4b.zip",
+                        "url": "https://mediafilez.forgecdn.net/files/7520/157/MakeUp-UltraFast-9.4b.zip"
+                    }
+                },
+                {
+                    "id": "curseforge.391366:mod:7971673",
+                    "name": "repurposed_structures-7.1.23+1.20.1-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 8174011,
+                        "path": "repurposed_structures-7.1.23+1.20.1-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7971/673/repurposed_structures-7.1.23%2B1.20.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.438495:mod:6164052",
+                    "name": "ftb-library-fabric-2001.2.9",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 781160,
+                        "path": "ftb-library-fabric-2001.2.9.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6164/52/ftb-library-fabric-2001.2.9.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.841262:mod:5230028",
+                    "name": "oceansdelight-fdrf-fabric-1.0.2-1.20",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 97109,
+                        "path": "oceansdelight-fdrf-fabric-1.0.2-1.20.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5230/28/oceansdelight-fdrf-fabric-1.0.2-1.20.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.867232:mod:6675234",
+                    "name": "perfectplushies-fabric-1.20.1-1.13.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1271342,
+                        "path": "perfectplushies-fabric-1.20.1-1.13.3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6675/234/perfectplushies-fabric-1.20.1-1.13.3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1383770:mod:7370997",
+                    "name": "squish-0.3-1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 554822,
+                        "path": "squish-0.3-1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7370/997/squish-0.3-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.433447:mod:3831043",
+                    "name": "mixintrace-1.1.1+1.17",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 36039,
+                        "path": "mixintrace-1.1.1+1.17.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/3831/43/mixintrace-1.1.1%2B1.17.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.693313:mod:6616780",
+                    "name": "Corgilib-Fabric-1.20.1-4.0.3.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 741175,
+                        "path": "Corgilib-Fabric-1.20.1-4.0.3.4.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6616/780/Corgilib-Fabric-1.20.1-4.0.3.4.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1166503:mod:6115805",
+                    "name": "more-enchantment-info-0.2.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 90000,
+                        "path": "more-enchantment-info-0.2.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6115/805/more-enchantment-info-0.2.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.506898:mod:4584467",
+                    "name": "DetailArmorBar-2.6.3+1.20.1-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 57045,
+                        "path": "DetailArmorBar-2.6.3+1.20.1-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4584/467/DetailArmorBar-2.6.3%2B1.20.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.452834:mod:7508763",
+                    "name": "rightclickharvest-fabric-4.6.1+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 287561,
+                        "path": "rightclickharvest-fabric-4.6.1+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7508/763/rightclickharvest-fabric-4.6.1%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.448233:mod:8053756",
+                    "name": "entityculling-fabric-1.10.2-mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1589955,
+                        "path": "entityculling-fabric-1.10.2-mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8053/756/entityculling-fabric-1.10.2-mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1295518:mod:6701799",
+                    "name": "invisibleframes-1.1.0+1.20",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 39377,
+                        "path": "invisibleframes-1.1.0+1.20.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6701/799/invisibleframes-1.1.0%2B1.20.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.974774:mod:5108234",
+                    "name": "Icterine-fabric-1.20.0-1-1.3.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 39604,
+                        "path": "Icterine-fabric-1.20.0-1-1.3.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5108/234/Icterine-fabric-1.20.0-1-1.3.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.527023:mod:5212742",
+                    "name": "eating-animation-1.20+1.9.61",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1218710,
+                        "path": "eating-animation-1.20+1.9.61.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5212/742/eating-animation-1.20%2B1.9.61.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.643052:mod:3942300",
+                    "name": "MixinConflictHelper-1.2.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 171690,
+                        "path": "MixinConflictHelper-1.2.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/3942/300/MixinConflictHelper-1.2.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.438496:mod:6431736",
+                    "name": "ftb-quests-fabric-2001.4.13",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1223024,
+                        "path": "ftb-quests-fabric-2001.4.13.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6431/736/ftb-quests-fabric-2001.4.13.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.704465:mod:6965753",
+                    "name": "letsdo-vinery-fabric-1.4.41",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 3043160,
+                        "path": "letsdo-vinery-fabric-1.4.41.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6965/753/letsdo-vinery-fabric-1.4.41.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.411813:mod:6713333",
+                    "name": "stackrefill-1.20.1-4.9",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 35073,
+                        "path": "stackrefill-1.20.1-4.9.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6713/333/stackrefill-1.20.1-4.9.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.624165:mod:7286603",
+                    "name": "create-fabric-6.0.8.1+build.1744-mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 32189889,
+                        "path": "create-fabric-6.0.8.1+build.1744-mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7286/603/create-fabric-6.0.8.1%2Bbuild.1744-mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.594013:mod:4699172",
+                    "name": "UniversalBoneMeal-v8.0.1-1.20.1-Fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 80819,
+                        "path": "UniversalBoneMeal-v8.0.1-1.20.1-Fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4699/172/UniversalBoneMeal-v8.0.1-1.20.1-Fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.317780:mod:8042196",
+                    "name": "xaeroworldmap-fabric-1.20.1-1.40.16",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1410559,
+                        "path": "xaeroworldmap-fabric-1.20.1-1.40.16.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8042/196/xaeroworldmap-fabric-1.20.1-1.40.16.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.498797:mod:5242620",
+                    "name": "mavm-1.2.6-mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 792700,
+                        "path": "mavm-1.2.6-mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5242/620/mavm-1.2.6-mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.341284:mod:5173501",
+                    "name": "trinkets-3.7.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 238532,
+                        "path": "trinkets-3.7.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5173/501/trinkets-3.7.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.360438:mod:7268114",
+                    "name": "lithium-fabric-mc1.20.1-0.11.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 691483,
+                        "path": "lithium-fabric-mc1.20.1-0.11.4.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7268/114/lithium-fabric-mc1.20.1-0.11.4.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.442842:mod:5157021",
+                    "name": "BlockRunner-v8.0.4-1.20.1-Fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 69675,
+                        "path": "BlockRunner-v8.0.4-1.20.1-Fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5157/21/BlockRunner-v8.0.4-1.20.1-Fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.456239:mod:4658749",
+                    "name": "EasyMagic-v8.0.1-1.20.1-Fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 104693,
+                        "path": "EasyMagic-v8.0.1-1.20.1-Fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4658/749/EasyMagic-v8.0.1-1.20.1-Fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.348831:mod:7143840",
+                    "name": "doubledoors-1.20.1-7.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 54300,
+                        "path": "doubledoors-1.20.1-7.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7143/840/doubledoors-1.20.1-7.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.686911:mod:7537757",
+                    "name": "ImmediatelyFast-Fabric-1.5.4+1.20.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 354883,
+                        "path": "ImmediatelyFast-Fabric-1.5.4+1.20.4.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7537/757/ImmediatelyFast-Fabric-1.5.4%2B1.20.4.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.521427:mod:5821272",
+                    "name": "citresewn-1.2.2+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 395586,
+                        "path": "citresewn-1.2.2+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5821/272/citresewn-1.2.2%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.714059:mod:6223996",
+                    "name": "resourcefulconfig-fabric-1.20.1-2.1.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 135078,
+                        "path": "resourcefulconfig-fabric-1.20.1-2.1.3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6223/996/resourcefulconfig-fabric-1.20.1-2.1.3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.570431:mod:6497872",
+                    "name": "trade-cycling-fabric-1.20.1-1.0.18",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 430650,
+                        "path": "trade-cycling-fabric-1.20.1-1.0.18.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6497/872/trade-cycling-fabric-1.20.1-1.0.18.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.957811:mod:7024411",
+                    "name": "cratedelight-25.09.22-1.20-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 176367,
+                        "path": "cratedelight-25.09.22-1.20-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7024/411/cratedelight-25.09.22-1.20-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.250419:mod:7612609",
+                    "name": "EnchantmentDescriptions-Fabric-1.20.1-17.1.21",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 60972,
+                        "path": "EnchantmentDescriptions-Fabric-1.20.1-17.1.21.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7612/609/EnchantmentDescriptions-Fabric-1.20.1-17.1.21.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.482834:mod:4939709",
+                    "name": "farmers-delight-fabric-1.4.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2718948,
+                        "path": "farmers-delight-fabric-1.4.3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4939/709/farmers-delight-fabric-1.4.3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.847059:mod:7007608",
+                    "name": "alcocraftplus-1.20-2.1.0-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 277122,
+                        "path": "alcocraftplus-1.20-2.1.0-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7007/608/alcocraftplus-1.20-2.1.0-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.656665:mod:7269284",
+                    "name": "JadeAddons-1.20.1-Fabric-5.5.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 93694,
+                        "path": "JadeAddons-1.20.1-Fabric-5.5.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7269/284/JadeAddons-1.20.1-Fabric-5.5.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.537533:mod:7979747",
+                    "name": "Ksyxis-1.4.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 26968,
+                        "path": "Ksyxis-1.4.3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7979/747/Ksyxis-1.4.3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.959388:mod:5015554",
+                    "name": "GeckoLibIrisCompat-Fabric-1.0.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 6202,
+                        "path": "GeckoLibIrisCompat-Fabric-1.0.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5015/554/GeckoLibIrisCompat-Fabric-1.0.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.535489:mod:7032237",
+                    "name": "sound-physics-remastered-fabric-1.20.1-1.5.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 205569,
+                        "path": "sound-physics-remastered-fabric-1.20.1-1.5.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7032/237/sound-physics-remastered-fabric-1.20.1-1.5.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.373591:mod:4769064",
+                    "name": "YungsBetterMineshafts-1.20-Fabric-4.0.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 621495,
+                        "path": "YungsBetterMineshafts-1.20-Fabric-4.0.4.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4769/64/YungsBetterMineshafts-1.20-Fabric-4.0.4.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.566140:mod:7469698",
+                    "name": "ExtremeSoundMuffler-3.51-fabric-1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 473671,
+                        "path": "ExtremeSoundMuffler-3.51-fabric-1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7469/698/ExtremeSoundMuffler-3.51-fabric-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.629153:mod:7029498",
+                    "name": "mcw-mcwpaths-1.1.1-mc1.20.1fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 769476,
+                        "path": "mcw-mcwpaths-1.1.1-mc1.20.1fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7029/498/mcw-mcwpaths-1.1.1-mc1.20.1fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1286189:mod:6692757",
+                    "name": "phomesteadplushies-fabric-1.20.1-1.1.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1263173,
+                        "path": "phomesteadplushies-fabric-1.20.1-1.1.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6692/757/phomesteadplushies-fabric-1.20.1-1.1.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.943925:mod:6466152",
+                    "name": "ftb-filter-system-fabric-20.0.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 194184,
+                        "path": "ftb-filter-system-fabric-20.0.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6466/152/ftb-filter-system-fabric-20.0.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.345981:mod:6185928",
+                    "name": "grassseeds-1.20.1-3.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 28350,
+                        "path": "grassseeds-1.20.1-3.4.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6185/928/grassseeds-1.20.1-3.4.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.415681:mod:7148381",
+                    "name": "connectiblechains-2.5.5+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 498760,
+                        "path": "connectiblechains-2.5.5+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7148/381/connectiblechains-2.5.5%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.274259:mod:4882498",
+                    "name": "carryon-fabric-1.20.1-2.1.2.7",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 443033,
+                        "path": "carryon-fabric-1.20.1-2.1.2.7.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4882/498/carryon-fabric-1.20.1-2.1.2.7.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.509339:pack:7148803",
+                    "name": "Fancy_Beds-v4.1.zip",
+                    "type": "File",
+                    "artifact": {
+                        "size": 202209,
+                        "path": "resourcepacks/Fancy_Beds-v4.1.zip",
+                        "url": "https://mediafilez.forgecdn.net/files/7148/803/Fancy_Beds-v4.1.zip"
+                    }
+                },
+                {
+                    "id": "curseforge.678856:mod:7560835",
+                    "name": "fetzisasiandeco-fabric-1.7.3-1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 17585314,
+                        "path": "fetzisasiandeco-fabric-1.7.3-1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7560/835/fetzisasiandeco-fabric-1.7.3-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.627242:mod:6610716",
+                    "name": "no-resource-pack-warnings-1.3.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 5002,
+                        "path": "no-resource-pack-warnings-1.3.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6610/716/no-resource-pack-warnings-1.3.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.353426:mod:4954413",
+                    "name": "Mo-Glass-1.7-MC1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 536659,
+                        "path": "Mo-Glass-1.7-MC1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4954/413/Mo-Glass-1.7-MC1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.908418:mod:5041738",
+                    "name": "darksmelting-fabric-1.20.1-1.0.6",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 4773,
+                        "path": "darksmelting-fabric-1.20.1-1.0.6.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5041/738/darksmelting-fabric-1.20.1-1.0.6.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.521126:mod:4760021",
+                    "name": "visuality-0.7.1+1.20",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 67302,
+                        "path": "visuality-0.7.1+1.20.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4760/21/visuality-0.7.1%2B1.20.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.488090:mod:8028804",
+                    "name": "midnightlib-fabric-1.9.3+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 59401,
+                        "path": "midnightlib-fabric-1.9.3+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8028/804/midnightlib-fabric-1.9.3%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.438116:mod:7844984",
+                    "name": "mcw-paintings-1.1.0-mc1.20.1fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 155072,
+                        "path": "mcw-paintings-1.1.0-mc1.20.1fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7844/984/mcw-paintings-1.1.0-mc1.20.1fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.238222:mod:7920913",
+                    "name": "jei-1.20.1-fabric-15.20.0.130",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1422556,
+                        "path": "jei-1.20.1-fabric-15.20.0.130.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7920/913/jei-1.20.1-fabric-15.20.0.130.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.880630:mod:6231029",
+                    "name": "fallingtrees-fabric-mc1.20-0.13.2-SNAPSHOT",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 4023370,
+                        "path": "fallingtrees-fabric-mc1.20-0.13.2-SNAPSHOT.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6231/29/fallingtrees-fabric-mc1.20-0.13.2-SNAPSHOT.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.459857:mod:4810977",
+                    "name": "ferritecore-6.0.1-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 125197,
+                        "path": "ferritecore-6.0.1-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4810/977/ferritecore-6.0.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.951221:mod:6458888",
+                    "name": "letsdo-herbalbrews-fabric-1.0.12",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 729071,
+                        "path": "letsdo-herbalbrews-fabric-1.0.12.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6458/888/letsdo-herbalbrews-fabric-1.0.12.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.738663:mod:5759900",
+                    "name": "Not Enough Recipe Book-FABRIC-0.4.1+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 21366,
+                        "path": "Not Enough Recipe Book-FABRIC-0.4.1+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5759/900/Not%20Enough%20Recipe%20Book-FABRIC-0.4.1%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.547881:mod:5401036",
+                    "name": "advancednetherite-fabric-2.1.3-1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 502658,
+                        "path": "advancednetherite-fabric-2.1.3-1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5401/36/advancednetherite-fabric-2.1.3-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1283531:mod:7580362",
+                    "name": "immersive_furniture-fabric-0.1.3+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 903534,
+                        "path": "immersive_furniture-fabric-0.1.3+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7580/362/immersive_furniture-fabric-0.1.3%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.790339:mod:4580836",
+                    "name": "blahaj-fabric-1.20.0-0.3.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 36285,
+                        "path": "blahaj-fabric-1.20.0-0.3.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4580/836/blahaj-fabric-1.20.0-0.3.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.390717:mod:8020899",
+                    "name": "starterkit-1.20.1-8.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 186044,
+                        "path": "starterkit-1.20.1-8.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8020/899/starterkit-1.20.1-8.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.840896:mod:5511110",
+                    "name": "StackDeobfuscatorFabric-1.4.3+08e71cc",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 321213,
+                        "path": "StackDeobfuscatorFabric-1.4.3+08e71cc.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5511/110/StackDeobfuscatorFabric-1.4.3%2B08e71cc.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.580136:mod:5698979",
+                    "name": "questsadditions-fabric-1.20.1-1.4.6",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 129275,
+                        "path": "questsadditions-fabric-1.20.1-1.4.6.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5698/979/questsadditions-fabric-1.20.1-1.4.6.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.993166:mod:7199661",
+                    "name": "FarmersDelight-1.20.1-2.4.1+refabricated",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 8056758,
+                        "path": "FarmersDelight-1.20.1-2.4.1+refabricated.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7199/661/FarmersDelight-1.20.1-2.4.1%2Brefabricated.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.433175:mod:5320021",
+                    "name": "Chunky-1.3.146",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 344004,
+                        "path": "Chunky-1.3.146.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5320/21/Chunky-1.3.146.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.973463:mod:6680595",
+                    "name": "deltaboxlib-fabric-2.2.0+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 852126,
+                        "path": "deltaboxlib-fabric-2.2.0+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6680/595/deltaboxlib-fabric-2.2.0%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.433760:mod:7650353",
+                    "name": "notenoughanimations-fabric-1.11.3-mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1921654,
+                        "path": "notenoughanimations-fabric-1.11.3-mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7650/353/notenoughanimations-fabric-1.11.3-mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.790530:mod:6122070",
+                    "name": "spelunkery-1.20.1-0.3.16-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2726891,
+                        "path": "spelunkery-1.20.1-0.3.16-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6122/70/spelunkery-1.20.1-0.3.16-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.736986:mod:7335194",
+                    "name": "chefs-delight-1.0.4-fabric-1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 118215,
+                        "path": "chefs-delight-1.0.4-fabric-1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7335/194/chefs-delight-1.0.4-fabric-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.997634:mod:8075940",
+                    "name": "Platform-fabric-1.20.1-1.3.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 939640,
+                        "path": "Platform-fabric-1.20.1-1.3.3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8075/940/Platform-fabric-1.20.1-1.3.3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.367706:mod:7256727",
+                    "name": "fancymenu_fabric_3.8.1_MC_1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 4472279,
+                        "path": "fancymenu_fabric_3.8.1_MC_1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7256/727/fancymenu_fabric_3.8.1_MC_1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.551364:mod:6354623",
+                    "name": "friendsandfoes-fabric-mc1.20.1-3.0.9",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 3615166,
+                        "path": "friendsandfoes-fabric-mc1.20.1-3.0.9.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6354/623/friendsandfoes-fabric-mc1.20.1-3.0.9.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.532610:mod:4749199",
+                    "name": "owo-lib-0.11.2+1.20",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 905421,
+                        "path": "owo-lib-0.11.2+1.20.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4749/199/owo-lib-0.11.2%2B1.20.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.975120:mod:5855462",
+                    "name": "cwb-fabric-3.0.0+mc1.20",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 79729,
+                        "path": "cwb-fabric-3.0.0+mc1.20.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5855/462/cwb-fabric-3.0.0%2Bmc1.20.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1051342:mod:7519088",
+                    "name": "Camerapture-1.10.12+mc1.20.1-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1974800,
+                        "path": "Camerapture-1.10.12+mc1.20.1-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7519/88/Camerapture-1.10.12%2Bmc1.20.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.623560:mod:4582965",
+                    "name": "Log-Begone-Fabric-1.20.1-1.0.8",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 126944,
+                        "path": "Log-Begone-Fabric-1.20.1-1.0.8.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4582/965/Log-Begone-Fabric-1.20.1-1.0.8.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.688480:mod:4032019",
+                    "name": "extra_thicc_packets-1.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 7188,
+                        "path": "extra_thicc_packets-1.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4032/19/extra_thicc_packets-1.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.248787:mod:7517366",
+                    "name": "appleskin-fabric-mc1.20.1-2.5.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1097240,
+                        "path": "appleskin-fabric-mc1.20.1-2.5.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7517/366/appleskin-fabric-mc1.20.1-2.5.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1038106:mod:6847828",
+                    "name": "letsdo-brewery-fabric-2.0.6",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2030105,
+                        "path": "letsdo-brewery-fabric-2.0.6.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6847/828/letsdo-brewery-fabric-2.0.6.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.935694:mod:4861638",
+                    "name": "spawn-1.0.3-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 7070089,
+                        "path": "spawn-1.0.3-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4861/638/spawn-1.0.3-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.901350:mod:5193816",
+                    "name": "YungsBetterEndIsland-1.20-Fabric-2.0.6",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 517369,
+                        "path": "YungsBetterEndIsland-1.20-Fabric-2.0.6.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5193/816/YungsBetterEndIsland-1.20-Fabric-2.0.6.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1071657:mod:6854818",
+                    "name": "letsdo-wildernature-fabric-1.0.6",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 3081155,
+                        "path": "letsdo-wildernature-fabric-1.0.6.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6854/818/letsdo-wildernature-fabric-1.0.6.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1087831:mod:6125414",
+                    "name": "structure_layout_optimizer-fabric-1.0.10",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 61013,
+                        "path": "structure_layout_optimizer-fabric-1.0.10.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6125/414/structure_layout_optimizer-fabric-1.0.10.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.254284:mod:8043002",
+                    "name": "AmbientSounds_FABRIC_v6.3.8_mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 53432488,
+                        "path": "AmbientSounds_FABRIC_v6.3.8_mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8043/2/AmbientSounds_FABRIC_v6.3.8_mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.682213:mod:8030639",
+                    "name": "mcpitanlib-3.6.8-1.20.1-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2700309,
+                        "path": "mcpitanlib-3.6.8-1.20.1-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8030/639/mcpitanlib-3.6.8-1.20.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.573127:mod:6294278",
+                    "name": "securecrops-2.0.0+1.20.x",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 141159,
+                        "path": "securecrops-2.0.0+1.20.x.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6294/278/securecrops-2.0.0%2B1.20.x.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.682566:mod:5242481",
+                    "name": "ArmorStatues-v8.0.6-1.20.1-Fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 574046,
+                        "path": "ArmorStatues-v8.0.6-1.20.1-Fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5242/481/ArmorStatues-v8.0.6-1.20.1-Fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.454372:mod:6076732",
+                    "name": "supermartijn642corelib-1.1.18a-fabric-mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 562776,
+                        "path": "supermartijn642corelib-1.1.18a-fabric-mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6076/732/supermartijn642corelib-1.1.18a-fabric-mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1146393:mod:6929973",
+                    "name": "sodiumoptionsmodcompat-fabric-1.0.0-1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 605673,
+                        "path": "sodiumoptionsmodcompat-fabric-1.0.0-1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6929/973/sodiumoptionsmodcompat-fabric-1.0.0-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.590990:mod:5065826",
+                    "name": "TravelersTitles-1.20-Fabric-4.0.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 345764,
+                        "path": "TravelersTitles-1.20-Fabric-4.0.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5065/826/TravelersTitles-1.20-Fabric-4.0.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.867099:mod:7949711",
+                    "name": "CraterLib-Fabric-1.20-3.1.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1357593,
+                        "path": "CraterLib-Fabric-1.20-3.1.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7949/711/CraterLib-Fabric-1.20-3.1.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.896219:mod:4693387",
+                    "name": "JustOutdoorStuffs-1.20.1-fabric-v1.0.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 512078,
+                        "path": "JustOutdoorStuffs-1.20.1-fabric-v1.0.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4693/387/JustOutdoorStuffs-1.20.1-fabric-v1.0.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1082132:mod:7117528",
+                    "name": "naturesdelight-1.12-1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 257950,
+                        "path": "naturesdelight-1.12-1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7117/528/naturesdelight-1.12-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.379680:mod:5956095",
+                    "name": "grind-enchantments-3.1.4+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 150818,
+                        "path": "grind-enchantments-3.1.4+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5956/95/grind-enchantments-3.1.4%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.349071:mod:6185645",
+                    "name": "inventorytotem-1.20.1-3.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 18442,
+                        "path": "inventorytotem-1.20.1-3.4.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6185/645/inventorytotem-1.20.1-3.4.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.838411:mod:7440332",
+                    "name": "suppsquared-1.20-1.1.29",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 761615,
+                        "path": "suppsquared-1.20-1.1.29.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7440/332/suppsquared-1.20-1.1.29.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.659011:mod:7796915",
+                    "name": "deeperdarker-fabric-1.20-1.3.3-plus-b",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 17962329,
+                        "path": "deeperdarker-fabric-1.20-1.3.3-plus-b.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7796/915/deeperdarker-fabric-1.20-1.3.3-plus-b.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.433518:mod:3821870",
+                    "name": "lazydfu-0.1.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 14531,
+                        "path": "lazydfu-0.1.3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/3821/870/lazydfu-0.1.3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.900093:mod:7004134",
+                    "name": "niftycarts-20.1.5",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 575758,
+                        "path": "niftycarts-20.1.5.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7004/134/niftycarts-20.1.5.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1103431:mod:6100811",
+                    "name": "sodiumoptionsapi-fabric-1.0.10-1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 657853,
+                        "path": "sodiumoptionsapi-fabric-1.0.10-1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6100/811/sodiumoptionsapi-fabric-1.0.10-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.930232:mod:7304403",
+                    "name": "mcw-holidays-1.1.2-mc1.20.1fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1006067,
+                        "path": "mcw-holidays-1.1.2-mc1.20.1fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7304/403/mcw-holidays-1.1.2-mc1.20.1fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.570073:mod:5659872",
+                    "name": "resourcefullib-fabric-1.20.1-2.1.29",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 431646,
+                        "path": "resourcefullib-fabric-1.20.1-2.1.29.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5659/872/resourcefullib-fabric-1.20.1-2.1.29.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1076285:mod:7560419",
+                    "name": "enchanter_fix-1.8+mc1.20-1.21.11",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 28514,
+                        "path": "enchanter_fix-1.8+mc1.20-1.21.11.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7560/419/enchanter_fix-1.8%2Bmc1.20-1.21.11.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.238086:mod:8020594",
+                    "name": "kubejs-fabric-2001.6.5-build.26",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1608326,
+                        "path": "kubejs-fabric-2001.6.5-build.26.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/8020/594/kubejs-fabric-2001.6.5-build.26.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.491794:mod:7892929",
+                    "name": "ExplorersCompass-1.20.1-2.6.0-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 179781,
+                        "path": "ExplorersCompass-1.20.1-2.6.0-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7892/929/ExplorersCompass-1.20.1-2.6.0-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.317514:mod:7451285",
+                    "name": "mouse-wheelie-1.15.1+mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1086131,
+                        "path": "mouse-wheelie-1.15.1+mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7451/285/mouse-wheelie-1.15.1%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.912121:mod:5559269",
+                    "name": "fasterrandom-5.1.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 20697,
+                        "path": "fasterrandom-5.1.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5559/269/fasterrandom-5.1.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.699872:mod:4863305",
+                    "name": "accelerated-decay-fabric-3.0.1+mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 9969,
+                        "path": "accelerated-decay-fabric-3.0.1+mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4863/305/accelerated-decay-fabric-3.0.1%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.809311:mod:7554172",
+                    "name": "beautify-2.0.0+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 836227,
+                        "path": "beautify-2.0.0+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7554/172/beautify-2.0.0%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.945479:mod:6315235",
+                    "name": "watut-fabric-1.20.1-1.2.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 789018,
+                        "path": "watut-fabric-1.20.1-1.2.3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6315/235/watut-fabric-1.20.1-1.2.3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.308769:mod:7976268",
+                    "name": "fabric-language-kotlin-1.13.11+kotlin.2.3.21",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 7813444,
+                        "path": "fabric-language-kotlin-1.13.11+kotlin.2.3.21.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7976/268/fabric-language-kotlin-1.13.11%2Bkotlin.2.3.21.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.431611:mod:5481490",
+                    "name": "veinmining-fabric-1.5.0+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 460079,
+                        "path": "veinmining-fabric-1.5.0+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5481/490/veinmining-fabric-1.5.0%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.457570:mod:5180902",
+                    "name": "configured-fabric-1.20.1-2.2.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 591886,
+                        "path": "configured-fabric-1.20.1-2.2.3.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5180/902/configured-fabric-1.20.1-2.2.3.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.817423:mod:7084469",
+                    "name": "azurelib-fabric-1.20.1-3.0.27",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1367955,
+                        "path": "azurelib-fabric-1.20.1-3.0.27.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7084/469/azurelib-fabric-1.20.1-3.0.27.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1151978:mod:6862653",
+                    "name": "polymorphic-tom-1.0.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 17730,
+                        "path": "polymorphic-tom-1.0.4.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6862/653/polymorphic-tom-1.0.4.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.328163:mod:5378501",
+                    "name": "sit-1.20.1-27",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 64238,
+                        "path": "sit-1.20.1-27.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5378/501/sit-1.20.1-27.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.60089:mod:5230279",
+                    "name": "MouseTweaks-fabric-mc1.20-2.26",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 77943,
+                        "path": "MouseTweaks-fabric-mc1.20-2.26.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5230/279/MouseTweaks-fabric-mc1.20-2.26.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.663477:mod:6311225",
+                    "name": "letmedespawn-1.20.x-fabric-1.5.0",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 14607,
+                        "path": "letmedespawn-1.20.x-fabric-1.5.0.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6311/225/letmedespawn-1.20.x-fabric-1.5.0.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.393236:mod:7731016",
+                    "name": "Patchouli-1.20.1-85-FABRIC",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 857123,
+                        "path": "Patchouli-1.20.1-85-FABRIC.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7731/16/Patchouli-1.20.1-85-FABRIC.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.547434:mod:7260491",
+                    "name": "ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 396628,
+                        "path": "ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7260/491/ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.447673:mod:6298804",
+                    "name": "sodium-extra-0.5.9+mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 370701,
+                        "path": "sodium-extra-0.5.9+mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6298/804/sodium-extra-0.5.9%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.628744:mod:5820957",
+                    "name": "YouShallNotSpawn-fabric-1.20.x-2.0.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 218617,
+                        "path": "YouShallNotSpawn-fabric-1.20.x-2.0.2.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5820/957/YouShallNotSpawn-fabric-1.20.x-2.0.2.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.396826:mod:6418134",
+                    "name": "toms_storage_fabric-1.20-1.7.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1537265,
+                        "path": "toms_storage_fabric-1.20-1.7.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6418/134/toms_storage_fabric-1.20-1.7.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.809542:mod:4996993",
+                    "name": "VillagersPlus_3.1_(FABRIC)_for_1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 356336,
+                        "path": "VillagersPlus_3.1_(FABRIC)_for_1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4996/993/VillagersPlus_3.1_%28FABRIC%29_for_1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1044992:mod:6962787",
+                    "name": "naturespirit-2.2.5-1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 20517897,
+                        "path": "naturespirit-2.2.5-1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6962/787/naturespirit-2.2.5-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.936015:mod:6742616",
+                    "name": "lithostitched-fabric-1.20.1-1.4.11",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 487655,
+                        "path": "lithostitched-fabric-1.20.1-1.4.11.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6742/616/lithostitched-fabric-1.20.1-1.4.11.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1026508:mod:7427569",
+                    "name": "via_romana-2.2.2+1.20.1-fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1243811,
+                        "path": "via_romana-2.2.2+1.20.1-fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7427/569/via_romana-2.2.2%2B1.20.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.456956:mod:5813139",
+                    "name": "chipped-fabric-1.20.1-3.0.7",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 15057458,
+                        "path": "chipped-fabric-1.20.1-3.0.7.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5813/139/chipped-fabric-1.20.1-3.0.7.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.630104:mod:7552138",
+                    "name": "moreculling-1.20.1-0.24.5",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 274506,
+                        "path": "moreculling-1.20.1-0.24.5.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7552/138/moreculling-1.20.1-0.24.5.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.456151:mod:4921204",
+                    "name": "things-0.3.3+1.20",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 930355,
+                        "path": "things-0.3.3+1.20.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4921/204/things-0.3.3%2B1.20.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.459496:mod:6237037",
+                    "name": "indium-1.0.36+mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 105382,
+                        "path": "indium-1.0.36+mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6237/37/indium-1.0.36%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.681606:mod:6358768",
+                    "name": "justhammers-fabric-20.1.5+mc1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 90255,
+                        "path": "justhammers-fabric-20.1.5+mc1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6358/768/justhammers-fabric-20.1.5%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.407206:mod:7875200",
+                    "name": "chat_heads-0.15.1-fabric-1.20",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 84192,
+                        "path": "chat_heads-0.15.1-fabric-1.20.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7875/200/chat_heads-0.15.1-fabric-1.20.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.403815:mod:4613752",
+                    "name": "advancementinfo-1.20-fabric0.83.0-1.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 43895,
+                        "path": "advancementinfo-1.20-fabric0.83.0-1.4.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/4613/752/advancementinfo-1.20-fabric0.83.0-1.4.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.938917:mod:7164886",
+                    "name": "accessories-fabric-1.0.0-beta.48+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 769376,
+                        "path": "accessories-fabric-1.0.0-beta.48+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7164/886/accessories-fabric-1.0.0-beta.48%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.586157:mod:5772682",
+                    "name": "Necronomicon-Fabric-1.6.0+1.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 37533,
+                        "path": "Necronomicon-Fabric-1.6.0+1.20.1.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5772/682/Necronomicon-Fabric-1.6.0%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.1030285:mod:5986039",
+                    "name": "fastboot-1.20.x-1.2fabric",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 30721,
+                        "path": "fastboot-1.20.x-1.2fabric.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/5986/39/fastboot-1.20.x-1.2fabric.jar"
+                    }
+                },
+                {
+                    "id": "curseforge.992333:mod:7041984",
+                    "name": "letsdocompat-fabric-2.2.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 27547,
+                        "path": "letsdocompat-fabric-2.2.4.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/7041/984/letsdocompat-fabric-2.2.4.jar"
                     }
                 }
             ]
