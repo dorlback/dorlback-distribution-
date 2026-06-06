@@ -1528,6 +1528,16 @@
             },
             "modules": [
                 {
+                    "id": "curseforge.terrablender-fabric:mod:6290449",
+                    "name": "TerraBlender-fabric-1.20.1-3.0.1.10",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 322357,
+                        "path": "TerraBlender-fabric-1.20.1-3.0.1.10.jar",
+                        "url": "https://mediafilez.forgecdn.net/files/6290/449/TerraBlender-fabric-1.20.1-3.0.1.10.jar"
+                    }
+                },
+                {
                     "id": "net.fabricmc:fabric-loader:0.18.4",
                     "name": "Fabric Loader 0.18.4",
                     "type": "Fabric",
