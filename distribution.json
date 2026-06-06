@@ -1538,6 +1538,16 @@
                     }
                 },
                 {
+                    "id": "modrinth.modrinth-logo-mod:mod:ahXgOk32",
+                    "name": "Modrinth Logo Mod 1.0.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 227379,
+                        "path": "Modrinth Logo Mod 1.0.1.jar",
+                        "url": "https://cdn.modrinth.com/data/OW6NgXk1/versions/ahXgOk32/Modrinth%20Logo%20Mod%201.0.1.jar"
+                    }
+                },
+                {
                     "id": "net.fabricmc:fabric-loader:0.18.4",
                     "name": "Fabric Loader 0.18.4",
                     "type": "Fabric",
