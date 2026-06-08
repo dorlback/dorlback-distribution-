@@ -5100,6 +5100,42 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "vanilla_1_19_4",
+            "name": "Vanilla 1.19.4",
+            "description": "순수 바닐라 마인크래프트 1.19.4 (모드 없음)",
+            "icon": "",
+            "version": "1.0.0",
+            "address": "localhost:25565",
+            "minecraftVersion": "1.19.4",
+            "mainServer": false,
+            "autoconnect": false,
+            "javaOptions": {
+                "supported": ">=17",
+                "suggestedMajor": 17,
+                "ram": {
+                    "recommended": 4096,
+                    "minimum": 2048
+                }
+            },
+            "overrides": {
+                "version": "1.0.0",
+                "size": 0,
+                "MD5": "",
+                "parts": [],
+                "extractTo": "instance"
+            },
+            "serverHosting": {
+                "loader": {
+                    "url": "https://piston-data.mojang.com/v1/objects/8f3112a1049751cc472ec13e397eade5336ca7ae/server.jar",
+                    "jarName": "server.jar",
+                    "version": "1.19.4"
+                },
+                "bundledMods": [],
+                "mods": []
+            },
+            "modules": []
         }
     ]
 }
