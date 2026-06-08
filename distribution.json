@@ -5172,7 +5172,12 @@
                     "version": "1.20.1-forge-47.4.0"
                 },
                 "bundledMods": [],
-                "mods": []
+                "mods": [],
+                "serverPack": {
+                    "url": "https://www.curseforge.com/api/v1/mods/1093382/files/8171106/download",
+                    "size": 469474459,
+                    "version": "4.0.9"
+                }
             },
             "modules": [
                 {
