@@ -5136,6 +5136,3006 @@
                 "mods": []
             },
             "modules": []
+        },
+        {
+            "id": "society_sunlit_valley",
+            "name": "Society: Sunlit Valley",
+            "description": "스타듀밸리 스타일 농장 모드팩 (Forge 1.20.1)",
+            "icon": "",
+            "version": "4.0.9",
+            "address": "localhost:25565",
+            "minecraftVersion": "1.20.1",
+            "mainServer": false,
+            "autoconnect": false,
+            "javaOptions": {
+                "supported": ">=17",
+                "suggestedMajor": 17,
+                "ram": {
+                    "recommended": 6144,
+                    "minimum": 4096
+                }
+            },
+            "overrides": {
+                "version": "4.0.9",
+                "size": 63837430,
+                "MD5": "cc7938aebdb1a796f11cb6d0d0c303ad",
+                "parts": [
+                    "https://raw.githubusercontent.com/dorlback/dorlback-distribution-/main/overrides/society_payload.zip.part00",
+                    "https://raw.githubusercontent.com/dorlback/dorlback-distribution-/main/overrides/society_payload.zip.part01"
+                ],
+                "extractTo": "instance"
+            },
+            "serverHosting": {
+                "loader": {
+                    "url": "",
+                    "jarName": "forge-server.jar",
+                    "version": "1.20.1-forge-47.4.0"
+                },
+                "bundledMods": [],
+                "mods": []
+            },
+            "modules": [
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:AdvancedLootInfo-forge-1.20.1-1.7.2.jar",
+                    "name": "AdvancedLootInfo-forge-1.20.1-1.7.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 720883,
+                        "path": "AdvancedLootInfo-forge-1.20.1-1.7.2.jar",
+                        "url": "https://cdn.modrinth.com/data/PEPVViac/versions/M8ZUUhgg/AdvancedLootInfo-forge-1.20.1-1.7.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:AdvancementPlaques-1.20.1-forge-1.6.7.jar",
+                    "name": "AdvancementPlaques-1.20.1-forge-1.6.7",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 208851,
+                        "path": "AdvancementPlaques-1.20.1-forge-1.6.7.jar",
+                        "url": "https://cdn.modrinth.com/data/9NM0dXub/versions/kgUIXD9e/AdvancementPlaques-1.20.1-forge-1.6.7.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar",
+                    "name": "AmbientSounds_FORGE_v6.1.11_mc1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 51722248,
+                        "path": "AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/fM515JnW/versions/lDrRWaFm/AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Aquaculture-1.20.1-2.5.7.jar",
+                    "name": "Aquaculture-1.20.1-2.5.7",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 601839,
+                        "path": "Aquaculture-1.20.1-2.5.7.jar",
+                        "url": "https://cdn.modrinth.com/data/Vl1uNAuy/versions/wNiFoROs/Aquaculture-1.20.1-2.5.7.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:ArmorStatues-v8.0.6-1.20.1-Forge.jar",
+                    "name": "ArmorStatues-v8.0.6-1.20.1-Forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 528017,
+                        "path": "ArmorStatues-v8.0.6-1.20.1-Forge.jar",
+                        "url": "https://cdn.modrinth.com/data/bbGCtEvb/versions/Oa75lUzE/ArmorStatues-v8.0.6-1.20.1-Forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:AttributeFix-Forge-1.20.1-21.0.4.jar",
+                    "name": "AttributeFix-Forge-1.20.1-21.0.4",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 19471,
+                        "path": "AttributeFix-Forge-1.20.1-21.0.4.jar",
+                        "url": "https://cdn.modrinth.com/data/lOOpEntO/versions/Y42wjyly/AttributeFix-Forge-1.20.1-21.0.4.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:BetterAdvancements-Forge-1.20.1-0.4.2.10.jar",
+                    "name": "BetterAdvancements-Forge-1.20.1-0.4.2.10",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 98123,
+                        "path": "BetterAdvancements-Forge-1.20.1-0.4.2.10.jar",
+                        "url": "https://cdn.modrinth.com/data/Q2OqKxDG/versions/E1pOIPhV/BetterAdvancements-Forge-1.20.1-0.4.2.10.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:BetterCompatibilityChecker-forge-4.0.8+mc1.20.1.jar",
+                    "name": "BetterCompatibilityChecker-forge-4.0.8+mc1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 26540,
+                        "path": "BetterCompatibilityChecker-forge-4.0.8+mc1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/KJhXPbHQ/versions/YLJKBPTh/BetterCompatibilityChecker-forge-4.0.8%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Bookshelf-Forge-1.20.1-20.2.13.jar",
+                    "name": "Bookshelf-Forge-1.20.1-20.2.13",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 343962,
+                        "path": "Bookshelf-Forge-1.20.1-20.2.13.jar",
+                        "url": "https://cdn.modrinth.com/data/uy4Cnpcm/versions/tNwsir0K/Bookshelf-Forge-1.20.1-20.2.13.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Botania-1.20.1-450-FORGE.jar",
+                    "name": "Botania-1.20.1-450-FORGE",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 12195508,
+                        "path": "Botania-1.20.1-450-FORGE.jar",
+                        "url": "https://cdn.modrinth.com/data/pfjLUfGv/versions/cuN4HNDd/Botania-1.20.1-450-FORGE.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Bountiful-6.0.4+1.20.1-forge.jar",
+                    "name": "Bountiful-6.0.4+1.20.1-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 502662,
+                        "path": "Bountiful-6.0.4+1.20.1-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/BpwWFOVM/versions/EM7Su3PD/Bountiful-6.0.4%2B1.20.1-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Chimes-v2.1.1-1.20.1-Forge.jar",
+                    "name": "Chimes-v2.1.1-1.20.1-Forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 12479806,
+                        "path": "Chimes-v2.1.1-1.20.1-Forge.jar",
+                        "url": "https://cdn.modrinth.com/data/mjGOuygR/versions/3BBPocXc/Chimes-v2.1.1-1.20.1-Forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Chunky-1.3.146.jar",
+                    "name": "Chunky-1.3.146",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 341451,
+                        "path": "Chunky-1.3.146.jar",
+                        "url": "https://cdn.modrinth.com/data/fALzjamp/versions/4FTDk9wv/Chunky-1.3.146.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Clumps-forge-1.20.1-12.0.0.4.jar",
+                    "name": "Clumps-forge-1.20.1-12.0.0.4",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 20300,
+                        "path": "Clumps-forge-1.20.1-12.0.0.4.jar",
+                        "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/nAHGB5ls/Clumps-forge-1.20.1-12.0.0.4.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:ConfiguredDefaults-v8.0.4-1.20.1-Forge.jar",
+                    "name": "ConfiguredDefaults-v8.0.4-1.20.1-Forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 42866,
+                        "path": "ConfiguredDefaults-v8.0.4-1.20.1-Forge.jar",
+                        "url": "https://cdn.modrinth.com/data/SISoSFPP/versions/5OURZGyn/ConfiguredDefaults-v8.0.4-1.20.1-Forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Controlling-forge-1.20.1-12.0.2.jar",
+                    "name": "Controlling-forge-1.20.1-12.0.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 115280,
+                        "path": "Controlling-forge-1.20.1-12.0.2.jar",
+                        "url": "https://cdn.modrinth.com/data/xv94TkTM/versions/LH6Bi6Am/Controlling-forge-1.20.1-12.0.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:CrabbersDelight-1.20.1-1.1.7d.jar",
+                    "name": "CrabbersDelight-1.20.1-1.1.7d",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 376502,
+                        "path": "CrabbersDelight-1.20.1-1.1.7d.jar",
+                        "url": "https://cdn.modrinth.com/data/gBGdVBJy/versions/wTljl54O/CrabbersDelight-1.20.1-1.1.7d.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:CrashAssistant-forge-1.19-1.20.1-1.11.8.jar",
+                    "name": "CrashAssistant-forge-1.19-1.20.1-1.11.8",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 3179348,
+                        "path": "CrashAssistant-forge-1.19-1.20.1-1.11.8.jar",
+                        "url": "https://cdn.modrinth.com/data/ix1qq8Ux/versions/mQbVAfuZ/CrashAssistant-forge-1.19-1.20.1-1.11.8.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:CreateEntityControl-0.3.8.4-6.0-forge-1.20.1.jar",
+                    "name": "CreateEntityControl-0.3.8.4-6.0-forge-1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 370450,
+                        "path": "CreateEntityControl-0.3.8.4-6.0-forge-1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/43gwKokf/versions/4hm4DUOC/CreateEntityControl-0.3.8.4-6.0-forge-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:CreateNumismatics-1.0.15+forge-mc1.20.1.jar",
+                    "name": "CreateNumismatics-1.0.15+forge-mc1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 885623,
+                        "path": "CreateNumismatics-1.0.15+forge-mc1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/Jdbbtt0i/versions/wjKJbg4D/CreateNumismatics-1.0.15%2Bforge-mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:CreateSchematicChecker-0.21.18-6.0-forge-1.20.1.jar",
+                    "name": "CreateSchematicChecker-0.21.18-6.0-forge-1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 231988,
+                        "path": "CreateSchematicChecker-0.21.18-6.0-forge-1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/ULzrAD1U/versions/JtSKdgeX/CreateSchematicChecker-0.21.18-6.0-forge-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:CreativeCore_FORGE_v2.12.32_mc1.20.1.jar",
+                    "name": "CreativeCore_FORGE_v2.12.32_mc1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1158417,
+                        "path": "CreativeCore_FORGE_v2.12.32_mc1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/IbFWHI5h/CreativeCore_FORGE_v2.12.32_mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Data_Anchor-forge-1.20.1-1.0.0.20.jar",
+                    "name": "Data_Anchor-forge-1.20.1-1.0.0.20",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 112171,
+                        "path": "Data_Anchor-forge-1.20.1-1.0.0.20.jar",
+                        "url": "https://cdn.modrinth.com/data/z2XEADmE/versions/hym6gwHe/Data_Anchor-forge-1.20.1-1.0.0.20.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:DiagonalFences-v8.1.5-1.20.1-Forge.jar",
+                    "name": "DiagonalFences-v8.1.5-1.20.1-Forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 182476,
+                        "path": "DiagonalFences-v8.1.5-1.20.1-Forge.jar",
+                        "url": "https://cdn.modrinth.com/data/IKARgflD/versions/6eK8RyWM/DiagonalFences-v8.1.5-1.20.1-Forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:DiagonalWalls-v8.0.4-1.20.1-Forge.jar",
+                    "name": "DiagonalWalls-v8.0.4-1.20.1-Forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 173567,
+                        "path": "DiagonalWalls-v8.0.4-1.20.1-Forge.jar",
+                        "url": "https://cdn.modrinth.com/data/FQgc8dib/versions/ISQPtPH5/DiagonalWalls-v8.0.4-1.20.1-Forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:DramaticDoors-QuiFabrge-1.20.1-3.3.3.jar",
+                    "name": "DramaticDoors-QuiFabrge-1.20.1-3.3.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 14210380,
+                        "path": "DramaticDoors-QuiFabrge-1.20.1-3.3.3.jar",
+                        "url": "https://cdn.modrinth.com/data/aQ7h7gal/versions/l7Qcp40H/DramaticDoors-QuiFabrge-1.20.1-3.3.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:EasyAnvils-v8.0.2-1.20.1-Forge.jar",
+                    "name": "EasyAnvils-v8.0.2-1.20.1-Forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 141744,
+                        "path": "EasyAnvils-v8.0.2-1.20.1-Forge.jar",
+                        "url": "https://cdn.modrinth.com/data/OZBR5JT5/versions/4pRdDqEb/EasyAnvils-v8.0.2-1.20.1-Forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Emojiful-Forge-1.20.1-4.2.0.jar",
+                    "name": "Emojiful-Forge-1.20.1-4.2.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 262412,
+                        "path": "Emojiful-Forge-1.20.1-4.2.0.jar",
+                        "url": "https://cdn.modrinth.com/data/72GXx2MO/versions/NFYwjzXZ/Emojiful-Forge-1.20.1-4.2.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
+                    "name": "EnchantmentDescriptions-Forge-1.20.1-17.1.19",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 69476,
+                        "path": "EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
+                        "url": "https://cdn.modrinth.com/data/UVtY3ZAC/versions/nq9ce04C/EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Etcetera-1.20.1-1.1.3-Forge.jar",
+                    "name": "Etcetera-1.20.1-1.1.3-Forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1720394,
+                        "path": "Etcetera-1.20.1-1.1.3-Forge.jar",
+                        "url": "https://cdn.modrinth.com/data/TaRVOwJr/versions/uua8xPy8/Etcetera-1.20.1-1.1.3-Forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:ExtremeSoundMuffler-3.48-forge-1.20.1.jar",
+                    "name": "ExtremeSoundMuffler-3.48-forge-1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 265906,
+                        "path": "ExtremeSoundMuffler-3.48-forge-1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/5IIKsxiL/versions/FSGoF44s/ExtremeSoundMuffler-3.48-forge-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:FarmersDelight-1.20.1-1.2.10.jar",
+                    "name": "FarmersDelight-1.20.1-1.2.10",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2955928,
+                        "path": "FarmersDelight-1.20.1-1.2.10.jar",
+                        "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/igQdwIqn/FarmersDelight-1.20.1-1.2.10.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:FasterLadderClimbing-1.20.1-0.2.10.jar",
+                    "name": "FasterLadderClimbing-1.20.1-0.2.10",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 7457,
+                        "path": "FasterLadderClimbing-1.20.1-0.2.10.jar",
+                        "url": "https://cdn.modrinth.com/data/ylYAPOKe/versions/r2Yvspic/FasterLadderClimbing-1.20.1-0.2.10.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:GlitchCore-forge-1.20.1-0.0.1.1.jar",
+                    "name": "GlitchCore-forge-1.20.1-0.0.1.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 87551,
+                        "path": "GlitchCore-forge-1.20.1-0.0.1.1.jar",
+                        "url": "https://cdn.modrinth.com/data/s3dmwKy5/versions/pYPZ5MNI/GlitchCore-forge-1.20.1-0.0.1.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:HopoBetterMineshaft-[1.20.1-1.20.4]-1.2.2d.jar",
+                    "name": "HopoBetterMineshaft-[1.20.1-1.20.4]-1.2.2d",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 4046100,
+                        "path": "HopoBetterMineshaft-[1.20.1-1.20.4]-1.2.2d.jar",
+                        "url": "https://cdn.modrinth.com/data/9IxCUYAP/versions/3PrkVJR1/HopoBetterMineshaft-%5B1.20.1-1.20.4%5D-1.2.2d.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Iceberg-1.20.1-forge-1.1.25.jar",
+                    "name": "Iceberg-1.20.1-forge-1.1.25",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 134551,
+                        "path": "Iceberg-1.20.1-forge-1.1.25.jar",
+                        "url": "https://cdn.modrinth.com/data/5faXoLqX/versions/BQ8rJPXV/Iceberg-1.20.1-forge-1.1.25.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
+                    "name": "ImmediatelyFast-Forge-1.5.4+1.20.4",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 538992,
+                        "path": "ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
+                        "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/OomXW3xp/ImmediatelyFast-Forge-1.5.4%2B1.20.4.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Jade-1.20.1-Forge-11.13.2.jar",
+                    "name": "Jade-1.20.1-Forge-11.13.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 552486,
+                        "path": "Jade-1.20.1-Forge-11.13.2.jar",
+                        "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/LecuGude/Jade-1.20.1-Forge-11.13.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:JadeAddons-1.20.1-Forge-5.5.0.jar",
+                    "name": "JadeAddons-1.20.1-Forge-5.5.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 91771,
+                        "path": "JadeAddons-1.20.1-Forge-5.5.0.jar",
+                        "url": "https://cdn.modrinth.com/data/xuDOzCLy/versions/AvIT9ADi/JadeAddons-1.20.1-Forge-5.5.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Kambrik-6.1.1+1.20.1-forge.jar",
+                    "name": "Kambrik-6.1.1+1.20.1-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 325546,
+                        "path": "Kambrik-6.1.1+1.20.1-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/zfbCkvdZ/versions/er56DwLJ/Kambrik-6.1.1%2B1.20.1-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Kiwi-1.20.1-Forge-11.9.2.jar",
+                    "name": "Kiwi-1.20.1-Forge-11.9.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1661318,
+                        "path": "Kiwi-1.20.1-Forge-11.9.2.jar",
+                        "url": "https://cdn.modrinth.com/data/ufdDoWPd/versions/u7HrABzs/Kiwi-1.20.1-Forge-11.9.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:LeavesBeGone-v8.0.0-1.20.1-Forge.jar",
+                    "name": "LeavesBeGone-v8.0.0-1.20.1-Forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 50042,
+                        "path": "LeavesBeGone-v8.0.0-1.20.1-Forge.jar",
+                        "url": "https://cdn.modrinth.com/data/AVq17PqV/versions/slScQFdb/LeavesBeGone-v8.0.0-1.20.1-Forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:LittleTractor-1.20.1-1.2.jar",
+                    "name": "LittleTractor-1.20.1-1.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 172632,
+                        "path": "LittleTractor-1.20.1-1.2.jar",
+                        "url": "https://cdn.modrinth.com/data/Zvcd6uXb/versions/dQ95dIjY/LittleTractor-1.20.1-1.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Log-Begone-Forge-1.20.1-1.0.8.jar",
+                    "name": "Log-Begone-Forge-1.20.1-1.0.8",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 58508,
+                        "path": "Log-Begone-Forge-1.20.1-1.0.8.jar",
+                        "url": "https://cdn.modrinth.com/data/9ON3zv6e/versions/HEJGfa5J/Log-Begone-Forge-1.20.1-1.0.8.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Longwings-v0.9.4-1.20.1-Forge.jar",
+                    "name": "Longwings-v0.9.4-1.20.1-Forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1892164,
+                        "path": "Longwings-v0.9.4-1.20.1-Forge.jar",
+                        "url": "https://cdn.modrinth.com/data/YXWD6pbz/versions/lhJwrd9o/Longwings-v0.9.4-1.20.1-Forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:MCT-RS-Mixin-1.20.1-1.0.0-b400-release.jar",
+                    "name": "MCT-RS-Mixin-1.20.1-1.0.0-b400-release",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 122438,
+                        "path": "MCT-RS-Mixin-1.20.1-1.0.0-b400-release.jar",
+                        "url": "https://cdn.modrinth.com/data/OHdWexoI/versions/34zUr1lG/MCT-RS-Mixin-1.20.1-1.0.0-b400-release.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:MaxEnchantX-1.20.X-1.3-Forge.jar",
+                    "name": "MaxEnchantX-1.20.X-1.3-Forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 32212,
+                        "path": "MaxEnchantX-1.20.X-1.3-Forge.jar",
+                        "url": "https://cdn.modrinth.com/data/j5ko3Mvb/versions/eokb6KRY/MaxEnchantX-1.20.X-1.3-Forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:MobLassos-v8.0.1-1.20.1-Forge.jar",
+                    "name": "MobLassos-v8.0.1-1.20.1-Forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 114782,
+                        "path": "MobLassos-v8.0.1-1.20.1-Forge.jar",
+                        "url": "https://cdn.modrinth.com/data/ftOBbnu8/versions/9ocXWaBc/MobLassos-v8.0.1-1.20.1-Forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:MoogsVoyagerStructures-1.20-5.0.4.jar",
+                    "name": "MoogsVoyagerStructures-1.20-5.0.4",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2661209,
+                        "path": "MoogsVoyagerStructures-1.20-5.0.4.jar",
+                        "url": "https://cdn.modrinth.com/data/OQAgZMH1/versions/GRPrSi9S/MoogsVoyagerStructures-1.20-5.0.4.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+                    "name": "MouseTweaks-forge-mc1.20.1-2.25.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 76237,
+                        "path": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+                        "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/7JVXOe3K/MouseTweaks-forge-mc1.20.1-2.25.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:MyServerIsCompatible-1.20-1.0.jar",
+                    "name": "MyServerIsCompatible-1.20-1.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 3482,
+                        "path": "MyServerIsCompatible-1.20-1.0.jar",
+                        "url": "https://cdn.modrinth.com/data/13qq15Cg/versions/7jEatFH8/MyServerIsCompatible-1.20-1.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:NaturesCompass-1.20.1-1.11.2-forge.jar",
+                    "name": "NaturesCompass-1.20.1-1.11.2-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 215119,
+                        "path": "NaturesCompass-1.20.1-1.11.2-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/fPetb5Kh/versions/Og40jCNX/NaturesCompass-1.20.1-1.11.2-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:NoChatReports-FORGE-1.20.1-v2.2.2.jar",
+                    "name": "NoChatReports-FORGE-1.20.1-v2.2.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 272740,
+                        "path": "NoChatReports-FORGE-1.20.1-v2.2.2.jar",
+                        "url": "https://cdn.modrinth.com/data/qQyHxfxd/versions/ksEG6N5E/NoChatReports-FORGE-1.20.1-v2.2.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar",
+                    "name": "Not Enough Recipe Book-FORGE-0.4.1+1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 21667,
+                        "path": "Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/xXV9YBzF/Not%20Enough%20Recipe%20Book-FORGE-0.4.1%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+                    "name": "OctoLib-FORGE-0.5.0.1+1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 424035,
+                        "path": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/RH2KUdKJ/versions/HZ7KmyXp/OctoLib-FORGE-0.5.0.1%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Oreganized 1.20.1-4.3.2.jar",
+                    "name": "Oreganized 1.20.1-4.3.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 3654692,
+                        "path": "Oreganized 1.20.1-4.3.2.jar",
+                        "url": "https://cdn.modrinth.com/data/2FJutzEL/versions/HH0XNDyF/Oreganized%201.20.1-4.3.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Paraglider-forge-20.1.3.jar",
+                    "name": "Paraglider-forge-20.1.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 589055,
+                        "path": "Paraglider-forge-20.1.3.jar",
+                        "url": "https://cdn.modrinth.com/data/esqWA0aQ/versions/nudKlXXT/Paraglider-forge-20.1.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:PassableFoliage-1.20.1-forge-8.2.1.jar",
+                    "name": "PassableFoliage-1.20.1-forge-8.2.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 30618,
+                        "path": "PassableFoliage-1.20.1-forge-8.2.1.jar",
+                        "url": "https://cdn.modrinth.com/data/uaLW6JVR/versions/71TQMuce/PassableFoliage-1.20.1-forge-8.2.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Patchouli-1.20.1-84.1-FORGE.jar",
+                    "name": "Patchouli-1.20.1-84.1-FORGE",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 642711,
+                        "path": "Patchouli-1.20.1-84.1-FORGE.jar",
+                        "url": "https://cdn.modrinth.com/data/nU0bVIaL/versions/8Qyw08ld/Patchouli-1.20.1-84.1-FORGE.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Placebo-1.20.1-8.2.0.jar",
+                    "name": "Placebo-1.20.1-8.2.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 267513,
+                        "path": "Placebo-1.20.1-8.2.0.jar",
+                        "url": "https://cdn.modrinth.com/data/tCkE8p2N/versions/NK0coiau/Placebo-1.20.1-8.2.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Platform-forge-1.20.1-1.3.2.jar",
+                    "name": "Platform-forge-1.20.1-1.3.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 494237,
+                        "path": "Platform-forge-1.20.1-1.3.2.jar",
+                        "url": "https://cdn.modrinth.com/data/i6fiqm5y/versions/gOYE22Qa/Platform-forge-1.20.1-1.3.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+                    "name": "PuzzlesLib-v8.1.33-1.20.1-Forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1342987,
+                        "path": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+                        "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/mIyVGf3d/PuzzlesLib-v8.1.33-1.20.1-Forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Quark-4.0-462.jar",
+                    "name": "Quark-4.0-462",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 14935230,
+                        "path": "Quark-4.0-462.jar",
+                        "url": "https://cdn.modrinth.com/data/qnQsVE2z/versions/DijQLauD/Quark-4.0-462.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:RSInfinityBooster-1.20.1-1.0+41.jar",
+                    "name": "RSInfinityBooster-1.20.1-1.0+41",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 33622,
+                        "path": "RSInfinityBooster-1.20.1-1.0+41.jar",
+                        "url": "https://cdn.modrinth.com/data/Sjzdj2cy/versions/UkT7CCGr/RSInfinityBooster-1.20.1-1.0%2B41.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:ResourcePackOverrides-v8.0.3-1.20.1-Forge.jar",
+                    "name": "ResourcePackOverrides-v8.0.3-1.20.1-Forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 84339,
+                        "path": "ResourcePackOverrides-v8.0.3-1.20.1-Forge.jar",
+                        "url": "https://cdn.modrinth.com/data/YsFycamt/versions/fw5ouviG/ResourcePackOverrides-v8.0.3-1.20.1-Forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Ribbits-1.20.1-Forge-3.0.5.jar",
+                    "name": "Ribbits-1.20.1-Forge-3.0.5",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2223589,
+                        "path": "Ribbits-1.20.1-Forge-3.0.5.jar",
+                        "url": "https://cdn.modrinth.com/data/8YcE8y4T/versions/RCsQFeua/Ribbits-1.20.1-Forge-3.0.5.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:SVDialog-0.3.jar",
+                    "name": "SVDialog-0.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1240017,
+                        "path": "SVDialog-0.3.jar",
+                        "url": "https://cdn.modrinth.com/data/5obrmvru/versions/wxP9ZA0o/SVDialog-0.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Searchables-forge-1.20.1-1.0.3.jar",
+                    "name": "Searchables-forge-1.20.1-1.0.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 77732,
+                        "path": "Searchables-forge-1.20.1-1.0.3.jar",
+                        "url": "https://cdn.modrinth.com/data/fuuu3xnx/versions/PM9yAW1G/Searchables-forge-1.20.1-1.0.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:SereneSeasons-forge-1.20.1-9.1.0.2.jar",
+                    "name": "SereneSeasons-forge-1.20.1-9.1.0.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 160888,
+                        "path": "SereneSeasons-forge-1.20.1-9.1.0.2.jar",
+                        "url": "https://cdn.modrinth.com/data/e0bNACJD/versions/YXTfAkOf/SereneSeasons-forge-1.20.1-9.1.0.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:ShippingBin-forge-1.20.1-4.jar",
+                    "name": "ShippingBin-forge-1.20.1-4",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 164855,
+                        "path": "ShippingBin-forge-1.20.1-4.jar",
+                        "url": "https://cdn.modrinth.com/data/z4LpKjxY/versions/8uRbP1Qr/ShippingBin-forge-1.20.1-4.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:ShoulderSurfing-Forge-1.20.1-4.16.0.jar",
+                    "name": "ShoulderSurfing-Forge-1.20.1-4.16.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 253861,
+                        "path": "ShoulderSurfing-Forge-1.20.1-4.16.0.jar",
+                        "url": "https://cdn.modrinth.com/data/kepjj2sy/versions/F0YaeEhe/ShoulderSurfing-Forge-1.20.1-4.16.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:SimpleDiscordRichPresence-forge-4.0.3-build.40+mc1.20.1.jar",
+                    "name": "SimpleDiscordRichPresence-forge-4.0.3-build.40+mc1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1198997,
+                        "path": "SimpleDiscordRichPresence-forge-4.0.3-build.40+mc1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/SCAopByd/versions/jnmqJmSh/SimpleDiscordRichPresence-forge-4.0.3-build.40%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:SmartBrainLib-forge-1.20.1-1.15.jar",
+                    "name": "SmartBrainLib-forge-1.20.1-1.15",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 362339,
+                        "path": "SmartBrainLib-forge-1.20.1-1.15.jar",
+                        "url": "https://cdn.modrinth.com/data/PuyPazRT/versions/YkeJNm33/SmartBrainLib-forge-1.20.1-1.15.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:SnowRealMagic-1.20.1-Forge-10.7.0.jar",
+                    "name": "SnowRealMagic-1.20.1-Forge-10.7.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 346619,
+                        "path": "SnowRealMagic-1.20.1-Forge-10.7.0.jar",
+                        "url": "https://cdn.modrinth.com/data/iJNje1E8/versions/aQw97T9l/SnowRealMagic-1.20.1-Forge-10.7.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:SoLOnion_FORGE_v1.4.5_mc1.20.1.jar",
+                    "name": "SoLOnion_FORGE_v1.4.5_mc1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 285625,
+                        "path": "SoLOnion_FORGE_v1.4.5_mc1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/eHGYGKJz/versions/kMmavFVY/SoLOnion_FORGE_v1.4.5_mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Steam_Rails-1.7.2+forge-mc1.20.1.jar",
+                    "name": "Steam_Rails-1.7.2+forge-mc1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 16819720,
+                        "path": "Steam_Rails-1.7.2+forge-mc1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/ZzjhlDgM/versions/I6GhUCyk/Steam_Rails-1.7.2%2Bforge-mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:StrawStatues-v8.0.3-1.20.1-Forge.jar",
+                    "name": "StrawStatues-v8.0.3-1.20.1-Forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 572195,
+                        "path": "StrawStatues-v8.0.3-1.20.1-Forge.jar",
+                        "url": "https://cdn.modrinth.com/data/2fltysAl/versions/1WbJR9ka/StrawStatues-v8.0.3-1.20.1-Forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Tips-Forge-1.20.1-12.1.8.jar",
+                    "name": "Tips-Forge-1.20.1-12.1.8",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 130094,
+                        "path": "Tips-Forge-1.20.1-12.1.8.jar",
+                        "url": "https://cdn.modrinth.com/data/AMCbgyVw/versions/Op6VN0JV/Tips-Forge-1.20.1-12.1.8.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:TreeChop-1.20.1-forge-0.19.0.jar",
+                    "name": "TreeChop-1.20.1-forge-0.19.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 517162,
+                        "path": "TreeChop-1.20.1-forge-0.19.0.jar",
+                        "url": "https://cdn.modrinth.com/data/gHoB7SHO/versions/rhBPK6sB/TreeChop-1.20.1-forge-0.19.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Twigs-1.20.1-3.1.0.jar",
+                    "name": "Twigs-1.20.1-3.1.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2766476,
+                        "path": "Twigs-1.20.1-3.1.0.jar",
+                        "url": "https://cdn.modrinth.com/data/RG50cUrX/versions/lDSfygeN/Twigs-1.20.1-3.1.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:VanillaBackport-forge-1.20.1-1.1.6.3.jar",
+                    "name": "VanillaBackport-forge-1.20.1-1.1.6.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 28404574,
+                        "path": "VanillaBackport-forge-1.20.1-1.1.6.3.jar",
+                        "url": "https://cdn.modrinth.com/data/6xwxDTgf/versions/jzmCkH9g/VanillaBackport-forge-1.20.1-1.1.6.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:VeggiesDelight-1.20.1-1.9.2.jar",
+                    "name": "VeggiesDelight-1.20.1-1.9.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 589670,
+                        "path": "VeggiesDelight-1.20.1-1.9.2.jar",
+                        "url": "https://cdn.modrinth.com/data/emQ94xri/versions/q22SjISG/VeggiesDelight-1.20.1-1.9.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:YungsApi-1.20-Forge-4.0.6.jar",
+                    "name": "YungsApi-1.20-Forge-4.0.6",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 370524,
+                        "path": "YungsApi-1.20-Forge-4.0.6.jar",
+                        "url": "https://cdn.modrinth.com/data/Ua7DFN59/versions/PJOYAmAs/YungsApi-1.20-Forge-4.0.6.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:Zeta-1.0-31.jar",
+                    "name": "Zeta-1.0-31",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1006518,
+                        "path": "Zeta-1.0-31.jar",
+                        "url": "https://cdn.modrinth.com/data/MVARlG2f/versions/mSER3jBI/Zeta-1.0-31.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:additional_attributes-1.20.1-1.3.6-all.jar",
+                    "name": "additional_attributes-1.20.1-1.3.6-all",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 252410,
+                        "path": "additional_attributes-1.20.1-1.3.6-all.jar",
+                        "url": "https://cdn.modrinth.com/data/z7dzpcw6/versions/6etKhuGO/additional_attributes-1.20.1-1.3.6-all.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:alternate_current-mc1.20-1.7.0.jar",
+                    "name": "alternate_current-mc1.20-1.7.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 36703,
+                        "path": "alternate_current-mc1.20-1.7.0.jar",
+                        "url": "https://cdn.modrinth.com/data/r0v8vy1s/versions/kC6SY4Zp/alternate_current-mc1.20-1.7.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:amendments-1.20-2.2.3.jar",
+                    "name": "amendments-1.20-2.2.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1294274,
+                        "path": "amendments-1.20-2.2.3.jar",
+                        "url": "https://cdn.modrinth.com/data/6iTJugQR/versions/1J6dresa/amendments-1.20-2.2.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:appleskin-forge-mc1.20.1-2.5.1.jar",
+                    "name": "appleskin-forge-mc1.20.1-2.5.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 47428,
+                        "path": "appleskin-forge-mc1.20.1-2.5.1.jar",
+                        "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/XdXDExVF/appleskin-forge-mc1.20.1-2.5.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:architectury-9.2.14-forge.jar",
+                    "name": "architectury-9.2.14-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 580602,
+                        "path": "architectury-9.2.14-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:atmospheric-1.20.1-6.1.1.jar",
+                    "name": "atmospheric-1.20.1-6.1.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 5213524,
+                        "path": "atmospheric-1.20.1-6.1.1.jar",
+                        "url": "https://cdn.modrinth.com/data/U9sJOFmJ/versions/B9fN8ZSq/atmospheric-1.20.1-6.1.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:automobility-0.4.2+1.20.1-forge.jar",
+                    "name": "automobility-0.4.2+1.20.1-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1054094,
+                        "path": "automobility-0.4.2+1.20.1-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/rqIsPf9F/versions/46g3IiWw/automobility-0.4.2%2B1.20.1-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:autumnity-1.20.1-5.0.2.jar",
+                    "name": "autumnity-1.20.1-5.0.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1221037,
+                        "path": "autumnity-1.20.1-5.0.2.jar",
+                        "url": "https://cdn.modrinth.com/data/cRh6MJ6n/versions/F0pPtIPH/autumnity-1.20.1-5.0.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:badpackets-forge-0.4.3.jar",
+                    "name": "badpackets-forge-0.4.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 27919,
+                        "path": "badpackets-forge-0.4.3.jar",
+                        "url": "https://cdn.modrinth.com/data/ftdbN0KK/versions/aXZqpNgH/badpackets-forge-0.4.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:balm-forge-1.20.1-7.3.38-all.jar",
+                    "name": "balm-forge-1.20.1-7.3.38-all",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 591398,
+                        "path": "balm-forge-1.20.1-7.3.38-all.jar",
+                        "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/8rz04Kha/balm-forge-1.20.1-7.3.38-all.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:beautify-2.0.2.jar",
+                    "name": "beautify-2.0.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 838292,
+                        "path": "beautify-2.0.2.jar",
+                        "url": "https://cdn.modrinth.com/data/9BPuv4vL/versions/v9NnLuyB/beautify-2.0.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:betterarcheology-1.2.1-1.20.1.jar",
+                    "name": "betterarcheology-1.2.1-1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 982838,
+                        "path": "betterarcheology-1.2.1-1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/zCh7omyG/versions/vsqxpUo3/betterarcheology-1.2.1-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:biomespawnpoint-1.20.1-2.3.jar",
+                    "name": "biomespawnpoint-1.20.1-2.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 36804,
+                        "path": "biomespawnpoint-1.20.1-2.3.jar",
+                        "url": "https://cdn.modrinth.com/data/mtfbtanr/versions/wmJTBBb1/biomespawnpoint-1.20.1-2.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:blueprint-1.20.1-7.1.3.jar",
+                    "name": "blueprint-1.20.1-7.1.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1151213,
+                        "path": "blueprint-1.20.1-7.1.3.jar",
+                        "url": "https://cdn.modrinth.com/data/VsM5EDoI/versions/xtEwbO0X/blueprint-1.20.1-7.1.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:botania_seeds-1.1.1.jar",
+                    "name": "botania_seeds-1.1.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 129070,
+                        "path": "botania_seeds-1.1.1.jar",
+                        "url": "https://cdn.modrinth.com/data/pJA93SOk/versions/PZJvVAXW/botania_seeds-1.1.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:bots_lib-4.1.jar",
+                    "name": "bots_lib-4.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 24222,
+                        "path": "bots_lib-4.1.jar",
+                        "url": "https://cdn.modrinth.com/data/Oeb74GyG/versions/xJ7Iodx9/bots_lib-4.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:buzzier_bees-1.20.1-6.0.1.jar",
+                    "name": "buzzier_bees-1.20.1-6.0.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 558630,
+                        "path": "buzzier_bees-1.20.1-6.0.1.jar",
+                        "url": "https://cdn.modrinth.com/data/b7vOFSIp/versions/6jop5A7X/buzzier_bees-1.20.1-6.0.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:bwncr-forge-1.20.1-3.17.2.jar",
+                    "name": "bwncr-forge-1.20.1-3.17.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 28225,
+                        "path": "bwncr-forge-1.20.1-3.17.2.jar",
+                        "url": "https://cdn.modrinth.com/data/lL2MtE37/versions/QpHjZgDn/bwncr-forge-1.20.1-3.17.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:caelus-forge-3.2.0+1.20.1.jar",
+                    "name": "caelus-forge-3.2.0+1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 40125,
+                        "path": "caelus-forge-3.2.0+1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/40FYwb4z/versions/mRry0DgY/caelus-forge-3.2.0%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:carryon-forge-1.20.1-2.1.2.7.jar",
+                    "name": "carryon-forge-1.20.1-2.1.2.7",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 439457,
+                        "path": "carryon-forge-1.20.1-2.1.2.7.jar",
+                        "url": "https://cdn.modrinth.com/data/joEfVgkn/versions/edGQD16r/carryon-forge-1.20.1-2.1.2.7.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:certain_questing_additions-forge-1.1.3+mc1.20.1.jar",
+                    "name": "certain_questing_additions-forge-1.1.3+mc1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 693270,
+                        "path": "certain_questing_additions-forge-1.1.3+mc1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/5BPpCYUe/versions/JtUWjDf0/certain_questing_additions-forge-1.1.3%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:chat_heads-0.13.7-forge-1.20.jar",
+                    "name": "chat_heads-0.13.7-forge-1.20",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 265135,
+                        "path": "chat_heads-0.13.7-forge-1.20.jar",
+                        "url": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/fIpQhJZ4/chat_heads-0.13.7-forge-1.20.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:cherishedworlds-forge-6.1.7+1.20.1.jar",
+                    "name": "cherishedworlds-forge-6.1.7+1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 60956,
+                        "path": "cherishedworlds-forge-6.1.7+1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/3azQ6p0W/versions/Uwaq5LPL/cherishedworlds-forge-6.1.7%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:citadel-2.6.3-1.20.1.jar",
+                    "name": "citadel-2.6.3-1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 3185275,
+                        "path": "citadel-2.6.3-1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/jJfV67b1/versions/lTAAe4sZ/citadel-2.6.3-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:classicpipes-forge-1.20.1-1.1.0.jar",
+                    "name": "classicpipes-forge-1.20.1-1.1.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 754526,
+                        "path": "classicpipes-forge-1.20.1-1.1.0.jar",
+                        "url": "https://cdn.modrinth.com/data/xX5VOqpH/versions/8ODi8wNZ/classicpipes-forge-1.20.1-1.1.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:clayworks-1.20.1-3.0.4.jar",
+                    "name": "clayworks-1.20.1-3.0.4",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1195583,
+                        "path": "clayworks-1.20.1-3.0.4.jar",
+                        "url": "https://cdn.modrinth.com/data/1iicrEO3/versions/ZbSpUtwV/clayworks-1.20.1-3.0.4.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:cloth-config-11.1.136-forge.jar",
+                    "name": "cloth-config-11.1.136-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1181413,
+                        "path": "cloth-config-11.1.136-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:cluttered-[Forge]-3.0.3-1.20.1.jar",
+                    "name": "cluttered-[Forge]-3.0.3-1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 5551679,
+                        "path": "cluttered-[Forge]-3.0.3-1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/UnAEo77V/versions/ROs8Cnzz/cluttered-%5BForge%5D-3.0.3-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:collective-1.20.1-7.87.jar",
+                    "name": "collective-1.20.1-7.87",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 648876,
+                        "path": "collective-1.20.1-7.87.jar",
+                        "url": "https://cdn.modrinth.com/data/e0M1UDsY/versions/aNzU64AT/collective-1.20.1-7.87.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:colorfulhearts-forge-1.20.1-4.3.16.jar",
+                    "name": "colorfulhearts-forge-1.20.1-4.3.16",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 122868,
+                        "path": "colorfulhearts-forge-1.20.1-4.3.16.jar",
+                        "url": "https://cdn.modrinth.com/data/wQfMUdZT/versions/LkhTyd10/colorfulhearts-forge-1.20.1-4.3.16.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:colorwheel-forge-1.2.1+mc1.20.1.jar",
+                    "name": "colorwheel-forge-1.2.1+mc1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 375232,
+                        "path": "colorwheel-forge-1.2.1+mc1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/BzHgFoGz/versions/UGEPiYlo/colorwheel-forge-1.2.1%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:colorwheel_patcher-forge-1.0.4+mc1.20.1.jar",
+                    "name": "colorwheel_patcher-forge-1.0.4+mc1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 207040,
+                        "path": "colorwheel_patcher-forge-1.0.4+mc1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/KPsw5jDu/versions/1JZBSXYs/colorwheel_patcher-forge-1.0.4%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:comforts-forge-6.4.0+1.20.1.jar",
+                    "name": "comforts-forge-6.4.0+1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 382083,
+                        "path": "comforts-forge-6.4.0+1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/SaCpeal4/versions/gBDsc134/comforts-forge-6.4.0%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:common-networking-forge-1.0.5-1.20.1.jar",
+                    "name": "common-networking-forge-1.0.5-1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 20701,
+                        "path": "common-networking-forge-1.0.5-1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/HIuqnQpi/versions/FMfO8Pme/common-networking-forge-1.0.5-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:constructionwand-1.20.1-2.11.jar",
+                    "name": "constructionwand-1.20.1-2.11",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 210312,
+                        "path": "constructionwand-1.20.1-2.11.jar",
+                        "url": "https://cdn.modrinth.com/data/bV2crgLh/versions/XCgKj8gL/constructionwand-1.20.1-2.11.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:copycats-3.0.7+mc.1.20.1-forge.jar",
+                    "name": "copycats-3.0.7+mc.1.20.1-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1996097,
+                        "path": "copycats-3.0.7+mc.1.20.1-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/UT2M39wf/versions/z7s54cjL/copycats-3.0.7%2Bmc.1.20.1-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:coroutil-forge-1.20.1-1.3.7.jar",
+                    "name": "coroutil-forge-1.20.1-1.3.7",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 64187,
+                        "path": "coroutil-forge-1.20.1-1.3.7.jar",
+                        "url": "https://cdn.modrinth.com/data/rLLJ1OZM/versions/6rPDKAT8/coroutil-forge-1.20.1-1.3.7.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:crafting-on-a-stick-1.20.1-1.1.5.jar",
+                    "name": "crafting-on-a-stick-1.20.1-1.1.5",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 55252,
+                        "path": "crafting-on-a-stick-1.20.1-1.1.5.jar",
+                        "url": "https://cdn.modrinth.com/data/Tg5fXO1x/versions/o6RKzjVH/crafting-on-a-stick-1.20.1-1.1.5.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:craftingtweaks-forge-1.20.1-18.2.8.jar",
+                    "name": "craftingtweaks-forge-1.20.1-18.2.8",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 231043,
+                        "path": "craftingtweaks-forge-1.20.1-18.2.8.jar",
+                        "url": "https://cdn.modrinth.com/data/DMu0oBKf/versions/pHj8hyWv/craftingtweaks-forge-1.20.1-18.2.8.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:crashutilities-8.1.4.jar",
+                    "name": "crashutilities-8.1.4",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 233000,
+                        "path": "crashutilities-8.1.4.jar",
+                        "url": "https://cdn.modrinth.com/data/nbg22QFg/versions/2IKVjueV/crashutilities-8.1.4.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:create-1.20.1-6.0.8.jar",
+                    "name": "create-1.20.1-6.0.8",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 19170905,
+                        "path": "create-1.20.1-6.0.8.jar",
+                        "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/8amzvn9x/create-1.20.1-6.0.8.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:create_central_kitchen-1.20.1-for-create-6.0.6-1.4.3b.jar",
+                    "name": "create_central_kitchen-1.20.1-for-create-6.0.6-1.4.3b",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 822499,
+                        "path": "create_central_kitchen-1.20.1-for-create-6.0.6-1.4.3b.jar",
+                        "url": "https://cdn.modrinth.com/data/btq68HMO/versions/b6J7xYnJ/create_central_kitchen-1.20.1-for-create-6.0.6-1.4.3b.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:create_enchantment_industry-1.3.3-for-create-6.0.6.jar",
+                    "name": "create_enchantment_industry-1.3.3-for-create-6.0.6",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 488060,
+                        "path": "create_enchantment_industry-1.3.3-for-create-6.0.6.jar",
+                        "url": "https://cdn.modrinth.com/data/JWGBpFUP/versions/E8bB0Vws/create_enchantment_industry-1.3.3-for-create-6.0.6.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:create_factory_logistics-1.20.1-1.4.7.jar",
+                    "name": "create_factory_logistics-1.20.1-1.4.7",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1112673,
+                        "path": "create_factory_logistics-1.20.1-1.4.7.jar",
+                        "url": "https://cdn.modrinth.com/data/QMGO17gm/versions/cFuYsO3r/create_factory_logistics-1.20.1-1.4.7.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:create_hypertube-0.4.0-FORGE.jar",
+                    "name": "create_hypertube-0.4.0-FORGE",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 421417,
+                        "path": "create_hypertube-0.4.0-FORGE.jar",
+                        "url": "https://cdn.modrinth.com/data/ATDdrG1y/versions/ngA99IQz/create_hypertube-0.4.0-FORGE.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:create_mecanical_extruder-1.20.1-1.6.11-6.0.6.jar",
+                    "name": "create_mecanical_extruder-1.20.1-1.6.11-6.0.6",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 513561,
+                        "path": "create_mecanical_extruder-1.20.1-1.6.11-6.0.6.jar",
+                        "url": "https://cdn.modrinth.com/data/hGAlcCDJ/versions/hXjb2B03/create_mecanical_extruder-1.20.1-1.6.11-6.0.6.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:create_slime-1.0.1.jar",
+                    "name": "create_slime-1.0.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 19142,
+                        "path": "create_slime-1.0.1.jar",
+                        "url": "https://cdn.modrinth.com/data/z4fMHJR8/versions/UP38Reiy/create_slime-1.0.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:createrailwaysnavigator-forge-1.20.1-beta-0.8.5-C6.jar",
+                    "name": "createrailwaysnavigator-forge-1.20.1-beta-0.8.5-C6",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 3178491,
+                        "path": "createrailwaysnavigator-forge-1.20.1-beta-0.8.5-C6.jar",
+                        "url": "https://cdn.modrinth.com/data/Dq3STxps/versions/iStEvxzQ/createrailwaysnavigator-forge-1.20.1-beta-0.8.5-C6.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:createutilities-0.3.2+1.20.1.jar",
+                    "name": "createutilities-0.3.2+1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 358535,
+                        "path": "createutilities-0.3.2+1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/PRHeWeBs/versions/XZ9y3OVL/createutilities-0.3.2%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:crittersandcompanions-forge-1.20.1-2.3.5.jar",
+                    "name": "crittersandcompanions-forge-1.20.1-2.3.5",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1594359,
+                        "path": "crittersandcompanions-forge-1.20.1-2.3.5.jar",
+                        "url": "https://cdn.modrinth.com/data/Yd4wb5wZ/versions/eQpvjcxk/crittersandcompanions-forge-1.20.1-2.3.5.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:croptania-0.3.jar",
+                    "name": "croptania-0.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 31377,
+                        "path": "croptania-0.3.jar",
+                        "url": "https://cdn.modrinth.com/data/wWScww6R/versions/jz7gnLlK/croptania-0.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:curios-forge-5.14.1+1.20.1.jar",
+                    "name": "curios-forge-5.14.1+1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 398066,
+                        "path": "curios-forge-5.14.1+1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:curious_armor_stands-1.20-5.1.0.jar",
+                    "name": "curious_armor_stands-1.20-5.1.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 12526,
+                        "path": "curious_armor_stands-1.20-5.1.0.jar",
+                        "url": "https://cdn.modrinth.com/data/jR6HKqHv/versions/a1svxw83/curious_armor_stands-1.20-5.1.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:decorative_blocks-forge-1.20.1-4.1.3.jar",
+                    "name": "decorative_blocks-forge-1.20.1-4.1.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 573928,
+                        "path": "decorative_blocks-forge-1.20.1-4.1.3.jar",
+                        "url": "https://cdn.modrinth.com/data/t6BIRVZn/versions/nGmyeiug/decorative_blocks-forge-1.20.1-4.1.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:dew_drop_daily_weather-1.1.1.jar",
+                    "name": "dew_drop_daily_weather-1.1.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 15834,
+                        "path": "dew_drop_daily_weather-1.1.1.jar",
+                        "url": "https://cdn.modrinth.com/data/fhMjR3no/versions/RZrtnjL4/dew_drop_daily_weather-1.1.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:dew_drop_farmland_growth-6.0.jar",
+                    "name": "dew_drop_farmland_growth-6.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 146879,
+                        "path": "dew_drop_farmland_growth-6.0.jar",
+                        "url": "https://cdn.modrinth.com/data/YZIeBAfr/versions/14Me1yxy/dew_drop_farmland_growth-6.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:dew_drop_watering_cans-1.0.2.jar",
+                    "name": "dew_drop_watering_cans-1.0.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 47597,
+                        "path": "dew_drop_watering_cans-1.0.2.jar",
+                        "url": "https://cdn.modrinth.com/data/Jal3lwVg/versions/7e8NWI5O/dew_drop_watering_cans-1.0.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:drippyloadingscreen_forge_3.0.12_MC_1.20.1.jar",
+                    "name": "drippyloadingscreen_forge_3.0.12_MC_1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 239365,
+                        "path": "drippyloadingscreen_forge_3.0.12_MC_1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/v3CYg2V9/versions/SCbkqLQR/drippyloadingscreen_forge_3.0.12_MC_1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:ears-forge-1.19.4-1.4.7.jar",
+                    "name": "ears-forge-1.19.4-1.4.7",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 160424,
+                        "path": "ears-forge-1.19.4-1.4.7.jar",
+                        "url": "https://cdn.modrinth.com/data/mfzaZK3Z/versions/x0gO3b5F/ears-forge-1.19.4-1.4.7.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:easy_npc-forge-1.20.1-6.1.0.jar",
+                    "name": "easy_npc-forge-1.20.1-6.1.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1519447,
+                        "path": "easy_npc-forge-1.20.1-6.1.0.jar",
+                        "url": "https://cdn.modrinth.com/data/Epm6R3P2/versions/IWODIK2y/easy_npc-forge-1.20.1-6.1.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:embeddium-0.3.31+mc1.20.1.jar",
+                    "name": "embeddium-0.3.31+mc1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1320675,
+                        "path": "embeddium-0.3.31+mc1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/sk9rgfiA/versions/UTbfe5d1/embeddium-0.3.31%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:emi-1.1.22+1.20.1+forge.jar",
+                    "name": "emi-1.1.22+1.20.1+forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1048567,
+                        "path": "emi-1.1.22+1.20.1+forge.jar",
+                        "url": "https://cdn.modrinth.com/data/fRiHVvU7/versions/WtJS5tVw/emi-1.1.22%2B1.20.1%2Bforge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:enchantmentdisabletag-forge-1.1.0+1.20.1.jar",
+                    "name": "enchantmentdisabletag-forge-1.1.0+1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 187066,
+                        "path": "enchantmentdisabletag-forge-1.1.0+1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/P7SsQE5n/versions/isvTWFOj/enchantmentdisabletag-forge-1.1.0%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:entity_model_features_1.20.1-forge-3.0.10.jar",
+                    "name": "entity_model_features_1.20.1-forge-3.0.10",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 674250,
+                        "path": "entity_model_features_1.20.1-forge-3.0.10.jar",
+                        "url": "https://cdn.modrinth.com/data/4I1XuqiY/versions/ZAqLFpFZ/entity_model_features_1.20.1-forge-3.0.10.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:entity_texture_features_1.20.1-forge-7.0.8.jar",
+                    "name": "entity_texture_features_1.20.1-forge-7.0.8",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 927175,
+                        "path": "entity_texture_features_1.20.1-forge-7.0.8.jar",
+                        "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/2utF7Tal/entity_texture_features_1.20.1-forge-7.0.8.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:entityjs-0.6.6-1.20.1.jar",
+                    "name": "entityjs-0.6.6-1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2363566,
+                        "path": "entityjs-0.6.6-1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/OvPZ16yX/versions/IuUUHpWU/entityjs-0.6.6-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:etched-3.0.4.jar",
+                    "name": "etched-3.0.4",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 611145,
+                        "path": "etched-3.0.4.jar",
+                        "url": "https://cdn.modrinth.com/data/zi3Fnfmc/versions/k1G15lhE/etched-3.0.4.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:everycomp-1.20-2.9.2-forge.jar",
+                    "name": "everycomp-1.20-2.9.2-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2816203,
+                        "path": "everycomp-1.20-2.9.2-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/eiktJyw1/versions/JNTDe4wV/everycomp-1.20-2.9.2-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:exposure-1.20.1-1.7.16-forge.jar",
+                    "name": "exposure-1.20.1-1.7.16-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1360685,
+                        "path": "exposure-1.20.1-1.7.16-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/hB899VmG/versions/Wk43p4gt/exposure-1.20.1-1.7.16-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:exposure_catalog-1.20.1-1.0.3-forge.jar",
+                    "name": "exposure_catalog-1.20.1-1.0.3-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 146211,
+                        "path": "exposure_catalog-1.20.1-1.0.3-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/PWcQ3kcp/versions/LRQ6BdsQ/exposure_catalog-1.20.1-1.0.3-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:extra_gauges-2.0.7.jar",
+                    "name": "extra_gauges-2.0.7",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1029438,
+                        "path": "extra_gauges-2.0.7.jar",
+                        "url": "https://cdn.modrinth.com/data/6YJgomwt/versions/ZbA0Ejq9/extra_gauges-2.0.7.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:extractinator-forge-1.20.1-2.3.0.jar",
+                    "name": "extractinator-forge-1.20.1-2.3.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 117038,
+                        "path": "extractinator-forge-1.20.1-2.3.0.jar",
+                        "url": "https://cdn.modrinth.com/data/2EPioYNN/versions/7hJ6iUPA/extractinator-forge-1.20.1-2.3.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:fallingleaves-1.20.1-2.1.2.jar",
+                    "name": "fallingleaves-1.20.1-2.1.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 124212,
+                        "path": "fallingleaves-1.20.1-2.1.2.jar",
+                        "url": "https://cdn.modrinth.com/data/2JAUNCL4/versions/j5eND1ZA/fallingleaves-1.20.1-2.1.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar",
+                    "name": "fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 4025908,
+                        "path": "fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar",
+                        "url": "https://cdn.modrinth.com/data/i2kUe4lq/versions/om4AFhqW/fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:fancymenu_forge_3.7.0_MC_1.20.1.jar",
+                    "name": "fancymenu_forge_3.7.0_MC_1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 3628603,
+                        "path": "fancymenu_forge_3.7.0_MC_1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/Wq5SjeWM/versions/MbyfTTsz/fancymenu_forge_3.7.0_MC_1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:fantasyfurniture-1.20.1-9.0.0.jar",
+                    "name": "fantasyfurniture-1.20.1-9.0.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 3202951,
+                        "path": "fantasyfurniture-1.20.1-9.0.0.jar",
+                        "url": "https://cdn.modrinth.com/data/A0nfCqYw/versions/o3iXCBa8/fantasyfurniture-1.20.1-9.0.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:farmingforblockheads-forge-1.20.1-14.0.2.jar",
+                    "name": "farmingforblockheads-forge-1.20.1-14.0.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 569518,
+                        "path": "farmingforblockheads-forge-1.20.1-14.0.2.jar",
+                        "url": "https://cdn.modrinth.com/data/4WJZr8JU/versions/d1MqlvJt/farmingforblockheads-forge-1.20.1-14.0.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:fastpaintings-1.20-1.2.7.jar",
+                    "name": "fastpaintings-1.20-1.2.7",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 309400,
+                        "path": "fastpaintings-1.20-1.2.7.jar",
+                        "url": "https://cdn.modrinth.com/data/z3TzcquW/versions/Bvjyyy1T/fastpaintings-1.20-1.2.7.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:ferritecore-6.0.1-forge.jar",
+                    "name": "ferritecore-6.0.1-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 123034,
+                        "path": "ferritecore-6.0.1-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/DG5Fn9Sz/ferritecore-6.0.1-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:findme-3.2.3-forge.jar",
+                    "name": "findme-3.2.3-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 38674,
+                        "path": "findme-3.2.3-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/rEuzehyH/versions/kmUvAUwY/findme-3.2.3-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:flerovium-forge-1.20.1-1.2.18-all.jar",
+                    "name": "flerovium-forge-1.20.1-1.2.18-all",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 253961,
+                        "path": "flerovium-forge-1.20.1-1.2.18-all.jar",
+                        "url": "https://cdn.modrinth.com/data/4Rh1Mobu/versions/rfznaZum/flerovium-forge-1.20.1-1.2.18-all.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:fragmentum-forge-1.20.1-1.1.4.jar",
+                    "name": "fragmentum-forge-1.20.1-1.1.4",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1690913,
+                        "path": "fragmentum-forge-1.20.1-1.1.4.jar",
+                        "url": "https://cdn.modrinth.com/data/49C5QgTK/versions/nH6DeFfb/fragmentum-forge-1.20.1-1.1.4.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:functionalstorage-1.20.1-1.2.10.jar",
+                    "name": "functionalstorage-1.20.1-1.2.10",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 653393,
+                        "path": "functionalstorage-1.20.1-1.2.10.jar",
+                        "url": "https://cdn.modrinth.com/data/cO40ZIg3/versions/8hVtSJvY/functionalstorage-1.20.1-1.2.10.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:fusion-1.2.11c-forge-mc1.20.1.jar",
+                    "name": "fusion-1.2.11c-forge-mc1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 544820,
+                        "path": "fusion-1.2.11c-forge-mc1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/p19vrgc2/versions/G1mAiK1w/fusion-1.2.11c-forge-mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:gag-forge-3.0.0-build.13.jar",
+                    "name": "gag-forge-3.0.0-build.13",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 190621,
+                        "path": "gag-forge-3.0.0-build.13.jar",
+                        "url": "https://cdn.modrinth.com/data/IeYLjzpn/versions/u2m25nhN/gag-forge-3.0.0-build.13.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:gallery-1.20.1-1.0.3.jar",
+                    "name": "gallery-1.20.1-1.0.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 241777,
+                        "path": "gallery-1.20.1-1.0.3.jar",
+                        "url": "https://cdn.modrinth.com/data/EOA6vv83/versions/GXA1WCeg/gallery-1.20.1-1.0.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:gamediscs-0.3.2-forge.jar",
+                    "name": "gamediscs-0.3.2-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 241786,
+                        "path": "gamediscs-0.3.2-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/AgqoIu86/versions/gvMBSvC4/gamediscs-0.3.2-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:geckolib-forge-1.20.1-4.8.jar",
+                    "name": "geckolib-forge-1.20.1-4.8",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1039409,
+                        "path": "geckolib-forge-1.20.1-4.8.jar",
+                        "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/aTS2d7QI/geckolib-forge-1.20.1-4.8.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:gnetum-2.3.4.jar",
+                    "name": "gnetum-2.3.4",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 722238,
+                        "path": "gnetum-2.3.4.jar",
+                        "url": "https://cdn.modrinth.com/data/7MoE34WK/versions/N2tm8lK6/gnetum-2.3.4.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:golemoverhaul-forge-1.20.1-1.1.0.jar",
+                    "name": "golemoverhaul-forge-1.20.1-1.1.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1039298,
+                        "path": "golemoverhaul-forge-1.20.1-1.1.0.jar",
+                        "url": "https://cdn.modrinth.com/data/qEYs2G9A/versions/cYcN89gd/golemoverhaul-forge-1.20.1-1.1.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:guiclock-1.20.1-4.6.jar",
+                    "name": "guiclock-1.20.1-4.6",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 40270,
+                        "path": "guiclock-1.20.1-4.6.jar",
+                        "url": "https://cdn.modrinth.com/data/g1yXisD2/versions/8RUwIhiy/guiclock-1.20.1-4.6.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:hamsters-forge-1.0.3-1.20.1.jar",
+                    "name": "hamsters-forge-1.0.3-1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 439448,
+                        "path": "hamsters-forge-1.0.3-1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/sRzS8pFG/versions/GaWM3lmN/hamsters-forge-1.0.3-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:horseman-1.20.1-1.3.14-forge.jar",
+                    "name": "horseman-1.20.1-1.3.14-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 328967,
+                        "path": "horseman-1.20.1-1.3.14-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/qIv5FhAA/versions/3dOY2pau/horseman-1.20.1-1.3.14-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:immersive_paintings-0.6.8+1.20.1-forge.jar",
+                    "name": "immersive_paintings-0.6.8+1.20.1-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 4854834,
+                        "path": "immersive_paintings-0.6.8+1.20.1-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/6txNkua3/versions/vvLA2zs9/immersive_paintings-0.6.8%2B1.20.1-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:incontrol-1.20-9.4.1.jar",
+                    "name": "incontrol-1.20-9.4.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 361755,
+                        "path": "incontrol-1.20-9.4.1.jar",
+                        "url": "https://cdn.modrinth.com/data/KpICtuVx/versions/lP2OUf0X/incontrol-1.20-9.4.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:jeed-1.20-2.2.5.jar",
+                    "name": "jeed-1.20-2.2.5",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 159288,
+                        "path": "jeed-1.20-2.2.5.jar",
+                        "url": "https://cdn.modrinth.com/data/EO27GKs1/versions/jHYonbva/jeed-1.20-2.2.5.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:jei-1.20.1-forge-15.20.0.129.jar",
+                    "name": "jei-1.20.1-forge-15.20.0.129",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1409642,
+                        "path": "jei-1.20.1-forge-15.20.0.129.jar",
+                        "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/p7yZWpEg/jei-1.20.1-forge-15.20.0.129.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:jmi-forge-1.20.1-0.14-48.jar",
+                    "name": "jmi-forge-1.20.1-0.14-48",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 69022,
+                        "path": "jmi-forge-1.20.1-0.14-48.jar",
+                        "url": "https://cdn.modrinth.com/data/M1ZKbfkJ/versions/BBbIV2h1/jmi-forge-1.20.1-0.14-48.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:journeymap-1.20.1-5.10.3-forge.jar",
+                    "name": "journeymap-1.20.1-5.10.3-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 7160406,
+                        "path": "journeymap-1.20.1-5.10.3-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/lfHFW1mp/versions/r7FWVNCs/journeymap-1.20.1-5.10.3-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:justhammers-forge-2.0.3+mc1.20.1.jar",
+                    "name": "justhammers-forge-2.0.3+mc1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 93291,
+                        "path": "justhammers-forge-2.0.3+mc1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/edU0NbZZ/versions/JafXa7hr/justhammers-forge-2.0.3%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+                    "name": "konkrete_forge_1.8.0_MC_1.20-1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 625185,
+                        "path": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:kotlinforforge-4.12.0-all.jar",
+                    "name": "kotlinforforge-4.12.0-all",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 7442998,
+                        "path": "kotlinforforge-4.12.0-all.jar",
+                        "url": "https://cdn.modrinth.com/data/ordsPcFz/versions/Zsh14XeQ/kotlinforforge-4.12.0-all.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:kubejs-forge-2001.6.5-build.16.jar",
+                    "name": "kubejs-forge-2001.6.5-build.16",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1654660,
+                        "path": "kubejs-forge-2001.6.5-build.16.jar",
+                        "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/g5igndAv/kubejs-forge-2001.6.5-build.16.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:kubejsadditions-forge-4.3.3.jar",
+                    "name": "kubejsadditions-forge-4.3.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 315140,
+                        "path": "kubejsadditions-forge-4.3.3.jar",
+                        "url": "https://cdn.modrinth.com/data/BZemjxZb/versions/peAxAwpF/kubejsadditions-forge-4.3.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:labels-1.20-2.0.0.jar",
+                    "name": "labels-1.20-2.0.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 252608,
+                        "path": "labels-1.20-2.0.0.jar",
+                        "url": "https://cdn.modrinth.com/data/x6r7yhfi/versions/euTZP75U/labels-1.20-2.0.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:letsdo-API-forge-1.2.15-forge.jar",
+                    "name": "letsdo-API-forge-1.2.15-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1440591,
+                        "path": "letsdo-API-forge-1.2.15-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/4XJZeZbM/versions/uEaTMht9/letsdo-API-forge-1.2.15-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:letsdo-bakery-forge-2.0.3.jar",
+                    "name": "letsdo-bakery-forge-2.0.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1084974,
+                        "path": "letsdo-bakery-forge-2.0.3.jar",
+                        "url": "https://cdn.modrinth.com/data/oNB5jhlA/versions/JWFLdaGc/letsdo-bakery-forge-2.0.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:letsdo-beachparty-forge-1.1.5.jar",
+                    "name": "letsdo-beachparty-forge-1.1.5",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 3549757,
+                        "path": "letsdo-beachparty-forge-1.1.5.jar",
+                        "url": "https://cdn.modrinth.com/data/GyKzAh3l/versions/cC6RhoPZ/letsdo-beachparty-forge-1.1.5.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:letsdo-brewery-forge-2.0.3.jar",
+                    "name": "letsdo-brewery-forge-2.0.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1409972,
+                        "path": "letsdo-brewery-forge-2.0.3.jar",
+                        "url": "https://cdn.modrinth.com/data/b7NV2plI/versions/dOwctx44/letsdo-brewery-forge-2.0.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:letsdo-candlelight-forge-2.0.2.jar",
+                    "name": "letsdo-candlelight-forge-2.0.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2359843,
+                        "path": "letsdo-candlelight-forge-2.0.2.jar",
+                        "url": "https://cdn.modrinth.com/data/qwbArkQk/versions/yqPDKhMA/letsdo-candlelight-forge-2.0.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:letsdo-farm_and_charm-forge-1.0.4.jar",
+                    "name": "letsdo-farm_and_charm-forge-1.0.4",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1838745,
+                        "path": "letsdo-farm_and_charm-forge-1.0.4.jar",
+                        "url": "https://cdn.modrinth.com/data/HJetCzWo/versions/eOnu9bBE/letsdo-farm_and_charm-forge-1.0.4.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:letsdo-furniture-forge-1.0.4.jar",
+                    "name": "letsdo-furniture-forge-1.0.4",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2816299,
+                        "path": "letsdo-furniture-forge-1.0.4.jar",
+                        "url": "https://cdn.modrinth.com/data/3JQDJrYW/versions/CGCP1SRw/letsdo-furniture-forge-1.0.4.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:letsdo-herbalbrews-forge-1.0.12.jar",
+                    "name": "letsdo-herbalbrews-forge-1.0.12",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 735868,
+                        "path": "letsdo-herbalbrews-forge-1.0.12.jar",
+                        "url": "https://cdn.modrinth.com/data/Eh11TaTm/versions/qKfEj2BA/letsdo-herbalbrews-forge-1.0.12.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:letsdo-meadow-forge-1.3.23.jar",
+                    "name": "letsdo-meadow-forge-1.3.23",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2675635,
+                        "path": "letsdo-meadow-forge-1.3.23.jar",
+                        "url": "https://cdn.modrinth.com/data/ra7o6Sl7/versions/WC7iKkpn/letsdo-meadow-forge-1.3.23.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:letsdo-nethervinery-forge-1.2.19.jar",
+                    "name": "letsdo-nethervinery-forge-1.2.19",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 650907,
+                        "path": "letsdo-nethervinery-forge-1.2.19.jar",
+                        "url": "https://cdn.modrinth.com/data/4TTDxtOx/versions/am5K7Gy8/letsdo-nethervinery-forge-1.2.19.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:letsdo-vinery-forge-1.4.41.jar",
+                    "name": "letsdo-vinery-forge-1.4.41",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2041283,
+                        "path": "letsdo-vinery-forge-1.4.41.jar",
+                        "url": "https://cdn.modrinth.com/data/1DWmBJVA/versions/2I4cH49O/letsdo-vinery-forge-1.4.41.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:letsdo-wildernature-forge-1.0.5.jar",
+                    "name": "letsdo-wildernature-forge-1.0.5",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2097218,
+                        "path": "letsdo-wildernature-forge-1.0.5.jar",
+                        "url": "https://cdn.modrinth.com/data/AAiRU4aQ/versions/qR7hZ2XI/letsdo-wildernature-forge-1.0.5.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:lithostitched-forge-1.20.1-1.4.11.jar",
+                    "name": "lithostitched-forge-1.20.1-1.4.11",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 476347,
+                        "path": "lithostitched-forge-1.20.1-1.4.11.jar",
+                        "url": "https://cdn.modrinth.com/data/XaDC71GB/versions/srPoHKt8/lithostitched-forge-1.20.1-1.4.11.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:littlejoys-forge-1.20.1-20.1.14.jar",
+                    "name": "littlejoys-forge-1.20.1-20.1.14",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 721306,
+                        "path": "littlejoys-forge-1.20.1-20.1.14.jar",
+                        "url": "https://cdn.modrinth.com/data/v0j2ftEp/versions/TdGMEJ5E/littlejoys-forge-1.20.1-20.1.14.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:lmft-1.0.4+1.20.1-forge.jar",
+                    "name": "lmft-1.0.4+1.20.1-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 178625,
+                        "path": "lmft-1.0.4+1.20.1-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/67kVxsaO/versions/wtPd74Rj/lmft-1.0.4%2B1.20.1-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:loot_journal-forge-1.20.1-6.1.2.jar",
+                    "name": "loot_journal-forge-1.20.1-6.1.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 935450,
+                        "path": "loot_journal-forge-1.20.1-6.1.2.jar",
+                        "url": "https://cdn.modrinth.com/data/OJ6ZYz5L/versions/PYwRoCaZ/loot_journal-forge-1.20.1-6.1.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:lootjs-forge-1.20.1-2.13.1.jar",
+                    "name": "lootjs-forge-1.20.1-2.13.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 242267,
+                        "path": "lootjs-forge-1.20.1-2.13.1.jar",
+                        "url": "https://cdn.modrinth.com/data/fJFETWDN/versions/wltVDhRB/lootjs-forge-1.20.1-2.13.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:lootr-forge-1.20-0.7.35.90.jar",
+                    "name": "lootr-forge-1.20-0.7.35.90",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 457647,
+                        "path": "lootr-forge-1.20-0.7.35.90.jar",
+                        "url": "https://cdn.modrinth.com/data/EltpO5cN/versions/uZTpIy1Z/lootr-forge-1.20-0.7.35.90.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+                    "name": "melody_forge_1.0.3_MC_1.20.1-1.20.4",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 37178,
+                        "path": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+                        "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:midnightlib-forge-1.9.2+1.20.1.jar",
+                    "name": "midnightlib-forge-1.9.2+1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 61987,
+                        "path": "midnightlib-forge-1.9.2+1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/codAaoxh/versions/EVVb5nP3/midnightlib-forge-1.9.2%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:missingmodschecker-forge-1.0.1-1.20.1.jar",
+                    "name": "missingmodschecker-forge-1.0.1-1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 407080,
+                        "path": "missingmodschecker-forge-1.0.1-1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/gR4YXm1s/versions/3Ol68uqG/missingmodschecker-forge-1.0.1-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:modernfix-forge-5.27.8+mc1.20.1.jar",
+                    "name": "modernfix-forge-5.27.8+mc1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 945123,
+                        "path": "modernfix-forge-5.27.8+mc1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/OvpPdk44/modernfix-forge-5.27.8%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:moogs_structure_lib-1.1.0-1.20-1.20.4-forge.jar",
+                    "name": "moogs_structure_lib-1.1.0-1.20-1.20.4-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 259848,
+                        "path": "moogs_structure_lib-1.1.0-1.20-1.20.4-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/1oUDhxuy/versions/xtqWb6du/moogs_structure_lib-1.1.0-1.20-1.20.4-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:moonlight-1.20-2.16.16-forge.jar",
+                    "name": "moonlight-1.20-2.16.16-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1333455,
+                        "path": "moonlight-1.20-2.16.16-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/DhH5mm9z/moonlight-1.20-2.16.16-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:morejs-forge-1.20.1-0.10.1.jar",
+                    "name": "morejs-forge-1.20.1-0.10.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 173745,
+                        "path": "morejs-forge-1.20.1-0.10.1.jar",
+                        "url": "https://cdn.modrinth.com/data/mo64mR1W/versions/KsTniWUD/morejs-forge-1.20.1-0.10.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:moreoverlays-1.22.7-mc1.20.2.jar",
+                    "name": "moreoverlays-1.22.7-mc1.20.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 97697,
+                        "path": "moreoverlays-1.22.7-mc1.20.2.jar",
+                        "url": "https://cdn.modrinth.com/data/Thy5Pqut/versions/xpC2kCRg/moreoverlays-1.22.7-mc1.20.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:mysticaloaktree-1.20-1.11.jar",
+                    "name": "mysticaloaktree-1.20-1.11",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 231836,
+                        "path": "mysticaloaktree-1.20-1.11.jar",
+                        "url": "https://cdn.modrinth.com/data/eUma2vmY/versions/u2rYyWU1/mysticaloaktree-1.20-1.11.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:netherdepthsupgrade-3.1.5-1.20.jar",
+                    "name": "netherdepthsupgrade-3.1.5-1.20",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 595410,
+                        "path": "netherdepthsupgrade-3.1.5-1.20.jar",
+                        "url": "https://cdn.modrinth.com/data/vI1QKJro/versions/BFX1CDJ6/netherdepthsupgrade-3.1.5-1.20.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:netherportalfix-forge-1.20-13.0.1.jar",
+                    "name": "netherportalfix-forge-1.20-13.0.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 217831,
+                        "path": "netherportalfix-forge-1.20-13.0.1.jar",
+                        "url": "https://cdn.modrinth.com/data/nPZr02ET/versions/cWPAnu7u/netherportalfix-forge-1.20-13.0.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:nightlights-1.20.1-1.1.jar",
+                    "name": "nightlights-1.20.1-1.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 377881,
+                        "path": "nightlights-1.20.1-1.1.jar",
+                        "url": "https://cdn.modrinth.com/data/s7pMb898/versions/7QFRIFZg/nightlights-1.20.1-1.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:numismatics_utils-2.1.jar",
+                    "name": "numismatics_utils-2.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 41436,
+                        "path": "numismatics_utils-2.1.jar",
+                        "url": "https://cdn.modrinth.com/data/8kRKVjUw/versions/Ccol3Utn/numismatics_utils-2.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:observable-4.4.1.jar",
+                    "name": "observable-4.4.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 473368,
+                        "path": "observable-4.4.1.jar",
+                        "url": "https://cdn.modrinth.com/data/VYRu7qmG/versions/66z4rv38/observable-4.4.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:oculus-mc1.20.1-1.8.0.jar",
+                    "name": "oculus-mc1.20.1-1.8.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2851119,
+                        "path": "oculus-mc1.20.1-1.8.0.jar",
+                        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/iQ1SwGc3/oculus-mc1.20.1-1.8.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:ok_zoomer-forge-5.4.0-beta.8.jar",
+                    "name": "ok_zoomer-forge-5.4.0-beta.8",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 520782,
+                        "path": "ok_zoomer-forge-5.4.0-beta.8.jar",
+                        "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/s4W0Kgaa/ok_zoomer-forge-5.4.0-beta.8.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:online_detector-forge-1.20-6.0.0.jar",
+                    "name": "online_detector-forge-1.20-6.0.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 185290,
+                        "path": "online_detector-forge-1.20-6.0.0.jar",
+                        "url": "https://cdn.modrinth.com/data/5DcVMQU6/versions/3ywmnbPU/online_detector-forge-1.20-6.0.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:packetfixer-3.3.1-1.18-1.20.4-merged.jar",
+                    "name": "packetfixer-3.3.1-1.18-1.20.4-merged",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 188673,
+                        "path": "packetfixer-3.3.1-1.18-1.20.4-merged.jar",
+                        "url": "https://cdn.modrinth.com/data/c7m1mi73/versions/96y8nmkX/packetfixer-3.3.1-1.18-1.20.4-merged.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar",
+                    "name": "pandalib-forge-mc1.20-0.5.2-SNAPSHOT",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 864398,
+                        "path": "pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar",
+                        "url": "https://cdn.modrinth.com/data/mEEGbEIu/versions/W9C2CFxo/pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:particlerain-4.0.0-beta.5+1.20.1-forge.jar",
+                    "name": "particlerain-4.0.0-beta.5+1.20.1-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1226152,
+                        "path": "particlerain-4.0.0-beta.5+1.20.1-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/nrikgvxm/versions/DoKcxpR8/particlerain-4.0.0-beta.5%2B1.20.1-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:perfectplushies-forge-1.20.1-1.13.3.jar",
+                    "name": "perfectplushies-forge-1.20.1-1.13.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 437616,
+                        "path": "perfectplushies-forge-1.20.1-1.13.3.jar",
+                        "url": "https://cdn.modrinth.com/data/L5MLckDN/versions/nFBjecVW/perfectplushies-forge-1.20.1-1.13.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:pipez-forge-1.20.1-1.2.21.jar",
+                    "name": "pipez-forge-1.20.1-1.2.21",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 431584,
+                        "path": "pipez-forge-1.20.1-1.2.21.jar",
+                        "url": "https://cdn.modrinth.com/data/iRmWy6ga/versions/Nel5AmIr/pipez-forge-1.20.1-1.2.21.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+                    "name": "player-animation-lib-forge-1.0.2-rc1+1.20",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 181437,
+                        "path": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+                        "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/xe2EVE6q/player-animation-lib-forge-1.0.2-rc1%2B1.20.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:plonk-1.20.1-10.0.5-forge.jar",
+                    "name": "plonk-1.20.1-10.0.5-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 151684,
+                        "path": "plonk-1.20.1-10.0.5-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/EUmBPkQn/versions/V1OyyHVE/plonk-1.20.1-10.0.5-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:polylib-forge-2000.0.3-build.143.jar",
+                    "name": "polylib-forge-2000.0.3-build.143",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1343694,
+                        "path": "polylib-forge-2000.0.3-build.143.jar",
+                        "url": "https://cdn.modrinth.com/data/6lvkzFFj/versions/boXcy1fH/polylib-forge-2000.0.3-build.143.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:ponderjs-1.20.1-2.1.0.jar",
+                    "name": "ponderjs-1.20.1-2.1.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2285835,
+                        "path": "ponderjs-1.20.1-2.1.0.jar",
+                        "url": "https://cdn.modrinth.com/data/5A34Stj8/versions/5J8TMODW/ponderjs-1.20.1-2.1.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:portable_blueprints-v2.0.11-mv1.20.1.jar",
+                    "name": "portable_blueprints-v2.0.11-mv1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 946103,
+                        "path": "portable_blueprints-v2.0.11-mv1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/pTRNOhPP/versions/GlYOWqKa/portable_blueprints-v2.0.11-mv1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:portfolio-1.20.1-1.5.0-forge.jar",
+                    "name": "portfolio-1.20.1-1.5.0-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 460118,
+                        "path": "portfolio-1.20.1-1.5.0-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/2k6aLirX/versions/9jAmDkFc/portfolio-1.20.1-1.5.0-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:puffish_attributes-0.7.2-1.20-forge.jar",
+                    "name": "puffish_attributes-0.7.2-1.20-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 228642,
+                        "path": "puffish_attributes-0.7.2-1.20-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/FCFcFw09/versions/S7fKIUGt/puffish_attributes-0.7.2-1.20-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:puffish_skills-0.16.1-1.20-forge.jar",
+                    "name": "puffish_skills-0.16.1-1.20-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 571979,
+                        "path": "puffish_skills-0.16.1-1.20-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/hqQqvaa4/versions/43zMsRkL/puffish_skills-0.16.1-1.20-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:quality_food-1.20.1-2.3.0-all.jar",
+                    "name": "quality_food-1.20.1-2.3.0-all",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 411358,
+                        "path": "quality_food-1.20.1-2.3.0-all.jar",
+                        "url": "https://cdn.modrinth.com/data/Ahdn1OE0/versions/VPju1Kx6/quality_food-1.20.1-2.3.0-all.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:radiantgear-forge-2.2.0+1.20.1.jar",
+                    "name": "radiantgear-forge-2.2.0+1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 47170,
+                        "path": "radiantgear-forge-2.2.0+1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/dQfDugX5/radiantgear-forge-2.2.0%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+                    "name": "radium-mc1.20.1-0.12.4+git.26c9d8e",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 713454,
+                        "path": "radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+                        "url": "https://cdn.modrinth.com/data/2gvRmQXx/versions/n947JjJH/radium-mc1.20.1-0.12.4%2Bgit.26c9d8e.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:rainbowoaks-forge-1.20-1.0.0.jar",
+                    "name": "rainbowoaks-forge-1.20-1.0.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2119903,
+                        "path": "rainbowoaks-forge-1.20-1.0.0.jar",
+                        "url": "https://cdn.modrinth.com/data/scEt2mrY/versions/Hq8YlJZR/rainbowoaks-forge-1.20-1.0.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:refinedstorage-1.12.4.jar",
+                    "name": "refinedstorage-1.12.4",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 3300191,
+                        "path": "refinedstorage-1.12.4.jar",
+                        "url": "https://cdn.modrinth.com/data/KDvYkUg3/versions/ZITLFjjf/refinedstorage-1.12.4.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:refinedstorageaddons-0.10.0.jar",
+                    "name": "refinedstorageaddons-0.10.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 33771,
+                        "path": "refinedstorageaddons-0.10.0.jar",
+                        "url": "https://cdn.modrinth.com/data/Z4Z5ccuT/versions/tdH61AWD/refinedstorageaddons-0.10.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:rehooked-1.8.3-1.20.1.jar",
+                    "name": "rehooked-1.8.3-1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 241055,
+                        "path": "rehooked-1.8.3-1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/967kkKiF/versions/yiXoBbe7/rehooked-1.8.3-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:relics-1.20.1-0.8.0.11.jar",
+                    "name": "relics-1.20.1-0.8.0.11",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1518437,
+                        "path": "relics-1.20.1-0.8.0.11.jar",
+                        "url": "https://cdn.modrinth.com/data/OCJRPujW/versions/XuIK02kC/relics-1.20.1-0.8.0.11.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:resourcefulconfig-forge-1.20.1-2.1.3.jar",
+                    "name": "resourcefulconfig-forge-1.20.1-2.1.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 136923,
+                        "path": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
+                        "url": "https://cdn.modrinth.com/data/M1953qlQ/versions/DERs8u7v/resourcefulconfig-forge-1.20.1-2.1.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:resourcefullib-forge-1.20.1-2.1.29.jar",
+                    "name": "resourcefullib-forge-1.20.1-2.1.29",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 432753,
+                        "path": "resourcefullib-forge-1.20.1-2.1.29.jar",
+                        "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/OhsHaCcW/resourcefullib-forge-1.20.1-2.1.29.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:rhino-forge-2001.2.3-build.10.jar",
+                    "name": "rhino-forge-2001.2.3-build.10",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1798244,
+                        "path": "rhino-forge-2001.2.3-build.10.jar",
+                        "url": "https://cdn.modrinth.com/data/sk9knFPE/versions/uNALdylI/rhino-forge-2001.2.3-build.10.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:rottencreatures-forge-1.20.1-1.1.0.jar",
+                    "name": "rottencreatures-forge-1.20.1-1.1.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2595007,
+                        "path": "rottencreatures-forge-1.20.1-1.1.0.jar",
+                        "url": "https://cdn.modrinth.com/data/5Zusp48B/versions/EasQOQcG/rottencreatures-forge-1.20.1-1.1.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:sawmill-1.20-1.4.10.jar",
+                    "name": "sawmill-1.20-1.4.10",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 644298,
+                        "path": "sawmill-1.20-1.4.10.jar",
+                        "url": "https://cdn.modrinth.com/data/WRaRZdTd/versions/ULlgpqM0/sawmill-1.20-1.4.10.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:seasonhud-forge-1.20.1-2.0.0.jar",
+                    "name": "seasonhud-forge-1.20.1-2.0.0",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 223480,
+                        "path": "seasonhud-forge-1.20.1-2.0.0.jar",
+                        "url": "https://cdn.modrinth.com/data/VNjUn3NA/versions/S0MYVDVd/seasonhud-forge-1.20.1-2.0.0.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:selectivebounds-forge-1.20.1-0.0.2.jar",
+                    "name": "selectivebounds-forge-1.20.1-0.0.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 187000,
+                        "path": "selectivebounds-forge-1.20.1-0.0.2.jar",
+                        "url": "https://cdn.modrinth.com/data/rnTvRqwF/versions/MMA9MIEv/selectivebounds-forge-1.20.1-0.0.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:servercore-forge-1.5.2+1.20.1.jar",
+                    "name": "servercore-forge-1.5.2+1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1508496,
+                        "path": "servercore-forge-1.5.2+1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/4WWQxlQP/versions/rx1c7m6q/servercore-forge-1.5.2%2B1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:simplehats-forge-1.20.1-0.3.2.jar",
+                    "name": "simplehats-forge-1.20.1-0.3.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1413531,
+                        "path": "simplehats-forge-1.20.1-0.3.2.jar",
+                        "url": "https://cdn.modrinth.com/data/iSkQCp6b/versions/PH3QFp5w/simplehats-forge-1.20.1-0.3.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:simplemagnets-1.1.12-forge-mc1.20.1.jar",
+                    "name": "simplemagnets-1.1.12-forge-mc1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 140496,
+                        "path": "simplemagnets-1.1.12-forge-mc1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/YyNQVpOu/versions/Sg3Svl6F/simplemagnets-1.1.12-forge-mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:simplerecall-1.0.6-1.20.1.jar",
+                    "name": "simplerecall-1.0.6-1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 16629,
+                        "path": "simplerecall-1.0.6-1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/JQFS1tDC/versions/vnMuYfSI/simplerecall-1.0.6-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:smallships-forge-1.20.1-2.0.0-b1.4.jar",
+                    "name": "smallships-forge-1.20.1-2.0.0-b1.4",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1816687,
+                        "path": "smallships-forge-1.20.1-2.0.0-b1.4.jar",
+                        "url": "https://cdn.modrinth.com/data/rGWEHQrP/versions/58DKgNnY/smallships-forge-1.20.1-2.0.0-b1.4.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:snowpig-1.20.1-6.0.3.jar",
+                    "name": "snowpig-1.20.1-6.0.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 7133502,
+                        "path": "snowpig-1.20.1-6.0.3.jar",
+                        "url": "https://cdn.modrinth.com/data/CJ0YrpAC/versions/KPksPlal/snowpig-1.20.1-6.0.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:snowyspirit-1.20-3.0.10.jar",
+                    "name": "snowyspirit-1.20-3.0.10",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 5362591,
+                        "path": "snowyspirit-1.20-3.0.10.jar",
+                        "url": "https://cdn.modrinth.com/data/UiFDlI7w/versions/JZ9WGqCs/snowyspirit-1.20-3.0.10.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:snuffles-1.2.0.1.jar",
+                    "name": "snuffles-1.2.0.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 228158,
+                        "path": "snuffles-1.2.0.1.jar",
+                        "url": "https://cdn.modrinth.com/data/NYGhKUS6/versions/RktprbPw/snuffles-1.2.0.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:society-1.16.jar",
+                    "name": "society-1.16",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 22585779,
+                        "path": "society-1.16.jar",
+                        "url": "https://cdn.modrinth.com/data/gfmrlRGu/versions/cCZf2OMD/society-1.16.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:society_trading-1.0.6.jar",
+                    "name": "society_trading-1.0.6",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 174375,
+                        "path": "society_trading-1.0.6.jar",
+                        "url": "https://cdn.modrinth.com/data/rFRQxRZI/versions/gVrohler/society_trading-1.0.6.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+                    "name": "sodiumdynamiclights-forge-1.0.10-1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 511601,
+                        "path": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/PxQSWIcD/versions/I156ee3A/sodiumdynamiclights-forge-1.0.10-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+                    "name": "sodiumoptionsapi-forge-1.0.10-1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 443978,
+                        "path": "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/Es5v4eyq/versions/d0EFLitO/sodiumoptionsapi-forge-1.0.10-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:sophisticatedbackpacks-1.20.1-3.24.23.1529.jar",
+                    "name": "sophisticatedbackpacks-1.20.1-3.24.23.1529",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 983559,
+                        "path": "sophisticatedbackpacks-1.20.1-3.24.23.1529.jar",
+                        "url": "https://cdn.modrinth.com/data/TyCTlI4b/versions/iVVqwvp2/sophisticatedbackpacks-1.20.1-3.24.23.1529.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:sophisticatedcore-1.20.1-1.3.4.1491.jar",
+                    "name": "sophisticatedcore-1.20.1-1.3.4.1491",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1418596,
+                        "path": "sophisticatedcore-1.20.1-1.3.4.1491.jar",
+                        "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/G7Uo3qMM/sophisticatedcore-1.20.1-1.3.4.1491.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:sophisticatedstorage-1.20.1-1.4.25.1488.jar",
+                    "name": "sophisticatedstorage-1.20.1-1.4.25.1488",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1674325,
+                        "path": "sophisticatedstorage-1.20.1-1.4.25.1488.jar",
+                        "url": "https://cdn.modrinth.com/data/hMlaZH8f/versions/mBIx80V2/sophisticatedstorage-1.20.1-1.4.25.1488.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:spark-1.10.53-forge.jar",
+                    "name": "spark-1.10.53-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 3114590,
+                        "path": "spark-1.10.53-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/l6YH9Als/versions/4FXHDE9F/spark-1.10.53-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:species-3.5.jar",
+                    "name": "species-3.5",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 42114388,
+                        "path": "species-3.5.jar",
+                        "url": "https://cdn.modrinth.com/data/s5d4P01r/versions/KwPDNMjG/species-3.5.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:splendid_slimes-0.20.3.jar",
+                    "name": "splendid_slimes-0.20.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 511712,
+                        "path": "splendid_slimes-0.20.3.jar",
+                        "url": "https://cdn.modrinth.com/data/RptnuYO9/versions/LfSiCRFi/splendid_slimes-0.20.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:stardew_fishing-3.5-1.20.1.jar",
+                    "name": "stardew_fishing-3.5-1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 885533,
+                        "path": "stardew_fishing-3.5-1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/Rw1Ylmn4/versions/PMlOw1jn/stardew_fishing-3.5-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:structurify-forge-1.0.21+mc1.20.1.jar",
+                    "name": "structurify-forge-1.0.21+mc1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 789793,
+                        "path": "structurify-forge-1.0.21+mc1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/yz7AM2zx/versions/cdeRYWMq/structurify-forge-1.0.21%2Bmc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+                    "name": "supermartijn642configlib-1.1.8-forge-mc1.20",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 206584,
+                        "path": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+                        "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:supermartijn642corelib-1.1.19-forge-mc1.20.1.jar",
+                    "name": "supermartijn642corelib-1.1.19-forge-mc1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 516246,
+                        "path": "supermartijn642corelib-1.1.19-forge-mc1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/rOUBggPv/versions/p1IWOHMH/supermartijn642corelib-1.1.19-forge-mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:supplementaries-1.20-3.1.41.jar",
+                    "name": "supplementaries-1.20-3.1.41",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 13650491,
+                        "path": "supplementaries-1.20-3.1.41.jar",
+                        "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/LAQ22yJj/supplementaries-1.20-3.1.41.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:titanium-1.20.1-3.8.32.jar",
+                    "name": "titanium-1.20.1-3.8.32",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 622068,
+                        "path": "titanium-1.20.1-3.8.32.jar",
+                        "url": "https://cdn.modrinth.com/data/1Ro7m06l/versions/8krhHkrZ/titanium-1.20.1-3.8.32.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:toofast-1.20-0.4.3.5.jar",
+                    "name": "toofast-1.20-0.4.3.5",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 3875,
+                        "path": "toofast-1.20-0.4.3.5.jar",
+                        "url": "https://cdn.modrinth.com/data/w6JSkKSH/versions/2pix3xrW/toofast-1.20-0.4.3.5.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:tooltipoverhaul-forge-1.20.1-1.4.2.jar",
+                    "name": "tooltipoverhaul-forge-1.20.1-1.4.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 459743,
+                        "path": "tooltipoverhaul-forge-1.20.1-1.4.2.jar",
+                        "url": "https://cdn.modrinth.com/data/vRFcG5n6/versions/7gaJ32aL/tooltipoverhaul-forge-1.20.1-1.4.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:torchmaster-20.1.9.jar",
+                    "name": "torchmaster-20.1.9",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 119348,
+                        "path": "torchmaster-20.1.9.jar",
+                        "url": "https://cdn.modrinth.com/data/Tl8ESrhX/versions/OTbqpyC8/torchmaster-20.1.9.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:trashslot-forge-1.20.1-15.1.3.jar",
+                    "name": "trashslot-forge-1.20.1-15.1.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 117939,
+                        "path": "trashslot-forge-1.20.1-15.1.3.jar",
+                        "url": "https://cdn.modrinth.com/data/vRYk0bv7/versions/rFFVyXKs/trashslot-forge-1.20.1-15.1.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:trofers-forge-5.0.2.jar",
+                    "name": "trofers-forge-5.0.2",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 252600,
+                        "path": "trofers-forge-5.0.2.jar",
+                        "url": "https://cdn.modrinth.com/data/wBU6XiJa/versions/jr9dN23i/trofers-forge-5.0.2.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:untitledduckmod-1.5.2-forge-1.20.1.jar",
+                    "name": "untitledduckmod-1.5.2-forge-1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 303415,
+                        "path": "untitledduckmod-1.5.2-forge-1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/ojFjz7JF/versions/ESnyefPs/untitledduckmod-1.5.2-forge-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:unusualfishmod-1.1.9.jar",
+                    "name": "unusualfishmod-1.1.9",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 5042584,
+                        "path": "unusualfishmod-1.1.9.jar",
+                        "url": "https://cdn.modrinth.com/data/vYSi4UOX/versions/K2bnBnsl/unusualfishmod-1.1.9.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:verdantvibes-1.0.3-1.20.1.jar",
+                    "name": "verdantvibes-1.0.3-1.20.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 312114,
+                        "path": "verdantvibes-1.0.3-1.20.1.jar",
+                        "url": "https://cdn.modrinth.com/data/NmDRyAF4/versions/qehTPFjX/verdantvibes-1.0.4-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:via_romana-2.2.2+1.20.1-forge.jar",
+                    "name": "via_romana-2.2.2+1.20.1-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1246319,
+                        "path": "via_romana-2.2.2+1.20.1-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/FVToiKwr/versions/hPBpjlxa/via_romana-2.2.2%2B1.20.1-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:vintagedelight-0.1.6.jar",
+                    "name": "vintagedelight-0.1.6",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1120218,
+                        "path": "vintagedelight-0.1.6.jar",
+                        "url": "https://cdn.modrinth.com/data/T7XZLHGD/versions/q8Ght7Bo/vintagedelight-0.1.6.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:waterframes-FORGE-mc1.20.1-v2.1.20.jar",
+                    "name": "waterframes-FORGE-mc1.20.1-v2.1.20",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 254657,
+                        "path": "waterframes-FORGE-mc1.20.1-v2.1.20.jar",
+                        "url": "https://cdn.modrinth.com/data/eBzFuVTM/versions/6FeLKEmt/waterframes-FORGE-mc1.20.1-v2.1.20.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:watermedia-2.1.34.jar",
+                    "name": "watermedia-2.1.34",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 37857681,
+                        "path": "watermedia-2.1.34.jar",
+                        "url": "https://cdn.modrinth.com/data/G922NeHS/versions/qGhHJv6H/watermedia-2.1.34.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:watervision-FG-mc1.20.1-v0.1.0-alpha.jar",
+                    "name": "watervision-FG-mc1.20.1-v0.1.0-alpha",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 82079,
+                        "path": "watervision-FG-mc1.20.1-v0.1.0-alpha.jar",
+                        "url": "https://cdn.modrinth.com/data/dGGbEGoV/versions/yE93Q2Ed/watervision-FG-mc1.20.1-v0.1.0-alpha.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:watut-forge-1.20.1-1.2.3.jar",
+                    "name": "watut-forge-1.20.1-1.2.3",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 435496,
+                        "path": "watut-forge-1.20.1-1.2.3.jar",
+                        "url": "https://cdn.modrinth.com/data/AtB5mHky/versions/GpiXMxvP/watut-forge-1.20.1-1.2.3.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:waystones-forge-1.20.1-14.1.17.jar",
+                    "name": "waystones-forge-1.20.1-14.1.17",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 518288,
+                        "path": "waystones-forge-1.20.1-14.1.17.jar",
+                        "url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/WozH13dr/waystones-forge-1.20.1-14.1.17.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:whimsy_deco-1.1.jar",
+                    "name": "whimsy_deco-1.1",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 538351,
+                        "path": "whimsy_deco-1.1.jar",
+                        "url": "https://cdn.modrinth.com/data/EX0TBCxA/versions/ZHpa6mDx/whimsy_deco-1.1.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:windswept-1.20.1-3.0.4.jar",
+                    "name": "windswept-1.20.1-3.0.4",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 10295487,
+                        "path": "windswept-1.20.1-3.0.4.jar",
+                        "url": "https://cdn.modrinth.com/data/l0h5MtkA/versions/EpQ7XVgX/windswept-1.20.1-3.0.4.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:xlpackets-forge-1.20.1-1.0.5.jar",
+                    "name": "xlpackets-forge-1.20.1-1.0.5",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 17337,
+                        "path": "xlpackets-forge-1.20.1-1.0.5.jar",
+                        "url": "https://cdn.modrinth.com/data/SeCuopwJ/versions/dqaBUpHl/xlpackets-forge-1.20.1-1.0.5.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+                    "name": "yet_another_config_lib_v3-3.6.6+1.20.1-forge",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1105891,
+                        "path": "yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+                        "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/sCWgXDYQ/yet_another_config_lib_v3-3.6.6%2B1.20.1-forge.jar"
+                    }
+                },
+                {
+                    "id": "modrinth.society-sunlit-valley:mod:zetter-1.20.1-0.21.7.jar",
+                    "name": "zetter-1.20.1-0.21.7",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1343037,
+                        "path": "zetter-1.20.1-0.21.7.jar",
+                        "url": "https://cdn.modrinth.com/data/ZmLgjf6f/versions/ISzdE6gG/zetter-1.20.1-0.21.7.jar"
+                    }
+                }
+            ]
         }
     ]
 }
